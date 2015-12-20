@@ -1,5 +1,5 @@
 //
-//  SearchTextView.swift
+//  SearchView.swift
 //  Paste
 //
 //  Created by Dasmer Singh on 12/20/15.
@@ -8,9 +8,15 @@
 
 import UIKit
 
+protocol SearchViewDelegate: class {
+
+}
+
 class SearchView: UIView {
 
     // MARK: - Properties
+
+    weak var delegate: SearchViewDelegate?
 
     private let textField: UITextField = {
         let textField = UITextField(frame: .zero)
@@ -47,7 +53,7 @@ class SearchView: UIView {
 
 
 
-extension SearchTextView {
+extension SearchView {
 
 
     // MARK: - UIResponder

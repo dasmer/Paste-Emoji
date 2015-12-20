@@ -11,8 +11,8 @@ import SVProgressHUD
 
 class SearchViewController: UIViewController {
 
-    private let searchTextView: SearchTextView = {
-        let view = SearchTextView()
+    private let searchView: SearchView = {
+        let view = SearchView()
         view.backgroundColor = .whiteColor()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -35,7 +35,7 @@ class SearchViewController: UIViewController {
 
         view.backgroundColor = .whiteColor()
 
-        view.addSubview(searchTextView)
+        view.addSubview(searchView)
 
         let separatorView = UIView(frame: .zero)
         separatorView.translatesAutoresizingMaskIntoConstraints = false
@@ -48,7 +48,7 @@ class SearchViewController: UIViewController {
 
         let views: [String: AnyObject] = [
             "topLayoutGuide": topLayoutGuide,
-            "searchView": searchTextView,
+            "searchView": searchView,
             "separatorView": separatorView,
             "tableView": tableViewController.view
         ]
@@ -62,6 +62,8 @@ class SearchViewController: UIViewController {
 
         tableView.dataSource = self
         tableView.delegate = self
+
+        searchView.becomeFirstResponder()
     }
 }
 

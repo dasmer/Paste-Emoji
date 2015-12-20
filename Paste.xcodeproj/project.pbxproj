@@ -11,8 +11,10 @@
 		3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE01C27285E00F394CA /* SearchViewController.swift */; };
 		3A8F5EE61C27285E00F394CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE51C27285E00F394CA /* Assets.xcassets */; };
 		3A8F5EE91C27285E00F394CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE71C27285E00F394CA /* LaunchScreen.storyboard */; };
-		3A8F5EF11C272A8300F394CA /* SearchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EF01C272A8300F394CA /* SearchTextView.swift */; };
+		3A8F5EF11C272A8300F394CA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EF01C272A8300F394CA /* SearchView.swift */; };
 		3A8F5EF61C27363D00F394CA /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */; };
+		3AF144BD1C2770F900BA2089 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF144BC1C2770F900BA2089 /* Emoji.swift */; };
+		3AF144BF1C27716500BA2089 /* EmojiFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF144BE1C27716500BA2089 /* EmojiFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,10 @@
 		3A8F5EE51C27285E00F394CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8F5EE81C27285E00F394CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8F5EEA1C27285E00F394CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A8F5EF01C272A8300F394CA /* SearchTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextView.swift; sourceTree = "<group>"; };
+		3A8F5EF01C272A8300F394CA /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		3AF144BC1C2770F900BA2089 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		3AF144BE1C27716500BA2089 /* EmojiFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 			children = (
 				3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */,
 				3A8F5EE01C27285E00F394CA /* SearchViewController.swift */,
-				3A8F5EF01C272A8300F394CA /* SearchTextView.swift */,
+				3A8F5EF01C272A8300F394CA /* SearchView.swift */,
+				3AF144BC1C2770F900BA2089 /* Emoji.swift */,
+				3AF144BE1C27716500BA2089 /* EmojiFetcher.swift */,
 				3A8F5EE51C27285E00F394CA /* Assets.xcassets */,
 				3A8F5EE71C27285E00F394CA /* LaunchScreen.storyboard */,
 				3A8F5EEA1C27285E00F394CA /* Info.plist */,
@@ -166,7 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */,
-				3A8F5EF11C272A8300F394CA /* SearchTextView.swift in Sources */,
+				3A8F5EF11C272A8300F394CA /* SearchView.swift in Sources */,
+				3AF144BD1C2770F900BA2089 /* Emoji.swift in Sources */,
+				3AF144BF1C27716500BA2089 /* EmojiFetcher.swift in Sources */,
 				3A8F5EDF1C27285E00F394CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +327,7 @@
 				3A8F5EEF1C27285E00F394CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
