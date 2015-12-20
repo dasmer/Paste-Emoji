@@ -7,67 +7,87 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class SearchViewController: UIViewController {
 
-    let searchTextView: SearchTextView = {
+    private let searchTextView: SearchTextView = {
         let view = SearchTextView()
         view.backgroundColor = .greenColor()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
 
-    let tableViewController: UITableViewController = {
+    private let tableViewController: UITableViewController = {
         let viewController = UITableViewController()
         viewController.view.translatesAutoresizingMaskIntoConstraints = false
         return viewController
     }()
+
+    private var tableView: UITableView {
+        return self.tableViewController.tableView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Emoji Search"
 
+        view.backgroundColor = .whiteColor()
+
         view.addSubview(searchTextView)
+
+        let separatorView = UIView(frame: .zero)
+        separatorView.translatesAutoresizingMaskIntoConstraints = false
+        separatorView.backgroundColor = .grayColor()
+        view.addSubview(separatorView)
 
         addChildViewController(tableViewController)
         view.addSubview(tableViewController.view)
         tableViewController.didMoveToParentViewController(self)
 
         let views: [String: AnyObject] = [
+            "topLayoutGuide": topLayoutGuide,
             "searchView": searchTextView,
-            "tableView": tableViewController.view,
-            "topLayoutGuide": topLayoutGuide
+            "separatorView": separatorView,
+            "tableView": tableViewController.view
         ]
 
         var constraints = [NSLayoutConstraint]()
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[searchView]|", options: [], metrics: nil, views: views)
+                constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[separatorView]|", options: [], metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[tableView]|", options: [], metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(44)][tableView]|", options: [], metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
 
-        tableViewController.tableView.dataSource = self
-        tableViewController.tableView.delegate = self
+        tableView.dataSource = self
+        tableView.delegate = self
     }
 }
 
 
 extension SearchViewController: UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 5
     }
+
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.backgroundColor = .blueColor()
+        let cell = UITableViewCell(style: .Value1, reuseIdentifier: "")
+        cell.textLabel?.text = "😀"
+        cell.detailTextLabel?.text = "smile"
         return cell
     }
-
-
 }
 
 
 extension SearchViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        UIPasteboard.generalPasteboard().string = "😀"
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+
+        guard let cell = tableView.cellForRowAtIndexPath(indexPath),
+            text = cell.textLabel?.text else { return }
+
+        UIPasteboard.generalPasteboard().string = text
+        SVProgressHUD.showSuccessWithStatus("Copied \(text)")
     }
 }
