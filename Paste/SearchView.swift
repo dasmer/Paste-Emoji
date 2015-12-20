@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchTextView: UIView {
+class SearchView: UIView {
 
     // MARK: - Properties
 
@@ -26,11 +26,8 @@ class SearchTextView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(textField)
-        let constraints = [
-            NSLayoutConstraint(item: textField, attribute: .Leading, relatedBy: .Equal, toItem: self, attribute: .LeadingMargin, multiplier: 1.0, constant: 0.0),
-            NSLayoutConstraint(item: textField, attribute: .Trailing, relatedBy: .Equal, toItem: self, attribute: .TrailingMargin, multiplier: 1.0, constant: 0.0),
-            NSLayoutConstraint(item: textField, attribute: .CenterY, relatedBy: .Equal, toItem: self, attribute: .CenterY, multiplier: 1.0, constant: 0.0)
-        ]
+        let constraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|-[textField]-|", options: [], metrics: nil, views: ["textField":textField])
+            + [NSLayoutConstraint(item: textField, attribute: .CenterY, relatedBy: .Equal, toItem: self, attribute: .CenterY, multiplier: 1.0, constant: 0.0)]
         NSLayoutConstraint.activateConstraints(constraints)
 
         textField.addTarget(self, action: "textFieldDidChange:", forControlEvents: .EditingChanged)
