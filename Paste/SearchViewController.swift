@@ -13,7 +13,7 @@ class SearchViewController: UIViewController {
 
     private let searchTextView: SearchTextView = {
         let view = SearchTextView()
-        view.backgroundColor = .greenColor()
+        view.backgroundColor = .whiteColor()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
