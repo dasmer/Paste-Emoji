@@ -39,7 +39,14 @@ struct EmojiFetcher {
 
 private final class EmojiFetchOperation: NSOperation {
 
-    static let allEmoji = [Emoji]()
+    static let allEmoji: [Emoji] = {
+        guard let path = NSBundle(forClass: EmojiFetchOperation.self).pathForResource("AllEmoji", ofType: "json"),
+            data = NSData(contentsOfFile: path),
+            jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: []),
+            jsonDictionary = jsonObject as? [String: String] else { return [] }
+
+        return jsonDictionary.map { Emoji(name: $0.0, character: $0.1) }
+    }()
 
 
     // MARK: - Properties
