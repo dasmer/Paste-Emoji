@@ -9,24 +9,42 @@
 import UIKit
 import SVProgressHUD
 
-class SearchViewController: UIViewController {
+final class SearchViewController: UIViewController {
 
-    private let searchView: SearchView = {
+    // MARK: - Properties
+
+    private var results: [Emoji] = [] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+
+    private lazy var searchView: SearchView = {
         let view = SearchView()
         view.backgroundColor = .whiteColor()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.delegate = self
         return view
     }()
 
-    private let tableViewController: UITableViewController = {
+    private lazy var tableViewController: UITableViewController = {
         let viewController = UITableViewController()
         viewController.view.translatesAutoresizingMaskIntoConstraints = false
+        viewController.tableView.dataSource = self
+        viewController.tableView.delegate = self
         return viewController
     }()
 
+    private lazy var fetcher: EmojiFetcher = {
+        return EmojiFetcher()
+    }()
+
     private var tableView: UITableView {
-        return self.tableViewController.tableView
+        return tableViewController.tableView
     }
+
+
+    // MARK: - UIViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,29 +78,39 @@ class SearchViewController: UIViewController {
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
 
-        tableView.dataSource = self
-        tableView.delegate = self
-
         searchView.becomeFirstResponder()
     }
 }
 
 
+extension SearchViewController: SearchViewDelegate {
+
+    func searchView(searchView: SearchView, didChangeText text: String) {
+        fetcher.query(text) { [weak self] in
+            self?.results = $0
+        }
+    }
+}
+
+
 extension SearchViewController: UITableViewDataSource {
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return results.count
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .Value1, reuseIdentifier: "")
-        cell.textLabel?.text = "😀"
-        cell.detailTextLabel?.text = "smile"
+        let emoji = self.results[indexPath.row]
+        cell.textLabel?.text = emoji.character
+        cell.detailTextLabel?.text = emoji.name
         return cell
     }
 }
 
 
 extension SearchViewController: UITableViewDelegate {
+
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
 

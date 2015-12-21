@@ -9,10 +9,10 @@
 import UIKit
 
 protocol SearchViewDelegate: class {
-
+    func searchView(searchView: SearchView, didChangeText text: String)
 }
 
-class SearchView: UIView {
+final class SearchView: UIView {
 
     // MARK: - Properties
 
@@ -46,7 +46,7 @@ class SearchView: UIView {
     // MARK: - Private
 
     @objc private func textFieldDidChange(sender: AnyObject?) {
-        
+        delegate?.searchView(self, didChangeText: textField.text ?? "")
     }
 
 }

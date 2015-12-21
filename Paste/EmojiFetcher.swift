@@ -29,7 +29,9 @@ struct EmojiFetcher {
                 return;
             }
 
-            completion(operation.results)
+            dispatch_async(dispatch_get_main_queue()) {
+                completion(operation.results)
+            }
         }
 
         backgroundQueue.addOperation(operation)
