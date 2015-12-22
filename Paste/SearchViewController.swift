@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SearchViewController
 //  Paste
 //
 //  Created by Dasmer Singh on 12/20/15.
@@ -118,13 +118,16 @@ extension SearchViewController: UITableViewDelegate {
             text = cell.textLabel?.text else { return }
 
         UIPasteboard.generalPasteboard().string = text
+
         SVProgressHUD.showSuccessWithStatus("Copied \(text)")
 
         let properties = [
-            "character": text,
-            "searchText": searchView.text
+            "Emoji Character": text,
+            "Search Text": searchView.text ?? ""
         ]
-
         Analytics.sharedInstance.track("Emoji Selected", properties: properties)
+
+        searchView.text = nil
+        results = []
     }
 }

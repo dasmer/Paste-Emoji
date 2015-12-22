@@ -18,9 +18,9 @@ final class SearchView: UIView {
 
     weak var delegate: SearchViewDelegate?
 
-    var text: String {
+    var text: String? {
         get {
-            return textField.text ?? ""
+            return textField.text
         }
 
         set {
@@ -33,6 +33,8 @@ final class SearchView: UIView {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Emoji name"
         textField.clearButtonMode = .WhileEditing
+        textField.autocapitalizationType = .None
+        textField.autocorrectionType = .No
         return textField
     }()
 
@@ -87,5 +89,4 @@ extension SearchView {
     override func isFirstResponder() -> Bool {
         return textField.isFirstResponder()
     }
-
 }
