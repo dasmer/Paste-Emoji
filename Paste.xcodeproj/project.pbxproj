@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3A267D5D1C28C50C0000D8B1 /* AllEmoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A267D5C1C28C50C0000D8B1 /* AllEmoji.json */; };
+		3A457AC01C28CBAD00C35867 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */; };
+		3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A457AC11C28CD5200C35867 /* Analytics.swift */; };
 		3A8F5EDF1C27285E00F394CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */; };
 		3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE01C27285E00F394CA /* SearchViewController.swift */; };
 		3A8F5EE61C27285E00F394CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE51C27285E00F394CA /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		3A267D5C1C28C50C0000D8B1 /* AllEmoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllEmoji.json; sourceTree = "<group>"; };
+		3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = ../Carthage/Build/iOS/Mixpanel.framework; sourceTree = "<group>"; };
+		3A457AC11C28CD5200C35867 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		3A8F5EDB1C27285E00F394CA /* Paste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8F5EE01C27285E00F394CA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A457AC01C28CBAD00C35867 /* Mixpanel.framework in Frameworks */,
 				3A8F5EF61C27363D00F394CA /* SVProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +73,7 @@
 				3A8F5EF01C272A8300F394CA /* SearchView.swift */,
 				3AF144BC1C2770F900BA2089 /* Emoji.swift */,
 				3AF144BE1C27716500BA2089 /* EmojiFetcher.swift */,
+				3A457AC11C28CD5200C35867 /* Analytics.swift */,
 				3A267D5C1C28C50C0000D8B1 /* AllEmoji.json */,
 				3A8F5EE51C27285E00F394CA /* Assets.xcassets */,
 				3A8F5EE71C27285E00F394CA /* LaunchScreen.storyboard */,
@@ -80,6 +86,7 @@
 		3A8F5EF71C27364300F394CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */,
 				3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */,
 			);
 			name = Frameworks;
@@ -160,6 +167,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Mixpanel.framework",
 			);
 			name = "Carthage Copy Frameworks";
 			outputPaths = (
@@ -177,6 +185,7 @@
 			files = (
 				3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */,
 				3A8F5EF11C272A8300F394CA /* SearchView.swift in Sources */,
+				3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */,
 				3AF144BD1C2770F900BA2089 /* Emoji.swift in Sources */,
 				3AF144BF1C27716500BA2089 /* EmojiFetcher.swift in Sources */,
 				3A8F5EDF1C27285E00F394CA /* AppDelegate.swift in Sources */,

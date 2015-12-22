@@ -1,1 +1,2 @@
 github "TransitApp/SVProgressHUD" "2.0-beta"
+github "mixpanel/mixpanel-iphone" "v2.9.1"

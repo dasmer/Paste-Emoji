@@ -18,6 +18,16 @@ final class SearchView: UIView {
 
     weak var delegate: SearchViewDelegate?
 
+    var text: String {
+        get {
+            return textField.text ?? ""
+        }
+
+        set {
+            textField.text = text
+        }
+    }
+
     private let textField: UITextField = {
         let textField = UITextField(frame: .zero)
         textField.translatesAutoresizingMaskIntoConstraints = false

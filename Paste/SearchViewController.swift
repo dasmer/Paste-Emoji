@@ -119,5 +119,12 @@ extension SearchViewController: UITableViewDelegate {
 
         UIPasteboard.generalPasteboard().string = text
         SVProgressHUD.showSuccessWithStatus("Copied \(text)")
+
+        let properties = [
+            "character": text,
+            "searchText": searchView.text
+        ]
+
+        Analytics.sharedInstance.track("Emoji Selected", properties: properties)
     }
 }
