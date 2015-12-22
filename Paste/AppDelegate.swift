@@ -11,15 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow? = {
-        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window.rootViewController = UINavigationController(rootViewController: SearchViewController())
-        return window
-    }()
+    var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Analytics.sharedInstance.start()
-        window?.makeKeyAndVisible()
+
+        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window.rootViewController = UINavigationController(rootViewController: SearchViewController())
+        window.makeKeyAndVisible()
+
+        self.window = window
+
         return true
     }
 }
