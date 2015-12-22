@@ -78,6 +78,7 @@ final class SearchViewController: UIViewController {
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
 
+        automaticallyAdjustsScrollViewInsets = false
         searchView.becomeFirstResponder()
     }
 }
