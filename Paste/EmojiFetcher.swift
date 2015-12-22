@@ -71,8 +71,16 @@ private final class EmojiFetchOperation: NSOperation {
 
         guard !cancelled else { return }
 
-        let results = self.dynamicType.allEmoji.filter {
-            $0.name.hasPrefix(lowercaseSearchString)
+        let results = self.dynamicType.allEmoji.filter { emoji in
+            var validResult = false
+            let characters = emoji.name.characters.split{$0 == " "}.map(String.init)
+            for character in characters {
+                if (character.hasPrefix(lowercaseSearchString)) {
+                    validResult = true
+                    break
+                }
+            }
+            return validResult
         }
 
         guard !cancelled else { return }
