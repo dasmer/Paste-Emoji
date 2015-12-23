@@ -45,9 +45,9 @@ private final class EmojiFetchOperation: NSOperation {
         guard let path = NSBundle(forClass: EmojiFetchOperation.self).pathForResource("AllEmoji", ofType: "json"),
             data = NSData(contentsOfFile: path),
             jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: []),
-            jsonDictionary = jsonObject as? [String: String] else { return [] }
+            jsonDictionaries = jsonObject as? [JSONDictionary] else { return [] }
 
-        return jsonDictionary.map { Emoji(name: $0.0, character: $0.1) }
+        return jsonDictionaries.flatMap { Emoji(dictionary: $0) }
     }()
 
 
@@ -72,14 +72,36 @@ private final class EmojiFetchOperation: NSOperation {
         guard !cancelled else { return }
 
         let results = self.dynamicType.allEmoji.filter { emoji in
-            var validResult = false
-            let characters = emoji.name.characters.split{$0 == " "}.map(String.init)
-            for character in characters {
-                if (character.hasPrefix(lowercaseSearchString)) {
-                    validResult = true
-                    break
+            var validResult = emoji.name.hasPrefix(lowercaseSearchString)
+
+            if !validResult {
+                let emojiNameWords = emoji.name.characters.split{$0 == " "}.map(String.init)
+                for emojiNameWord in emojiNameWords {
+                    if (emojiNameWord == lowercaseSearchString) {
+                        validResult = true
+                        break
+                    }
                 }
             }
+
+            if !validResult {
+                for alias in emoji.aliases {
+                    if alias.hasPrefix(lowercaseSearchString) {
+                        validResult = true
+                        break
+                    }
+                }
+            }
+
+            if !validResult {
+                for group in emoji.groups {
+                    if group == lowercaseSearchString {
+                        validResult = true
+                        break
+                    }
+                }
+            }
+
             return validResult
         }
 

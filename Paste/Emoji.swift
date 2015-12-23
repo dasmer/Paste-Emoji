@@ -6,37 +6,47 @@
 //  Copyright © 2015 Dastronics Inc. All rights reserved.
 //
 
-struct Emoji: Equatable {
+public struct Emoji: Equatable {
 
-    let name: String
-    let character: String
+    public let name: String
+    public let character: String
+    internal let aliases: [String]
+    internal let groups: [String]
 
-    var ID: String {
+    public var ID: String {
         // There will never be more that 1 emoji struct for a given character,
         // so we can use the character itself to represent the unique ID
         return character
     }
 
-    init(name: String, character: String) {
+    public init(name: String, character: String, aliases: [String], groups: [String]) {
         self.name = name
         self.character = character
+        self.aliases = aliases
+        self.groups = groups
     }
 }
 
 extension Emoji: DictionaryDeserializable, DictionarySerializable {
 
-    init?(dictionary: JSONDictionary) {
+    public init?(dictionary: JSONDictionary) {
         guard let name = dictionary["name"] as? String,
-            character = dictionary["character"] as? String else { return nil }
+            character = dictionary["character"] as? String,
+            aliases = dictionary["aliases"] as? [String],
+            groups = dictionary["groups"] as? [String] else { return nil }
 
         self.name = name
         self.character = character
+        self.aliases = aliases
+        self.groups = groups
     }
 
-    var dictionary: JSONDictionary {
+    public var dictionary: JSONDictionary {
         return [
             "name": name,
-            "character": character
+            "character": character,
+            "aliases": aliases,
+            "groups": groups
         ]
     }
 }
@@ -44,12 +54,12 @@ extension Emoji: DictionaryDeserializable, DictionarySerializable {
 
 extension Emoji: Hashable {
 
-    var hashValue: Int {
+    public var hashValue: Int {
         return ID.hashValue
     }
 }
 
 
-func ==(lhs: Emoji, rhs: Emoji) -> Bool {
-    return lhs.name == rhs.name
+public func ==(lhs: Emoji, rhs: Emoji) -> Bool {
+    return lhs.ID == rhs.ID
 }

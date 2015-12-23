@@ -1,876 +1,4472 @@
-
-{
-    "bell" : "🔔",
-    "crescent moon" : "🌙",
-    "running shirt with sash" : "🎽",
-    "six pointed star" : "🔯",
-    "musical keyboard" : "🎹",
-    "point up" : "☝",
-    "clock9" : "🕘",
-    "chart with downwards trend" : "📉",
-    "flushed" : "😳",
-    "neutral face" : "😐",
-    "poodle" : "🐩",
-    "arrow up down" : "↕",
-    "japanese ogre" : "👹",
-    "penguin" : "🐧",
-    "guardsman" : "💂",
-    "ticket" : "🎫",
-    "relaxed" : "☺",
-    "clock12" : "🕛",
-    "rabbit" : "🐰",
-    "mouse" : "🐭",
-    "confounded" : "😖",
-    "alarm clock" : "⏰",
-    "eyeglasses" : "👓",
-    "black square button" : "🔲",
-    "girl" : "👧",
-    "pill" : "💊",
-    "postal horn" : "📯",
-    "free" : "🆓",
-    "kissing closed eyes" : "😚",
-    "anchor" : "⚓",
-    "turtle" : "🐢",
-    "tokyo tower" : "🗼",
-    "straight ruler" : "📏",
-    "-1" : "👎",
-    "ferris wheel" : "🎡",
-    "love letter" : "💌",
-    "u55b6" : "🈺",
-    "goat" : "🐐",
-    "kimono" : "👘",
-    "congratulations" : "㊗",
-    "dango" : "🍡",
-    "bookmark tabs" : "📑",
-    "cat2" : "🐈",
-    "potable water" : "🚰",
-    "spaghetti" : "🍝",
-    "high heel" : "👠",
-    "earth americas" : "🌎",
-    "bullettrain side" : "🚄",
-    "abcd" : "🔡",
-    "musical note" : "🎵",
-    "fish cake" : "🍥",
-    "hatching chick" : "🐣",
-    "oncoming taxi" : "🚖",
-    "syringe" : "💉",
-    "carousel horse" : "🎠",
-    "dash" : "💨",
-    "post office" : "🏣",
-    "cocktail" : "🍸",
-    "man with gua pi mao" : "👲",
-    "interrobang" : "⁉",
-    "credit card" : "💳",
-    "no bell" : "🔕",
-    "video game" : "🎮",
-    "tomato" : "🍅",
-    "books" : "📚",
-    "cow2" : "🐄",
-    "sailboat" : "⛵",
-    "symbols" : "🔣",
-    "baby" : "👶",
-    "sweat drops" : "💦",
-    "diamonds" : "♦",
-    "five" : "5️⃣",
-    "u6e80" : "🈵",
-    "euro" : "💶",
-    "arrows clockwise" : "🔃",
-    "bike" : "🚲",
-    "fast forward" : "⏩",
-    "abc" : "🔤",
-    "wave" : "👋",
-    "open mouth" : "😮",
-    "ring" : "💍",
-    "disappointed relieved" : "😥",
-    "battery" : "🔋",
-    "articulated lorry" : "🚛",
-    "video camera" : "📹",
-    "wheelchair" : "♿",
-    "droplet" : "💧",
-    "fried shrimp" : "🍤",
-    "hearts" : "♥",
-    "lollipop" : "🍭",
-    "sake" : "🍶",
-    "persevere" : "😣",
-    "police car" : "🚓",
-    "cinema" : "🎦",
-    "checkered flag" : "🏁",
-    "hourglass flowing sand" : "⏳",
-    "mailbox with no mail" : "📭",
-    "no smoking" : "🚭",
-    "heavy division sign" : "➗",
-    "helicopter" : "🚁",
-    "copyright" : "©",
-    "waxing gibbous moon" : "🌔",
-    "bar chart" : "📊",
-    "cherry blossom" : "🌸",
-    "candy" : "🍬",
-    "briefcase" : "💼",
-    "satellite" : "📡",
-    "guitar" : "🎸",
-    "clock130" : "🕜",
-    "hocho" : "🔪",
-    "performing arts" : "🎭",
-    "minibus" : "🚐",
-    "unamused" : "😒",
-    "bee" : "🐝",
-    "icecream" : "🍦",
-    "taxi" : "🚕",
-    "cab" : "🚕",
-    "arrow up small" : "🔼",
-    "page with curl" : "📃",
-    "lock" : "🔒",
-    "black nib" : "✒",
-    "lips" : "👄",
-    "nut and bolt" : "🔩",
-    "older woman" : "👵",
-    "capricorn" : "♑",
-    "thumbsdown" : "👎",
-    "anguished" : "😧",
-    "white small square" : "▫",
-    "elephant" : "🐘",
-    "snake" : "🐍",
-    "dizzy" : "💫",
-    "hash" : "#️⃣",
-    "tm" : "™",
-    "closed lock with key" : "🔐",
-    "doughnut" : "🍩",
-    "point up 2" : "👆",
-    "bear" : "🐻",
-    "bomb" : "💣",
-    "earth asia" : "🌏",
-    "wolf" : "🐺",
-    "tea" : "🍵",
-    "mobile phone off" : "📴",
-    "mountain bicyclist" : "🚵",
-    "rowboat" : "🚣",
-    "repeat one" : "🔂",
-    "crossed flags" : "🎌",
-    "rice ball" : "🍙",
-    "white square" : "◻️",
-    "rice" : "🍚",
-    "alien" : "👽",
-    "panda face" : "🐼",
-    "u7121" : "🈚",
-    "tv" : "📺",
-    "computer" : "💻",
-    "japanese goblin" : "👺",
-    "musical score" : "🎼",
-    "hourglass" : "⌛",
-    "paw prints" : "🐾",
-    "gem" : "💎",
-    "clock530" : "🕠",
-    "thought balloon" : "💭",
-    "cookie" : "🍪",
-    "u7533" : "🈸",
-    "sheep" : "🐑",
-    "church" : "⛪",
-    "station" : "🚉",
-    "u6307" : "🈯",
-    "de" : "🇩🇪",
-    "ledger" : "📒",
-    "speech balloon" : "💬",
-    "ghost" : "👻",
-    "no entry sign" : "🚫",
-    "expressionless" : "😑",
-    "question" : "❓",
-    "heart decoration" : "💟",
-    "violin" : "🎻",
-    "clock1030" : "🕥",
-    "end" : "🔚",
-    "first quarter moon with face" : "🌛",
-    "leo" : "♌",
-    "baseball" : "⚾",
-    "oncoming police car" : "🚔",
-    "calling" : "📲",
-    "stuck out tongue closed eyes" : "😝",
-    "leaves" : "🍃",
-    "crown" : "👑",
-    "large orange diamond" : "🔶",
-    "volcano" : "🌋",
-    "hankey" : "💩",
-    "cold sweat" : "😰",
-    "bangbang" : "‼",
-    "currency exchange" : "💱",
-    "hushed" : "😯",
-    "fuelpump" : "⛽",
-    "lemon" : "🍋",
-    "restroom" : "🚻",
-    "black circle" : "⚫",
-    "mute" : "🔇",
-    "pushpin" : "📌",
-    "wink" : "😉",
-    "envelope" : "✉",
-    "green apple" : "🍏",
-    "hamster" : "🐹",
-    "mushroom" : "🍄",
-    "toilet" : "🚽",
-    "clock930" : "🕤",
-    "herb" : "🌿",
-    "o2" : "🅾",
-    "yen" : "💴",
-    "trident" : "🔱",
-    "pineapple" : "🍍",
-    "one" : "1️⃣",
-    "scissors" : "✂",
-    "u5272" : "🈹",
-    "green book" : "📗",
-    "evergreen tree" : "🌲",
-    "pager" : "📟",
-    "circus tent" : "🎪",
-    "ski" : "🎿",
-    "key" : "🔑",
-    "new" : "🆕",
-    "thumbsup" : "👍",
-    "ballot box with check" : "☑",
-    "department store" : "🏬",
-    "u6708" : "🈷",
-    "horse" : "🐴",
-    "arrow upper left" : "↖",
-    "innocent" : "😇",
-    "peach" : "🍑",
-    "telescope" : "🔭",
-    "bread" : "🍞",
-    "curly loop" : "➰",
-    "grin" : "😁",
-    "information source" : "ℹ",
-    "capital abcd" : "🔠",
-    "tophat" : "🎩",
-    "baggage claim" : "🛄",
-    "bikini" : "👙",
-    "u6709" : "🈶",
-    "ant" : "🐜",
-    "point right" : "👉",
-    "wavy dash" : "〰",
-    "recycle" : "♻",
-    "earth africa" : "🌍",
-    "arrow backward" : "◀",
-    "rice scene" : "🎑",
-    "tram" : "🚊",
-    "sandal" : "👡",
-    "leftwards arrow with hook" : "↩",
-    "vhs" : "📼",
-    "roller coaster" : "🎢",
-    "atm" : "🏧",
-    "beer" : "🍺",
-    "mask" : "😷",
-    "dancers" : "👯",
-    "house" : "🏠",
-    "grinning" : "😀",
-    "honeybee" : "🐝",
-    "confused" : "😕",
-    "shirt" : "👕",
-    "snowboarder" : "🏂",
-    "triumph" : "😤",
-    "orange book" : "📙",
-    "microscope" : "🔬",
-    "pray" : "🙏",
-    "white medium small square" : "◽",
-    "cyclone" : "🌀",
-    "ribbon" : "🎀",
-    "basketball" : "🏀",
-    "star2" : "🌟",
-    "chicken" : "🐔",
-    "u7a7a" : "🈳",
-    "book" : "📖",
-    "rugby football" : "🏉",
-    "baby symbol" : "🚼",
-    "closed umbrella" : "🌂",
-    "hotsprings" : "♨",
-    "kissing heart" : "😘",
-    "scroll" : "📜",
-    "pencil2" : "✏",
-    "railway car" : "🚃",
-    "tongue" : "👅",
-    "tada" : "🎉",
-    "arrow left" : "⬅",
-    "diamond shape with a dot inside" : "💠",
-    "ideograph advantage" : "🉐",
-    "sweat smile" : "😅",
-    "purple heart" : "💜",
-    "boom" : "💥",
-    "clubs" : "♣",
-    "massage" : "💆",
-    "arrow lower right" : "↘",
-    "fearful" : "😨",
-    "milky way" : "🌌",
-    "monkey" : "🐒",
-    "pouch" : "👝",
-    "person frowning" : "🙍",
-    "revolving hearts" : "💞",
-    "two hearts" : "💕",
-    "hear no evil" : "🙉",
-    "globe with meridians" : "🌐",
-    "saxophone" : "🎷",
-    "cool" : "🆒",
-    "heavy exclamation mark" : "❗",
-    "name badge" : "📛",
-    "negative squared cross mark" : "❎",
-    "dragon" : "🐉",
-    "oncoming automobile" : "🚘",
-    "small blue diamond" : "🔹",
-    "bank" : "🏦",
-    "wc" : "🚾",
-    "notebook with decorative cover" : "📔",
-    "postbox" : "📮",
-    "wine glass" : "🍷",
-    "wine" : "🍷",
-    "waning crescent moon" : "🌘",
-    "sa" : "🈂",
-    "email" : "✉",
-    "hospital" : "🏥",
-    "round pushpin" : "📍",
-    "fork and knife" : "🍴",
-    "children crossing" : "🚸",
-    "rocket" : "🚀",
-    "sagittarius" : "♐",
-    "vertical traffic light" : "🚦",
-    "phone" : "☎",
-    "red circle" : "🔴",
-    "chocolate bar" : "🍫",
-    "unlock" : "🔓",
-    "beetle" : "🐞",
-    "electric plug" : "🔌",
-    "signal strength" : "📶",
-    "pisces" : "♓",
-    "mens" : "🚹",
-    "frog" : "🐸",
-    "flashlight" : "🔦",
-    "disappointed" : "😞",
-    "customs" : "🛃",
-    "mailbox with mail" : "📬",
-    "1234" : "🔢",
-    "two" : "2️⃣",
-    "womens" : "🚺",
-    "collision" : "💥",
-    "warning" : "⚠",
-    "pound" : "💷",
-    "boot" : "👢",
-    "clock1130" : "🕦",
-    "sparkling heart" : "💖",
-    "grapes" : "🍇",
-    "european post office" : "🏤",
-    "house with garden" : "🏡",
-    "tennis" : "🎾",
-    "mailbox closed" : "📪",
-    "feet" : "🐾",
-    "arrow down" : "⬇",
-    "whale2" : "🐋",
-    "ok" : "🆗",
-    "clock430" : "🕟",
-    "statue of liberty" : "🗽",
-    "lock with ink pen" : "🔏",
-    "gb" : "🇬🇧",
-    "rabbit2" : "🐇",
-    "camera" : "📷",
-    "on" : "🔛",
-    "smiley cat" : "😺",
-    "flower playing cards" : "🎴",
-    "first quarter moon" : "🌓",
-    "koko" : "🈁",
-    "hand" : "✋",
-    "notebook" : "📓",
-    "sound" : "🔉",
-    "sunny" : "☀",
-    "door" : "🚪",
-    "snail" : "🐌",
-    "rotating light" : "🚨",
-    "cancer" : "♋",
-    "school" : "🏫",
-    "cd" : "💿",
-    "sweet potato" : "🍠",
-    "trophy" : "🏆",
-    "kr" : "🇰🇷",
-    "bridge at night" : "🌉",
-    "metro" : "🚇",
-    "ox" : "🐂",
-    "inbox tray" : "📥",
-    "bento" : "🍱",
-    "mega" : "📣",
-    "blush" : "😊",
-    "back" : "🔙",
-    "new moon" : "🌑",
-    "heartpulse" : "💗",
-    "sun with face" : "🌞",
-    "cl" : "🆑",
-    "honey pot" : "🍯",
-    "sleepy" : "😪",
-    "secret" : "㊙",
-    "registered" : "®",
-    "construction" : "🚧",
-    "banana" : "🍌",
-    "trumpet" : "🎺",
-    "cn" : "🇨🇳",
-    "scorpius" : "♏",
-    "fallen leaf" : "🍂",
-    "raised hands" : "🙌",
-    "clock830" : "🕣",
-    "part alternation mark" : "〽",
-    "arrow lower left" : "↙",
-    "put litter in its place" : "🚮",
-    "three" : "3️⃣",
-    "virgo" : "♍",
-    "fish" : "🐟",
-    "strawberry" : "🍓",
-    "pear" : "🍐",
-    "telephone receiver" : "📞",
-    "tired face" : "😫",
-    "open hands" : "👐",
-    "page facing up" : "📄",
-    "cloud" : "☁",
-    "heavy plus sign" : "➕",
-    "arrow double down" : "⏬",
-    "football" : "🏈",
-    "zzz" : "💤",
-    "kissing smiling eyes" : "😙",
-    "ambulance" : "🚑",
-    "couple" : "👫",
-    "oncoming bus" : "🚍",
-    "hotel" : "🏨",
-    "bullettrain front" : "🚅",
-    "see no evil" : "🙈",
-    "dog2" : "🐕",
-    "family" : "👪",
-    "baby bottle" : "🍼",
-    "izakaya lantern" : "🏮",
-    "seven" : "7️⃣",
-    "athletic shoe" : "👟",
-    "smile cat" : "😸",
-    "open file folder" : "📂",
-    "100" : "💯",
-    "radio" : "📻",
-    "+1" : "👍",
-    "arrow heading up" : "⤴",
-    "moyai" : "🗿",
-    "smirk" : "😏",
-    "koala" : "🐨",
-    "snowflake" : "❄",
-    "bath" : "🛀",
-    "city sunset" : "🌆",
-    "full moon with face" : "🌝",
-    "dromedary camel" : "🐪",
-    "left right arrow" : "↔",
-    "large blue circle" : "🔵",
-    "ophiuchus" : "⛎",
-    "princess" : "👸",
-    "hammer" : "🔨",
-    "tanabata tree" : "🎋",
-    "pig" : "🐷",
-    "heartbeat" : "💓",
-    "factory" : "🏭",
-    "japan" : "🗾",
-    "white medium square" : "◻",
-    "eight" : "8️⃣",
-    "date" : "📅",
-    "stars" : "🌃",
-    "small orange diamond" : "🔸",
-    "dog" : "🐶",
-    "flipper" : "🐬",
-    "clapper" : "🎬",
-    "fountain" : "⛲",
-    "melon" : "🍈",
-    "shell" : "🐚",
-    "tent" : "⛺",
-    "blossom" : "🌼",
-    "four leaf clover" : "🍀",
-    "jeans" : "👖",
-    "wrench" : "🔧",
-    "confetti ball" : "🎊",
-    "confetti" : "🎊",
-    "beers" : "🍻",
-    "smoking" : "🚬",
-    "headphones" : "🎧",
-    "partly sunny" : "⛅",
-    "seat" : "💺",
-    "blue car" : "🚙",
-    "suspension railway" : "🚟",
-    "womans clothes" : "👚",
-    "bust in silhouette" : "👤",
-    "trolleybus" : "🚎",
-    "ear of rice" : "🌾",
-    "black square" : "◼️",
-    "keycap ten" : "🔟",
-    "tshirt" : "👕",
-    "tiger2" : "🐅",
-    "sob" : "😭",
-    "bamboo" : "🎍",
-    "bicyclist" : "🚴",
-    "small red triangle" : "🔺",
-    "cactus" : "🌵",
-    "heart" : "❤",
-    "a" : "🅰",
-    "b" : "🅱",
-    "fist" : "✊",
-    "loop" : "➿",
-    "clock1230" : "🕧",
-    "raising hand" : "🙋",
-    "cop" : "👮",
-    "octopus" : "🐙",
-    "point left" : "👈",
-    "moon" : "🌔",
-    "truck" : "🚚",
-    "busstop" : "🚏",
-    "monorail" : "🚝",
-    "bug" : "🐛",
-    "dollar" : "💵",
-    "incoming envelope" : "📨",
-    "two men holding hands" : "👬",
-    "skull" : "💀",
-    "arrow right hook" : "↪",
-    "clipboard" : "📋",
-    "european castle" : "🏰",
-    "m" : "Ⓜ",
-    "o" : "⭕",
-    "calendar" : "📆",
-    "sparkler" : "🎇",
-    "game die" : "🎲",
-    "bride with veil" : "👰",
-    "fireworks" : "🎆",
-    "smiling imp" : "😈",
-    "underage" : "🔞",
-    "dolls" : "🎎",
-    "ok hand" : "👌",
-    "dart" : "🎯",
-    "dancer" : "💃",
-    "mag right" : "🔎",
-    "rewind" : "⏪",
-    "v" : "✌",
-    "x" : "❌",
-    "bow" : "🙇",
-    "cow" : "🐮",
-    "smiley" : "😃",
-    "art" : "🎨",
-    "womans hat" : "👒",
-    "clock330" : "🕞",
-    "six" : "6️⃣",
-    "boy" : "👦",
-    "deciduous tree" : "🌳",
-    "large blue diamond" : "🔷",
-    "maple leaf" : "🍁",
-    "dolphin" : "🐬",
-    "christmas tree" : "🎄",
-    "parking" : "🅿",
-    "8ball" : "🎱",
-    "ng" : "🆖",
-    "bookmark" : "🔖",
-    "star" : "⭐",
-    "facepunch" : "👊",
-    "sushi" : "🍣",
-    "vs" : "🆚",
-    "bulb" : "💡",
-    "arrow up" : "⬆",
-    "do not litter" : "🚯",
-    "mountain railway" : "🚞",
-    "tractor" : "🚜",
-    "gift" : "🎁",
-    "cherries" : "🍒",
-    "fries" : "🍟",
-    "floppy disk" : "💾",
-    "gun" : "🔫",
-    "top" : "🔝",
-    "last quarter moon with face" : "🌜",
-    "muscle" : "💪",
-    "apple" : "🍎",
-    "angel" : "👼",
-    "shaved ice" : "🍧",
-    "older man" : "👴",
-    "heart eyes cat" : "😻",
-    "bus" : "🚌",
-    "heavy check mark" : "✔",
-    "heart eyes" : "😍",
-    "joy" : "😂",
-    "sos" : "🆘",
-    "gemini" : "♊",
-    "office" : "🏢",
-    "cry" : "😢",
-    "ru" : "🇷🇺",
-    "triangular flag on post" : "🚩",
-    "ocean" : "🌊",
-    "relieved" : "😌",
-    "raised hand" : "✋",
-    "aerial tramway" : "🚡",
-    "nose" : "👃",
-    "purse" : "👛",
-    "white check mark" : "✅",
-    "black large square" : "⬛",
-    "twisted rightwards arrows" : "🔀",
-    "chart with upwards trend" : "📈",
-    "loudspeaker" : "📢",
-    "laughing" : "😆",
-    "point down" : "👇",
-    "no pedestrians" : "🚷",
-    "sparkle" : "❇",
-    "clock1" : "🕐",
-    "eight pointed black star" : "✴",
-    "four" : "4️⃣",
-    "notes" : "🎶",
-    "microphone" : "🎤",
-    "jp" : "🇯🇵",
-    "poop" : "💩",
-    "rooster" : "🐓",
-    "arrow down small" : "🔽",
-    "curry" : "🍛",
-    "movie camera" : "🎥",
-    "speaker" : "🔊",
-    "airplane" : "✈",
-    "arrow upper right" : "↗",
-    "smirk cat" : "😼",
-    "leopard" : "🐆",
-    "worried" : "😟",
-    "baby chick" : "🐤",
-    "person with pouting face" : "🙎",
-    "stuck out tongue winking eye" : "😜",
-    "broken heart" : "💔",
-    "cake" : "🍰",
-    "black medium small square" : "◾",
-    "clock730" : "🕢",
-    "kiss" : "💋",
-    "small red triangle down" : "🔻",
-    "speak no evil" : "🙊",
-    "sunflower" : "🌻",
-    "flags" : "🎏",
-    "rice cracker" : "🍘",
-    "green heart" : "💚",
-    "fr" : "🇫🇷",
-    "walking" : "🚶",
-    "yum" : "😋",
-    "kissing" : "😗",
-    "tangerine" : "🍊",
-    "lantern" : "🏮",
-    "mahjong" : "🀄",
-    "moneybag" : "💰",
-    "city sunrise" : "🌇",
-    "chart" : "💹",
-    "clock2" : "🕑",
-    "watermelon" : "🍉",
-    "swimmer" : "🏊",
-    "convenience store" : "🏪",
-    "barber" : "💈",
-    "white flower" : "💮",
-    "high brightness" : "🔆",
-    "libra" : "♎",
-    "mortar board" : "🎓",
-    "waning gibbous moon" : "🌖",
-    "blue heart" : "💙",
-    "pencil" : "📝",
-    "poultry leg" : "🍗",
-    "drumstick" : "🍗",
-    "pouting cat" : "😾",
-    "whale" : "🐳",
-    "outbox tray" : "📤",
-    "joy cat" : "😹",
-    "soon" : "🔜",
-    "foggy" : "🌁",
-    "person with blond hair" : "👱",
-    "space invader" : "👾",
-    "arrows counterclockwise" : "🔄",
-    "surfer" : "🏄",
-    "burger" : "🍔",
-    "busts in silhouette" : "👥",
-    "no mouth" : "😶",
-    "eggplant" : "🍆",
-    "waxing crescent moon" : "🌒",
-    "pig2" : "🐖",
-    "clock3" : "🕒",
-    "camel" : "🐫",
-    "beginner" : "🔰",
-    "coffee" : "☕",
-    "mouse2" : "🐁",
-    "black medium square" : "◼",
-    "sparkles" : "✨",
-    "closed book" : "📕",
-    "watch" : "⌚",
-    "golf" : "⛳",
-    "haircut" : "💇",
-    "scream cat" : "🙀",
-    "custard" : "🍮",
-    "rose" : "🌹",
-    "red car" : "🚗",
-    "anger" : "💢",
-    "arrow double up" : "⏫",
-    "grey question" : "❔",
-    "pizza" : "🍕",
-    "white square button" : "🔳",
-    "last quarter moon" : "🌗",
-    "scream" : "😱",
-    "speedboat" : "🚤",
-    "sweat" : "😓",
-    "crying cat face" : "😿",
-    "heavy multiplication x" : "✖",
-    "ice cream" : "🍨",
-    "low brightness" : "🔅",
-    "pensive" : "😔",
-    "mag" : "🔍",
-    "racehorse" : "🐎",
-    "shower" : "🚿",
-    "zero" : "0️⃣",
-    "light rail" : "🚈",
-    "blue book" : "📘",
-    "black joker" : "🃏",
-    "heavy dollar sign" : "💲",
-    "no entry" : "⛔",
-    "clock4" : "🕓",
-    "sunrise" : "🌅",
-    "u7981" : "🈲",
-    "japanese castle" : "🏯",
-    "man with turban" : "👳",
-    "memo" : "📝",
-    "astonished" : "😲",
-    "balloon" : "🎈",
-    "bird" : "🐦",
-    "weary" : "😩",
-    "no good" : "🙅",
-    "grey exclamation" : "❕",
-    "car" : "🚗",
-    "satisfied" : "😆",
-    "hatched chick" : "🐥",
-    "umbrella" : "☔",
-    "white circle" : "⚪",
-    "radio button" : "🔘",
-    "egg" : "🍳",
-    "eight spoked asterisk" : "✳",
-    "minidisc" : "💽",
-    "information desk person" : "💁",
-    "ear" : "👂",
-    "traffic light" : "🚥",
-    "iphone" : "📱",
-    "cat" : "🐱",
-    "crystal ball" : "🔮",
-    "fire engine" : "🚒",
-    "aquarius" : "♒",
-    "man" : "👨",
-    "tropical drink" : "🍹",
-    "bowling" : "🎳",
-    "dress" : "👗",
-    "handbag" : "👜",
-    "eyes" : "👀",
-    "ship" : "🚢",
-    "clock5" : "🕔",
-    "arrow right" : "➡",
-    "kissing cat" : "😽",
-    "money with wings" : "💸",
-    "ram" : "🐏",
-    "stew" : "🍲",
-    "mount fuji" : "🗻",
-    "fishing pole and fish" : "🎣",
-    "repeat" : "🔁",
-    "grimacing" : "😬",
-    "clock10" : "🕙",
-    "vibration mode" : "📳",
-    "mans shoe" : "👞",
-    "rainbow" : "🌈",
-    "love hotel" : "🏩",
-    "fax" : "📠",
-    "arrow forward" : "▶",
-    "passport control" : "🛂",
-    "triangular ruler" : "📐",
-    "wedding" : "💒",
-    "clap" : "👏",
-    "sunrise over mountains" : "🌄",
-    "tiger" : "🐯",
-    "dragon face" : "🐲",
-    "paperclip" : "📎",
-    "santa" : "🎅",
-    "ok woman" : "🙆",
-    "water buffalo" : "🐃",
-    "clock230" : "🕝",
-    "clock6" : "🕕",
-    "school satchel" : "🎒",
-    "shit" : "💩",
-    "rat" : "🐀",
-    "boar" : "🐗",
-    "uk" : "🇬🇧",
-    "mountain cableway" : "🚠",
-    "smile" : "😄",
-    "e-mail" : "📧",
-    "stuck out tongue" : "😛",
-    "seedling" : "🌱",
-    "oden" : "🍢",
-    "spades" : "♠",
-    "telephone" : "☎",
-    "white large square" : "⬜",
-    "hibiscus" : "🌺",
-    "newspaper" : "📰",
-    "zap" : "⚡",
-    "woman" : "👩",
-    "up" : "🆙",
-    "card index" : "📇",
-    "bathtub" : "🛁",
-    "blowfish" : "🐡",
-    "envelope with arrow" : "📩",
-    "boat" : "⛵",
-    "jack o lantern" : "🎃",
-    "runner" : "🏃",
-    "chestnut" : "🌰",
-    "angry" : "😠",
-    "sunglasses" : "😎",
-    "nail care" : "💅",
-    "palm tree" : "🌴",
-    "yellow heart" : "💛",
-    "us" : "🇺🇸",
-    "couplekiss" : "💏",
-    "open book" : "📖",
-    "package" : "📦",
-    "id" : "🆔",
-    "file folder" : "📁",
-    "taurus" : "♉",
-    "clock7" : "🕖",
-    "couple with heart" : "💑",
-    "fire" : "🔥",
-    "tropical fish" : "🐠",
-    "crocodile" : "🐊",
-    "full moon" : "🌕",
-    "rage" : "😡",
-    "gift heart" : "💝",
-    "slot machine" : "🎰",
-    "monkey face" : "🐵",
-    "clock11" : "🕚",
-    "construction worker" : "👷",
-    "punch" : "👊",
-    "ramen" : "🍜",
-    "u5408" : "🈴",
-    "wind chime" : "🎐",
-    "black small square" : "▪",
-    "sleeping" : "😴",
-    "train" : "🚃",
-    "imp" : "👿",
-    "dvd" : "📀",
-    "train2" : "🚆",
-    "ab" : "🆎",
-    "clock630" : "🕡",
-    "steam locomotive" : "🚂",
-    "mailbox" : "📫",
-    "shoe" : "👞",
-    "lipstick" : "💄",
-    "no mobile phones" : "📵",
-    "non-potable water" : "🚱",
-    "frowning" : "😦",
-    "dizzy face" : "😵",
-    "necktie" : "👔",
-    "aries" : "♈",
-    "footprints" : "👣",
-    "clock8" : "🕗",
-    "arrow heading down" : "⤵",
-    "heavy minus sign" : "➖",
-    "soccer" : "⚽",
-    "pig nose" : "🐽",
-    "tulip" : "🌷",
-    "two women holding hands" : "👭",
-    "it" : "🇮🇹",
-    "exclamation" : "❗",
-    "nine" : "9️⃣",
-    "birthday" : "🎂",
-    "left luggage" : "🛅",
-    "horse racing" : "🏇",
-    "accept" : "🉑",
-    "meat on bone" : "🍖",
-    "running" : "🏃",
-    "cupid" : "💘",
-    "no bicycles" : "🚳",
-    "corn" : "🌽",
-    "new moon with face" : "🌚",
-    "bouquet" : "💐",
-    "snowman" : "⛄",
-    "link" : "🔗",
-    "es" : "🇪🇸"
-}
+[{
+	"character": "😚",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "kissing closed eyes"
+}, {
+	"character": "💒",
+	"aliases": [],
+	"groups": [],
+	"name": "wedding"
+}, {
+	"character": "9️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "nine"
+}, {
+	"character": "🚉",
+	"aliases": [],
+	"groups": [],
+	"name": "station"
+}, {
+	"character": "💢",
+	"aliases": [],
+	"groups": [],
+	"name": "anger"
+}, {
+	"character": "💺",
+	"aliases": [],
+	"groups": [],
+	"name": "seat"
+}, {
+	"character": "🏁",
+	"aliases": [],
+	"groups": [],
+	"name": "checkered flag"
+}, {
+	"character": "📚",
+	"aliases": [],
+	"groups": [],
+	"name": "books"
+}, {
+	"character": "🏆",
+	"aliases": [],
+	"groups": [],
+	"name": "trophy"
+}, {
+	"character": "🚤",
+	"aliases": [],
+	"groups": [],
+	"name": "speedboat"
+}, {
+	"character": "🈺",
+	"aliases": [],
+	"groups": [],
+	"name": "u55b6"
+}, {
+	"character": "🐋",
+	"aliases": [],
+	"groups": [],
+	"name": "whale2"
+}, {
+	"character": "🌹",
+	"aliases": [],
+	"groups": [],
+	"name": "rose"
+}, {
+	"character": "💦",
+	"aliases": [],
+	"groups": [],
+	"name": "sweat drops"
+}, {
+	"character": "↔",
+	"aliases": [],
+	"groups": [],
+	"name": "left right arrow"
+}, {
+	"character": "👫",
+	"aliases": [],
+	"groups": [],
+	"name": "couple"
+}, {
+	"character": "📝",
+	"aliases": [],
+	"groups": [],
+	"name": "memo"
+}, {
+	"character": "🐦",
+	"aliases": [],
+	"groups": [],
+	"name": "bird"
+}, {
+	"character": "🔞",
+	"aliases": [],
+	"groups": [],
+	"name": "underage"
+}, {
+	"character": "📩",
+	"aliases": [],
+	"groups": [],
+	"name": "envelope with arrow"
+}, {
+	"character": "💶",
+	"aliases": [],
+	"groups": [],
+	"name": "euro"
+}, {
+	"character": "🕝",
+	"aliases": [],
+	"groups": [],
+	"name": "clock230"
+}, {
+	"character": "📖",
+	"aliases": [],
+	"groups": [],
+	"name": "book"
+}, {
+	"character": "🐩",
+	"aliases": [],
+	"groups": [],
+	"name": "poodle"
+}, {
+	"character": "🐂",
+	"aliases": [],
+	"groups": [],
+	"name": "ox"
+}, {
+	"character": "📥",
+	"aliases": [],
+	"groups": [],
+	"name": "inbox tray"
+}, {
+	"character": "📑",
+	"aliases": [],
+	"groups": [],
+	"name": "bookmark tabs"
+}, {
+	"character": "👞",
+	"aliases": [],
+	"groups": [],
+	"name": "mans shoe"
+}, {
+	"character": "4️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "four"
+}, {
+	"character": "🍦",
+	"aliases": [],
+	"groups": [],
+	"name": "icecream"
+}, {
+	"character": "⁉",
+	"aliases": [],
+	"groups": [],
+	"name": "interrobang"
+}, {
+	"character": "🏮",
+	"aliases": [],
+	"groups": [],
+	"name": "izakaya lantern"
+}, {
+	"character": "🐁",
+	"aliases": [],
+	"groups": [],
+	"name": "mouse2"
+}, {
+	"character": "🕐",
+	"aliases": [],
+	"groups": [],
+	"name": "clock1"
+}, {
+	"character": "🎫",
+	"aliases": [],
+	"groups": [],
+	"name": "ticket"
+}, {
+	"character": "♌",
+	"aliases": [],
+	"groups": [],
+	"name": "leo"
+}, {
+	"character": "👰",
+	"aliases": [],
+	"groups": [],
+	"name": "bride with veil"
+}, {
+	"character": "🐜",
+	"aliases": [],
+	"groups": [],
+	"name": "ant"
+}, {
+	"character": "📈",
+	"aliases": [],
+	"groups": [],
+	"name": "chart with upwards trend"
+}, {
+	"character": "⛵",
+	"aliases": [],
+	"groups": [],
+	"name": "sailboat"
+}, {
+	"character": "⚾",
+	"aliases": [],
+	"groups": [],
+	"name": "baseball"
+}, {
+	"character": "🌘",
+	"aliases": [],
+	"groups": [],
+	"name": "waning crescent moon"
+}, {
+	"character": "🍗",
+	"aliases": [],
+	"groups": [],
+	"name": "poultry leg"
+}, {
+	"character": "🆕",
+	"aliases": [],
+	"groups": [],
+	"name": "new"
+}, {
+	"character": "👮",
+	"aliases": [
+    "police"
+  ],
+	"groups": [],
+	"name": "cop"
+}, {
+	"character": "🐎",
+	"aliases": [],
+	"groups": [],
+	"name": "racehorse"
+}, {
+	"character": "⛲",
+	"aliases": [],
+	"groups": [],
+	"name": "fountain"
+}, {
+	"character": "🚓",
+	"aliases": [
+    "cop car"
+  ],
+	"groups": [],
+	"name": "police car"
+}, {
+	"character": "⚡",
+	"aliases": [],
+	"groups": [],
+	"name": "zap"
+}, {
+	"character": "💠",
+	"aliases": [],
+	"groups": [],
+	"name": "diamond shape with a dot inside"
+}, {
+	"character": "⛵",
+	"aliases": [],
+	"groups": [],
+	"name": "boat"
+}, {
+	"character": "🌱",
+	"aliases": [],
+	"groups": [],
+	"name": "seedling"
+}, {
+	"character": "🍁",
+	"aliases": [],
+	"groups": [],
+	"name": "maple leaf"
+}, {
+	"character": "😿",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "crying cat face"
+}, {
+	"character": "💝",
+	"aliases": [],
+	"groups": [],
+	"name": "gift heart"
+}, {
+	"character": "✋",
+	"aliases": [],
+	"groups": [],
+	"name": "hand"
+}, {
+	"character": "🌗",
+	"aliases": [],
+	"groups": [],
+	"name": "last quarter moon"
+}, {
+	"character": "🚫",
+	"aliases": [],
+	"groups": [],
+	"name": "no entry sign"
+}, {
+	"character": "💷",
+	"aliases": [],
+	"groups": [],
+	"name": "pound"
+}, {
+	"character": "🎻",
+	"aliases": [],
+	"groups": [],
+	"name": "violin"
+}, {
+	"character": "😝",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "stuck out tongue closed eyes"
+}, {
+	"character": "🔱",
+	"aliases": [],
+	"groups": [],
+	"name": "trident"
+}, {
+	"character": "👸",
+	"aliases": [],
+	"groups": [],
+	"name": "princess"
+}, {
+	"character": "😋",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "yum"
+}, {
+	"character": "👢",
+	"aliases": [],
+	"groups": [],
+	"name": "boot"
+}, {
+	"character": "🏃",
+	"aliases": [],
+	"groups": [],
+	"name": "runner"
+}, {
+	"character": "👷",
+	"aliases": [],
+	"groups": [],
+	"name": "construction worker"
+}, {
+	"character": "💅",
+	"aliases": [],
+	"groups": [],
+	"name": "nail care"
+}, {
+	"character": "➕",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy plus sign"
+}, {
+	"character": "◻️",
+	"aliases": [],
+	"groups": [],
+	"name": "white square"
+}, {
+	"character": "🔦",
+	"aliases": [],
+	"groups": [],
+	"name": "flashlight"
+}, {
+	"character": "😦",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "frowning"
+}, {
+	"character": "♎",
+	"aliases": [],
+	"groups": [],
+	"name": "libra"
+}, {
+	"character": "☔",
+	"aliases": [],
+	"groups": [],
+	"name": "umbrella"
+}, {
+	"character": "🏢",
+	"aliases": [],
+	"groups": [],
+	"name": "office"
+}, {
+	"character": "🔡",
+	"aliases": [],
+	"groups": [],
+	"name": "abcd"
+}, {
+	"character": "💄",
+	"aliases": [],
+	"groups": [],
+	"name": "lipstick"
+}, {
+	"character": "😑",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "expressionless"
+}, {
+	"character": "😜",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "stuck out tongue winking eye"
+}, {
+	"character": "🆒",
+	"aliases": [],
+	"groups": [],
+	"name": "cool"
+}, {
+	"character": "🔶",
+	"aliases": [],
+	"groups": [],
+	"name": "large orange diamond"
+}, {
+	"character": "😆",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "satisfied"
+}, {
+	"character": "🚲",
+	"aliases": [],
+	"groups": [],
+	"name": "bike"
+}, {
+	"character": "👝",
+	"aliases": [],
+	"groups": [],
+	"name": "pouch"
+}, {
+	"character": "🚃",
+	"aliases": [],
+	"groups": [],
+	"name": "railway car"
+}, {
+	"character": "😊",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "blush"
+}, {
+	"character": "🍂",
+	"aliases": [],
+	"groups": [],
+	"name": "fallen leaf"
+}, {
+	"character": "👥",
+	"aliases": [],
+	"groups": [],
+	"name": "busts in silhouette"
+}, {
+	"character": "🍱",
+	"aliases": [],
+	"groups": [],
+	"name": "bento"
+}, {
+	"character": "🐾",
+	"aliases": [],
+	"groups": [],
+	"name": "feet"
+}, {
+	"character": "®",
+	"aliases": [],
+	"groups": [],
+	"name": "registered"
+}, {
+	"character": "👵",
+	"aliases": [],
+	"groups": [],
+	"name": "older woman"
+}, {
+	"character": "🛅",
+	"aliases": [],
+	"groups": [],
+	"name": "left luggage"
+}, {
+	"character": "🌓",
+	"aliases": [],
+	"groups": [],
+	"name": "first quarter moon"
+}, {
+	"character": "😖",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "confounded"
+}, {
+	"character": "🇬🇧",
+	"aliases": [],
+	"groups": [],
+	"name": "uk"
+}, {
+	"character": "🚞",
+	"aliases": [],
+	"groups": [],
+	"name": "mountain railway"
+}, {
+	"character": "💥",
+	"aliases": [],
+	"groups": [],
+	"name": "collision"
+}, {
+	"character": "🌛",
+	"aliases": [],
+	"groups": [],
+	"name": "first quarter moon with face"
+}, {
+	"character": "🇮🇹",
+	"aliases": [],
+	"groups": [],
+	"name": "it"
+}, {
+	"character": "🍹",
+	"aliases": [],
+	"groups": [],
+	"name": "tropical drink"
+}, {
+	"character": "🐱",
+	"aliases": [],
+	"groups": [],
+	"name": "cat"
+}, {
+	"character": "📧",
+	"aliases": [],
+	"groups": [],
+	"name": "e-mail"
+}, {
+	"character": "👴",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "older man"
+}, {
+	"character": "🗼",
+	"aliases": [],
+	"groups": [],
+	"name": "tokyo tower"
+}, {
+	"character": "👾",
+	"aliases": [],
+	"groups": [],
+	"name": "space invader"
+}, {
+	"character": "❤",
+	"aliases": [],
+	"groups": [],
+	"name": "heart"
+}, {
+	"character": "🔖",
+	"aliases": [],
+	"groups": [],
+	"name": "bookmark"
+}, {
+	"character": "😕",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "confused"
+}, {
+	"character": "✋",
+	"aliases": [],
+	"groups": [],
+	"name": "raised hand"
+}, {
+	"character": "👟",
+	"aliases": [],
+	"groups": [],
+	"name": "athletic shoe"
+}, {
+	"character": "😱",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "scream"
+}, {
+	"character": "👳",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "turban"
+}, {
+	"character": "📍",
+	"aliases": [],
+	"groups": [],
+	"name": "round pushpin"
+}, {
+	"character": "📆",
+	"aliases": [],
+	"groups": [],
+	"name": "calendar"
+}, {
+	"character": "🇷🇺",
+	"aliases": [],
+	"groups": [],
+	"name": "ru"
+}, {
+	"character": "🚘",
+	"aliases": [],
+	"groups": [],
+	"name": "oncoming automobile"
+}, {
+	"character": "📄",
+	"aliases": [],
+	"groups": [],
+	"name": "page facing up"
+}, {
+	"character": "👊",
+	"aliases": [],
+	"groups": [],
+	"name": "punch"
+}, {
+	"character": "🆑",
+	"aliases": [],
+	"groups": [],
+	"name": "cl"
+}, {
+	"character": "💫",
+	"aliases": [],
+	"groups": [],
+	"name": "dizzy"
+}, {
+	"character": "🙀",
+	"aliases": [],
+	"groups": [],
+	"name": "scream cat"
+}, {
+	"character": "🈵",
+	"aliases": [],
+	"groups": [],
+	"name": "u6e80"
+}, {
+	"character": "🔍",
+	"aliases": [],
+	"groups": [],
+	"name": "mag"
+}, {
+	"character": "😥",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "disappointed relieved"
+}, {
+	"character": "📣",
+	"aliases": [],
+	"groups": [],
+	"name": "mega"
+}, {
+	"character": "📎",
+	"aliases": [],
+	"groups": [],
+	"name": "paperclip"
+}, {
+	"character": "Ⓜ",
+	"aliases": [],
+	"groups": [],
+	"name": "m"
+}, {
+	"character": "🐳",
+	"aliases": [],
+	"groups": [],
+	"name": "whale"
+}, {
+	"character": "🐾",
+	"aliases": [],
+	"groups": [],
+	"name": "paw prints"
+}, {
+	"character": "💐",
+	"aliases": [],
+	"groups": [],
+	"name": "bouquet"
+}, {
+	"character": "👞",
+	"aliases": [],
+	"groups": [],
+	"name": "shoe"
+}, {
+	"character": "↗",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow upper right"
+}, {
+	"character": "🍘",
+	"aliases": [],
+	"groups": [],
+	"name": "rice cracker"
+}, {
+	"character": "😭",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "sob"
+}, {
+	"character": "🎌",
+	"aliases": [],
+	"groups": [],
+	"name": "crossed flags"
+}, {
+	"character": "😬",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "grimacing"
+}, {
+	"character": "◀",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow backward"
+}, {
+	"character": "🎓",
+	"aliases": [],
+	"groups": [],
+	"name": "mortar board"
+}, {
+	"character": "🍌",
+	"aliases": [],
+	"groups": [],
+	"name": "banana"
+}, {
+	"character": "3️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "three"
+}, {
+	"character": "🚮",
+	"aliases": [],
+	"groups": [],
+	"name": "put litter in its place"
+}, {
+	"character": "👙",
+	"aliases": [],
+	"groups": [],
+	"name": "bikini"
+}, {
+	"character": "🈁",
+	"aliases": [],
+	"groups": [],
+	"name": "koko"
+}, {
+	"character": "🚇",
+	"aliases": [],
+	"groups": [],
+	"name": "metro"
+}, {
+	"character": "📘",
+	"aliases": [],
+	"groups": [],
+	"name": "blue book"
+}, {
+	"character": "🔀",
+	"aliases": [],
+	"groups": [],
+	"name": "twisted rightwards arrows"
+}, {
+	"character": "🌃",
+	"aliases": [],
+	"groups": [],
+	"name": "stars"
+}, {
+	"character": "🌴",
+	"aliases": [],
+	"groups": [],
+	"name": "palm tree"
+}, {
+	"character": "⚠",
+	"aliases": [],
+	"groups": [],
+	"name": "warning"
+}, {
+	"character": "🌵",
+	"aliases": [],
+	"groups": [],
+	"name": "cactus"
+}, {
+	"character": "🎯",
+	"aliases": [],
+	"groups": [],
+	"name": "dart"
+}, {
+	"character": "🐆",
+	"aliases": [],
+	"groups": [],
+	"name": "leopard"
+}, {
+	"character": "🐼",
+	"aliases": [],
+	"groups": [],
+	"name": "panda face"
+}, {
+	"character": "✊",
+	"aliases": [],
+	"groups": [],
+	"name": "fist"
+}, {
+	"character": "💸",
+	"aliases": [],
+	"groups": [],
+	"name": "money with wings"
+}, {
+	"character": "😟",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "worried"
+}, {
+	"character": "💽",
+	"aliases": [],
+	"groups": [],
+	"name": "minidisc"
+}, {
+	"character": "😎",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "sunglasses"
+}, {
+	"character": "🕗",
+	"aliases": [],
+	"groups": [],
+	"name": "clock8"
+}, {
+	"character": "◾",
+	"aliases": [],
+	"groups": [],
+	"name": "black medium small square"
+}, {
+	"character": "❇",
+	"aliases": [],
+	"groups": [],
+	"name": "sparkle"
+}, {
+	"character": "⚫",
+	"aliases": [],
+	"groups": [],
+	"name": "black circle"
+}, {
+	"character": "📅",
+	"aliases": [],
+	"groups": [],
+	"name": "date"
+}, {
+	"character": "🍼",
+	"aliases": [],
+	"groups": [],
+	"name": "baby bottle"
+}, {
+	"character": "📟",
+	"aliases": [],
+	"groups": [],
+	"name": "pager"
+}, {
+	"character": "🇬🇧",
+	"aliases": [],
+	"groups": [],
+	"name": "gb"
+}, {
+	"character": "♈",
+	"aliases": [],
+	"groups": [],
+	"name": "aries"
+}, {
+	"character": "🕣",
+	"aliases": [],
+	"groups": [],
+	"name": "clock830"
+}, {
+	"character": "🎒",
+	"aliases": [],
+	"groups": [],
+	"name": "school satchel"
+}, {
+	"character": "ℹ",
+	"aliases": [],
+	"groups": [],
+	"name": "information source"
+}, {
+	"character": "🚯",
+	"aliases": [],
+	"groups": [],
+	"name": "do not litter"
+}, {
+	"character": "↖",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow upper left"
+}, {
+	"character": "🎭",
+	"aliases": [],
+	"groups": [],
+	"name": "performing arts"
+}, {
+	"character": "💞",
+	"aliases": [],
+	"groups": [],
+	"name": "revolving hearts"
+}, {
+	"character": "📴",
+	"aliases": [],
+	"groups": [],
+	"name": "mobile phone off"
+}, {
+	"character": "🎑",
+	"aliases": [],
+	"groups": [],
+	"name": "rice scene"
+}, {
+	"character": "😻",
+	"aliases": [],
+	"groups": [],
+	"name": "heart eyes cat"
+}, {
+	"character": "⛺",
+	"aliases": [],
+	"groups": [],
+	"name": "tent"
+}, {
+	"character": "🐨",
+	"aliases": [],
+	"groups": [],
+	"name": "koala"
+}, {
+	"character": "✂",
+	"aliases": [],
+	"groups": [],
+	"name": "scissors"
+}, {
+	"character": "🔢",
+	"aliases": [],
+	"groups": [],
+	"name": "1234"
+}, {
+	"character": "🚚",
+	"aliases": [],
+	"groups": [],
+	"name": "truck"
+}, {
+	"character": "🏇",
+	"aliases": [],
+	"groups": [],
+	"name": "horse racing"
+}, {
+	"character": "🌅",
+	"aliases": [],
+	"groups": [],
+	"name": "sunrise"
+}, {
+	"character": "🍏",
+	"aliases": [],
+	"groups": [],
+	"name": "green apple"
+}, {
+	"character": "🔑",
+	"aliases": [],
+	"groups": [],
+	"name": "key"
+}, {
+	"character": "💳",
+	"aliases": [],
+	"groups": [],
+	"name": "credit card"
+}, {
+	"character": "🌊",
+	"aliases": [],
+	"groups": [],
+	"name": "ocean"
+}, {
+	"character": "🐹",
+	"aliases": [],
+	"groups": [],
+	"name": "hamster"
+}, {
+	"character": "☕",
+	"aliases": [],
+	"groups": [],
+	"name": "coffee"
+}, {
+	"character": "➡",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow right"
+}, {
+	"character": "↩",
+	"aliases": [],
+	"groups": [],
+	"name": "leftwards arrow with hook"
+}, {
+	"character": "💟",
+	"aliases": [],
+	"groups": [],
+	"name": "heart decoration"
+}, {
+	"character": "😤",
+	"aliases": [],
+	"groups": [],
+	"name": "triumph"
+}, {
+	"character": "😸",
+	"aliases": [],
+	"groups": [],
+	"name": "smile cat"
+}, {
+	"character": "🕠",
+	"aliases": [],
+	"groups": [],
+	"name": "clock530"
+}, {
+	"character": "🍑",
+	"aliases": [],
+	"groups": [],
+	"name": "peach"
+}, {
+	"character": "📵",
+	"aliases": [],
+	"groups": [],
+	"name": "no mobile phones"
+}, {
+	"character": "😽",
+	"aliases": [],
+	"groups": [],
+	"name": "kissing cat"
+}, {
+	"character": "🔧",
+	"aliases": [],
+	"groups": [],
+	"name": "wrench"
+}, {
+	"character": "💯",
+	"aliases": [],
+	"groups": [],
+	"name": "100"
+}, {
+	"character": "🙇",
+	"aliases": [],
+	"groups": [],
+	"name": "bow"
+}, {
+	"character": "🏂",
+	"aliases": [],
+	"groups": [],
+	"name": "snowboarder"
+}, {
+	"character": "♨",
+	"aliases": [],
+	"groups": [],
+	"name": "hotsprings"
+}, {
+	"character": "5️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "five"
+}, {
+	"character": "🎢",
+	"aliases": [],
+	"groups": [],
+	"name": "roller coaster"
+}, {
+	"character": "🎩",
+	"aliases": [],
+	"groups": [],
+	"name": "tophat"
+}, {
+	"character": "🏦",
+	"aliases": [],
+	"groups": [],
+	"name": "bank"
+}, {
+	"character": "🚆",
+	"aliases": [],
+	"groups": [],
+	"name": "train2"
+}, {
+	"character": "📌",
+	"aliases": [],
+	"groups": [],
+	"name": "pushpin"
+}, {
+	"character": "💓",
+	"aliases": [],
+	"groups": [],
+	"name": "heartbeat"
+}, {
+	"character": "👍",
+	"aliases": [],
+	"groups": [],
+	"name": "thumbsup"
+}, {
+	"character": "👲",
+	"aliases": [],
+	"groups": [],
+	"name": "man with gua pi mao"
+}, {
+	"character": "▪",
+	"aliases": [],
+	"groups": [],
+	"name": "black small square"
+}, {
+	"character": "1️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "one"
+}, {
+	"character": "🎋",
+	"aliases": [],
+	"groups": [],
+	"name": "tanabata tree"
+}, {
+	"character": "🚶",
+	"aliases": [],
+	"groups": [],
+	"name": "walking"
+}, {
+	"character": "🈲",
+	"aliases": [],
+	"groups": [],
+	"name": "u7981"
+}, {
+	"character": "👀",
+	"aliases": [],
+	"groups": [],
+	"name": "eyes"
+}, {
+	"character": "🍴",
+	"aliases": [],
+	"groups": [],
+	"name": "fork and knife"
+}, {
+	"character": "↕",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow up down"
+}, {
+	"character": "☀",
+	"aliases": [],
+	"groups": [],
+	"name": "sunny"
+}, {
+	"character": "👤",
+	"aliases": [],
+	"groups": [],
+	"name": "bust in silhouette"
+}, {
+	"character": "☺",
+	"aliases": [],
+	"groups": [],
+	"name": "relaxed"
+}, {
+	"character": "📼",
+	"aliases": [],
+	"groups": [],
+	"name": "vhs"
+}, {
+	"character": "⏪",
+	"aliases": [],
+	"groups": [],
+	"name": "rewind"
+}, {
+	"character": "🍰",
+	"aliases": [],
+	"groups": [],
+	"name": "cake"
+}, {
+	"character": "♍",
+	"aliases": [],
+	"groups": [],
+	"name": "virgo"
+}, {
+	"character": "©",
+	"aliases": [],
+	"groups": [],
+	"name": "copyright"
+}, {
+	"character": "🏠",
+	"aliases": [],
+	"groups": [],
+	"name": "house"
+}, {
+	"character": "🔟",
+	"aliases": [],
+	"groups": [],
+	"name": "keycap ten"
+}, {
+	"character": "🕧",
+	"aliases": [],
+	"groups": [],
+	"name": "clock1230"
+}, {
+	"character": "🔠",
+	"aliases": [],
+	"groups": [],
+	"name": "capital abcd"
+}, {
+	"character": "🚻",
+	"aliases": [],
+	"groups": [],
+	"name": "restroom"
+}, {
+	"character": "♦",
+	"aliases": [],
+	"groups": [],
+	"name": "diamonds"
+}, {
+	"character": "🚹",
+	"aliases": [],
+	"groups": [],
+	"name": "mens"
+}, {
+	"character": "🌔",
+	"aliases": [],
+	"groups": [],
+	"name": "waxing gibbous moon"
+}, {
+	"character": "🎂",
+	"aliases": [],
+	"groups": [],
+	"name": "birthday"
+}, {
+	"character": "🐈",
+	"aliases": [],
+	"groups": [],
+	"name": "cat2"
+}, {
+	"character": "🚍",
+	"aliases": [],
+	"groups": [],
+	"name": "oncoming bus"
+}, {
+	"character": "💲",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy dollar sign"
+}, {
+	"character": "🌁",
+	"aliases": [],
+	"groups": [],
+	"name": "foggy"
+}, {
+	"character": "🍆",
+	"aliases": [],
+	"groups": [],
+	"name": "eggplant"
+}, {
+	"character": "👂",
+	"aliases": [],
+	"groups": [],
+	"name": "ear"
+}, {
+	"character": "🎵",
+	"aliases": [],
+	"groups": [],
+	"name": "musical note"
+}, {
+	"character": "🎹",
+	"aliases": [],
+	"groups": [],
+	"name": "musical keyboard"
+}, {
+	"character": "🔘",
+	"aliases": [],
+	"groups": [],
+	"name": "radio button"
+}, {
+	"character": "✨",
+	"aliases": [],
+	"groups": [],
+	"name": "sparkles"
+}, {
+	"character": "💀",
+	"aliases": [],
+	"groups": [],
+	"name": "skull"
+}, {
+	"character": "🎮",
+	"aliases": [],
+	"groups": [],
+	"name": "video game"
+}, {
+	"character": "⛅",
+	"aliases": [],
+	"groups": [],
+	"name": "partly sunny"
+}, {
+	"character": "📇",
+	"aliases": [],
+	"groups": [],
+	"name": "card index"
+}, {
+	"character": "😞",
+	"aliases": [],
+	"groups": [],
+	"name": "disappointed"
+}, {
+	"character": "⭐",
+	"aliases": [],
+	"groups": [],
+	"name": "star"
+}, {
+	"character": "🕛",
+	"aliases": [],
+	"groups": [],
+	"name": "clock12"
+}, {
+	"character": "🚔",
+	"aliases": [],
+	"groups": [],
+	"name": "oncoming police car"
+}, {
+	"character": "㊙",
+	"aliases": [],
+	"groups": [],
+	"name": "secret"
+}, {
+	"character": "🍛",
+	"aliases": [],
+	"groups": [],
+	"name": "curry"
+}, {
+	"character": "😢",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "cry"
+}, {
+	"character": "🛁",
+	"aliases": [],
+	"groups": [],
+	"name": "bathtub"
+}, {
+	"character": "🚁",
+	"aliases": [],
+	"groups": [],
+	"name": "helicopter"
+}, {
+	"character": "🔲",
+	"aliases": [],
+	"groups": [],
+	"name": "black square button"
+}, {
+	"character": "🕞",
+	"aliases": [],
+	"groups": [],
+	"name": "clock330"
+}, {
+	"character": "❗",
+	"aliases": [],
+	"groups": [],
+	"name": "exclamation"
+}, {
+	"character": "⤵",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow heading down"
+}, {
+	"character": "🌕",
+	"aliases": [],
+	"groups": [],
+	"name": "full moon"
+}, {
+	"character": "😀",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "grinning"
+}, {
+	"character": "🌖",
+	"aliases": [],
+	"groups": [],
+	"name": "waning gibbous moon"
+}, {
+	"character": "😔",
+	"aliases": [],
+	"groups": [],
+	"name": "pensive"
+}, {
+	"character": "🌲",
+	"aliases": [],
+	"groups": [],
+	"name": "evergreen tree"
+}, {
+	"character": "📮",
+	"aliases": [],
+	"groups": [],
+	"name": "postbox"
+}, {
+	"character": "▶",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow forward"
+}, {
+	"character": "👡",
+	"aliases": [],
+	"groups": [],
+	"name": "sandal"
+}, {
+	"character": "◻",
+	"aliases": [],
+	"groups": [],
+	"name": "white medium square"
+}, {
+	"character": "⛽",
+	"aliases": [],
+	"groups": [],
+	"name": "fuelpump"
+}, {
+	"character": "6️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "six"
+}, {
+	"character": "🏃",
+	"aliases": [],
+	"groups": [],
+	"name": "running"
+}, {
+	"character": "🍶",
+	"aliases": [],
+	"groups": [],
+	"name": "sake"
+}, {
+	"character": "🐣",
+	"aliases": [],
+	"groups": [],
+	"name": "hatching chick"
+}, {
+	"character": "🏣",
+	"aliases": [],
+	"groups": [],
+	"name": "post office"
+}, {
+	"character": "🌞",
+	"aliases": [],
+	"groups": [],
+	"name": "sun with face"
+}, {
+	"character": "🔎",
+	"aliases": [],
+	"groups": [],
+	"name": "mag right"
+}, {
+	"character": "🈴",
+	"aliases": [],
+	"groups": [],
+	"name": "u5408"
+}, {
+	"character": "✌",
+	"aliases": [],
+	"groups": [],
+	"name": "v"
+}, {
+	"character": "🎦",
+	"aliases": [],
+	"groups": [],
+	"name": "cinema"
+}, {
+	"character": "🎈",
+	"aliases": [],
+	"groups": [],
+	"name": "balloon"
+}, {
+	"character": "🆖",
+	"aliases": [],
+	"groups": [],
+	"name": "ng"
+}, {
+	"character": "👦",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "boy"
+}, {
+	"character": "🐓",
+	"aliases": [],
+	"groups": [],
+	"name": "rooster"
+}, {
+	"character": "💹",
+	"aliases": [],
+	"groups": [],
+	"name": "chart"
+}, {
+	"character": "📀",
+	"aliases": [],
+	"groups": [],
+	"name": "dvd"
+}, {
+	"character": "🎿",
+	"aliases": [],
+	"groups": [],
+	"name": "ski"
+}, {
+	"character": "📪",
+	"aliases": [],
+	"groups": [],
+	"name": "mailbox closed"
+}, {
+	"character": "👌",
+	"aliases": [],
+	"groups": [],
+	"name": "ok hand"
+}, {
+	"character": "🔪",
+	"aliases": [],
+	"groups": [],
+	"name": "hocho"
+}, {
+	"character": "🌉",
+	"aliases": [],
+	"groups": [],
+	"name": "bridge at night"
+}, {
+	"character": "🔁",
+	"aliases": [],
+	"groups": [],
+	"name": "repeat"
+}, {
+	"character": "🌒",
+	"aliases": [],
+	"groups": [],
+	"name": "waxing crescent moon"
+}, {
+	"character": "🚸",
+	"aliases": [],
+	"groups": [],
+	"name": "children crossing"
+}, {
+	"character": "🔄",
+	"aliases": [],
+	"groups": [],
+	"name": "arrows counterclockwise"
+}, {
+	"character": "◼️",
+	"aliases": [],
+	"groups": [],
+	"name": "black square"
+}, {
+	"character": "🚽",
+	"aliases": [],
+	"groups": [],
+	"name": "toilet"
+}, {
+	"character": "🚛",
+	"aliases": [],
+	"groups": [],
+	"name": "articulated lorry"
+}, {
+	"character": "😛",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "stuck out tongue"
+}, {
+	"character": "🌈",
+	"aliases": [],
+	"groups": [],
+	"name": "rainbow"
+}, {
+	"character": "🔬",
+	"aliases": [],
+	"groups": [],
+	"name": "microscope"
+}, {
+	"character": "🗽",
+	"aliases": [],
+	"groups": [],
+	"name": "statue of liberty"
+}, {
+	"character": "🍔",
+	"aliases": [],
+	"groups": [],
+	"name": "burger"
+}, {
+	"character": "🆗",
+	"aliases": [],
+	"groups": [],
+	"name": "ok"
+}, {
+	"character": "🚐",
+	"aliases": [],
+	"groups": [],
+	"name": "minibus"
+}, {
+	"character": "♉",
+	"aliases": [],
+	"groups": [],
+	"name": "taurus"
+}, {
+	"character": "🌑",
+	"aliases": [],
+	"groups": [],
+	"name": "new moon"
+}, {
+	"character": "🇩🇪",
+	"aliases": [],
+	"groups": [],
+	"name": "de"
+}, {
+	"character": "🔔",
+	"aliases": [],
+	"groups": [],
+	"name": "bell"
+}, {
+	"character": "🔰",
+	"aliases": [],
+	"groups": [],
+	"name": "beginner"
+}, {
+	"character": "🍻",
+	"aliases": [],
+	"groups": [],
+	"name": "beers"
+}, {
+	"character": "😰",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "cold sweat"
+}, {
+	"character": "😫",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "tired face"
+}, {
+	"character": "↘",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow lower right"
+}, {
+	"character": "💛",
+	"aliases": [],
+	"groups": [],
+	"name": "yellow heart"
+}, {
+	"character": "👈",
+	"aliases": [],
+	"groups": [],
+	"name": "point left"
+}, {
+	"character": "📃",
+	"aliases": [],
+	"groups": [],
+	"name": "page with curl"
+}, {
+	"character": "🕜",
+	"aliases": [],
+	"groups": [],
+	"name": "clock130"
+}, {
+	"character": "🍄",
+	"aliases": [],
+	"groups": [],
+	"name": "mushroom"
+}, {
+	"character": "📫",
+	"aliases": [],
+	"groups": [],
+	"name": "mailbox"
+}, {
+	"character": "🌜",
+	"aliases": [],
+	"groups": [],
+	"name": "last quarter moon with face"
+}, {
+	"character": "♣",
+	"aliases": [],
+	"groups": [],
+	"name": "clubs"
+}, {
+	"character": "🐚",
+	"aliases": [],
+	"groups": [],
+	"name": "shell"
+}, {
+	"character": "🐴",
+	"aliases": [],
+	"groups": [],
+	"name": "horse"
+}, {
+	"character": "🚗",
+	"aliases": [],
+	"groups": [],
+	"name": "red car"
+}, {
+	"character": "🈳",
+	"aliases": [],
+	"groups": [],
+	"name": "u7a7a"
+}, {
+	"character": "▫",
+	"aliases": [],
+	"groups": [],
+	"name": "white small square"
+}, {
+	"character": "👻",
+	"aliases": [],
+	"groups": [],
+	"name": "ghost"
+}, {
+	"character": "🐵",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "monkey face"
+}, {
+	"character": "🎅",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "santa"
+}, {
+	"character": "💑",
+	"aliases": [],
+	"groups": [],
+	"name": "couple with heart"
+}, {
+	"character": "😇",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "innocent"
+}, {
+	"character": "🔣",
+	"aliases": [],
+	"groups": [],
+	"name": "symbols"
+}, {
+	"character": "🎪",
+	"aliases": [],
+	"groups": [],
+	"name": "circus tent"
+}, {
+	"character": "🐥",
+	"aliases": [],
+	"groups": [],
+	"name": "hatched chick"
+}, {
+	"character": "👭",
+	"aliases": [],
+	"groups": [],
+	"name": "two women holding hands"
+}, {
+	"character": "♒",
+	"aliases": [],
+	"groups": [],
+	"name": "aquarius"
+}, {
+	"character": "🎬",
+	"aliases": [],
+	"groups": [],
+	"name": "clapper"
+}, {
+	"character": "😳",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "flushed"
+}, {
+	"character": "📯",
+	"aliases": [],
+	"groups": [],
+	"name": "postal horn"
+}, {
+	"character": "🚎",
+	"aliases": [],
+	"groups": [],
+	"name": "trolleybus"
+}, {
+	"character": "➰",
+	"aliases": [],
+	"groups": [],
+	"name": "curly loop"
+}, {
+	"character": "🌝",
+	"aliases": [],
+	"groups": [],
+	"name": "full moon with face"
+}, {
+	"character": "🐙",
+	"aliases": [],
+	"groups": [],
+	"name": "octopus"
+}, {
+	"character": "🍇",
+	"aliases": [],
+	"groups": [],
+	"name": "grapes"
+}, {
+	"character": "🎺",
+	"aliases": [],
+	"groups": [],
+	"name": "trumpet"
+}, {
+	"character": "📔",
+	"aliases": [],
+	"groups": [],
+	"name": "notebook with decorative cover"
+}, {
+	"character": "😍",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "heart eyes"
+}, {
+	"character": "💍",
+	"aliases": [],
+	"groups": [],
+	"name": "ring"
+}, {
+	"character": "🔏",
+	"aliases": [],
+	"groups": [],
+	"name": "lock with ink pen"
+}, {
+	"character": "🍭",
+	"aliases": [],
+	"groups": [],
+	"name": "lollipop"
+}, {
+	"character": "🍒",
+	"aliases": [],
+	"groups": [],
+	"name": "cherries"
+}, {
+	"character": "🏤",
+	"aliases": [],
+	"groups": [],
+	"name": "european post office"
+}, {
+	"character": "❄",
+	"aliases": [],
+	"groups": [],
+	"name": "snowflake"
+}, {
+	"character": "💈",
+	"aliases": [],
+	"groups": [],
+	"name": "barber"
+}, {
+	"character": "🔃",
+	"aliases": [],
+	"groups": [],
+	"name": "arrows clockwise"
+}, {
+	"character": "🐫",
+	"aliases": [],
+	"groups": [],
+	"name": "camel"
+}, {
+	"character": "✖",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy multiplication x"
+}, {
+	"character": "👿",
+	"aliases": [],
+	"groups": [],
+	"name": "imp"
+}, {
+	"character": "💊",
+	"aliases": [],
+	"groups": [],
+	"name": "pill"
+}, {
+	"character": "🐞",
+	"aliases": [],
+	"groups": [],
+	"name": "beetle"
+}, {
+	"character": "💩",
+	"aliases": [],
+	"groups": [],
+	"name": "hankey"
+}, {
+	"character": "🚷",
+	"aliases": [],
+	"groups": [],
+	"name": "no pedestrians"
+}, {
+	"character": "📶",
+	"aliases": [],
+	"groups": [],
+	"name": "signal strength"
+}, {
+	"character": "🙉",
+	"aliases": [],
+	"groups": [],
+	"name": "hear no evil"
+}, {
+	"character": "📐",
+	"aliases": [],
+	"groups": [],
+	"name": "triangular ruler"
+}, {
+	"character": "🎁",
+	"aliases": [],
+	"groups": [],
+	"name": "gift"
+}, {
+	"character": "🚄",
+	"aliases": [],
+	"groups": [],
+	"name": "bullettrain side"
+}, {
+	"character": "🔓",
+	"aliases": [],
+	"groups": [],
+	"name": "unlock"
+}, {
+	"character": "🔹",
+	"aliases": [],
+	"groups": [],
+	"name": "small blue diamond"
+}, {
+	"character": "🏰",
+	"aliases": [],
+	"groups": [],
+	"name": "european castle"
+}, {
+	"character": "♠",
+	"aliases": [],
+	"groups": [],
+	"name": "spades"
+}, {
+	"character": "📒",
+	"aliases": [],
+	"groups": [],
+	"name": "ledger"
+}, {
+	"character": "🎉",
+	"aliases": [],
+	"groups": [],
+	"name": "tada"
+}, {
+	"character": "🗻",
+	"aliases": [],
+	"groups": [],
+	"name": "mount fuji"
+}, {
+	"character": "😣",
+	"aliases": [],
+	"groups": [],
+	"name": "persevere"
+}, {
+	"character": "🕡",
+	"aliases": [],
+	"groups": [],
+	"name": "clock630"
+}, {
+	"character": "🐏",
+	"aliases": [],
+	"groups": [],
+	"name": "ram"
+}, {
+	"character": "🅱",
+	"aliases": [],
+	"groups": [],
+	"name": "b"
+}, {
+	"character": "☝",
+	"aliases": [],
+	"groups": [],
+	"name": "point up"
+}, {
+	"character": "⛄",
+	"aliases": [],
+	"groups": [],
+	"name": "snowman"
+}, {
+	"character": "🍥",
+	"aliases": [],
+	"groups": [],
+	"name": "fish cake"
+}, {
+	"character": "🕒",
+	"aliases": [],
+	"groups": [],
+	"name": "clock3"
+}, {
+	"character": "📕",
+	"aliases": [],
+	"groups": [],
+	"name": "closed book"
+}, {
+	"character": "🏭",
+	"aliases": [],
+	"groups": [],
+	"name": "factory"
+}, {
+	"character": "🈂",
+	"aliases": [],
+	"groups": [],
+	"name": "sa"
+}, {
+	"character": "2️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "two"
+}, {
+	"character": "😉",
+	"aliases": [],
+	"groups": [],
+	"name": "wink"
+}, {
+	"character": "🌄",
+	"aliases": [],
+	"groups": [],
+	"name": "sunrise over mountains"
+}, {
+	"character": "🎠",
+	"aliases": [],
+	"groups": [],
+	"name": "carousel horse"
+}, {
+	"character": "🇪🇸",
+	"aliases": [],
+	"groups": [],
+	"name": "es"
+}, {
+	"character": "🌂",
+	"aliases": [],
+	"groups": [],
+	"name": "closed umbrella"
+}, {
+	"character": "🍝",
+	"aliases": [],
+	"groups": [],
+	"name": "spaghetti"
+}, {
+	"character": "🅰",
+	"aliases": [],
+	"groups": [],
+	"name": "a"
+}, {
+	"character": "🎳",
+	"aliases": [],
+	"groups": [],
+	"name": "bowling"
+}, {
+	"character": "👕",
+	"aliases": [],
+	"groups": [],
+	"name": "tshirt"
+}, {
+	"character": "🔼",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow up small"
+}, {
+	"character": "💣",
+	"aliases": [],
+	"groups": [],
+	"name": "bomb"
+}, {
+	"character": "🚠",
+	"aliases": [],
+	"groups": [],
+	"name": "mountain cableway"
+}, {
+	"character": "➿",
+	"aliases": [],
+	"groups": [],
+	"name": "loop"
+}, {
+	"character": "🔐",
+	"aliases": [],
+	"groups": [],
+	"name": "closed lock with key"
+}, {
+	"character": "🎷",
+	"aliases": [],
+	"groups": [],
+	"name": "saxophone"
+}, {
+	"character": "🐊",
+	"aliases": [],
+	"groups": [],
+	"name": "crocodile"
+}, {
+	"character": "🚃",
+	"aliases": [],
+	"groups": [],
+	"name": "train"
+}, {
+	"character": "🚖",
+	"aliases": [],
+	"groups": [],
+	"name": "oncoming taxi"
+}, {
+	"character": "📹",
+	"aliases": [],
+	"groups": [],
+	"name": "video camera"
+}, {
+	"character": "㊗",
+	"aliases": [],
+	"groups": [],
+	"name": "congratulations"
+}, {
+	"character": "👽",
+	"aliases": [],
+	"groups": [],
+	"name": "alien"
+}, {
+	"character": "👄",
+	"aliases": [],
+	"groups": [],
+	"name": "lips"
+}, {
+	"character": "😵",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "dizzy face"
+}, {
+	"character": "👕",
+	"aliases": [],
+	"groups": [],
+	"name": "shirt"
+}, {
+	"character": "🚭",
+	"aliases": [],
+	"groups": [],
+	"name": "no smoking"
+}, {
+	"character": "⭕",
+	"aliases": [],
+	"groups": [],
+	"name": "o"
+}, {
+	"character": "👜",
+	"aliases": [],
+	"groups": [],
+	"name": "handbag"
+}, {
+	"character": "🌷",
+	"aliases": [],
+	"groups": [],
+	"name": "tulip"
+}, {
+	"character": "〰",
+	"aliases": [],
+	"groups": [],
+	"name": "wavy dash"
+}, {
+	"character": "🍬",
+	"aliases": [],
+	"groups": [],
+	"name": "candy"
+}, {
+	"character": "🗾",
+	"aliases": [],
+	"groups": [],
+	"name": "japan"
+}, {
+	"character": "👣",
+	"aliases": [],
+	"groups": [],
+	"name": "footprints"
+}, {
+	"character": "📱",
+	"aliases": [],
+	"groups": [],
+	"name": "iphone"
+}, {
+	"character": "🍅",
+	"aliases": [],
+	"groups": [],
+	"name": "tomato"
+}, {
+	"character": "🈸",
+	"aliases": [],
+	"groups": [],
+	"name": "u7533"
+}, {
+	"character": "🍉",
+	"aliases": [],
+	"groups": [],
+	"name": "watermelon"
+}, {
+	"character": "🌋",
+	"aliases": [],
+	"groups": [],
+	"name": "volcano"
+}, {
+	"character": "✔",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy check mark"
+}, {
+	"character": "😘",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "kissing heart"
+}, {
+	"character": "🍪",
+	"aliases": [],
+	"groups": [],
+	"name": "cookie"
+}, {
+	"character": "🍜",
+	"aliases": [],
+	"groups": [],
+	"name": "ramen"
+}, {
+	"character": "🚰",
+	"aliases": [],
+	"groups": [],
+	"name": "potable water"
+}, {
+	"character": "😌",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "relieved"
+}, {
+	"character": "💾",
+	"aliases": [],
+	"groups": [],
+	"name": "floppy disk"
+}, {
+	"character": "😒",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "unamused"
+}, {
+	"character": "🍙",
+	"aliases": [],
+	"groups": [],
+	"name": "rice ball"
+}, {
+	"character": "✳",
+	"aliases": [],
+	"groups": [],
+	"name": "eight spoked asterisk"
+}, {
+	"character": "🚥",
+	"aliases": [],
+	"groups": [],
+	"name": "traffic light"
+}, {
+	"character": "🍕",
+	"aliases": [],
+	"groups": [],
+	"name": "pizza"
+}, {
+	"character": "💁",
+	"aliases": [],
+	"groups": [],
+	"name": "information desk person"
+}, {
+	"character": "🌐",
+	"aliases": [],
+	"groups": [],
+	"name": "globe with meridians"
+}, {
+	"character": "♋",
+	"aliases": [],
+	"groups": [],
+	"name": "cancer"
+}, {
+	"character": "💎",
+	"aliases": [],
+	"groups": [],
+	"name": "gem"
+}, {
+	"character": "🌳",
+	"aliases": [],
+	"groups": [],
+	"name": "deciduous tree"
+}, {
+	"character": "🍐",
+	"aliases": [],
+	"groups": [],
+	"name": "pear"
+}, {
+	"character": "♥",
+	"aliases": [],
+	"groups": [],
+	"name": "hearts"
+}, {
+	"character": "🍚",
+	"aliases": [],
+	"groups": [],
+	"name": "rice"
+}, {
+	"character": "✒",
+	"aliases": [],
+	"groups": [],
+	"name": "black nib"
+}, {
+	"character": "👊",
+	"aliases": [],
+	"groups": [],
+	"name": "facepunch"
+}, {
+	"character": "🔴",
+	"aliases": [],
+	"groups": [],
+	"name": "red circle"
+}, {
+	"character": "🚱",
+	"aliases": [],
+	"groups": [],
+	"name": "non-potable water"
+}, {
+	"character": "🐲",
+	"aliases": [],
+	"groups": [],
+	"name": "dragon face"
+}, {
+	"character": "🏯",
+	"aliases": [],
+	"groups": [],
+	"name": "japanese castle"
+}, {
+	"character": "➖",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy minus sign"
+}, {
+	"character": "😴",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "sleeping"
+}, {
+	"character": "😼",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "smirk cat"
+}, {
+	"character": "💪",
+	"aliases": [],
+	"groups": [],
+	"name": "muscle"
+}, {
+	"character": "🎥",
+	"aliases": [],
+	"groups": [],
+	"name": "movie camera"
+}, {
+	"character": "💏",
+	"aliases": [],
+	"groups": [],
+	"name": "couplekiss"
+}, {
+	"character": "😪",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "sleepy"
+}, {
+	"character": "⏳",
+	"aliases": [],
+	"groups": [],
+	"name": "hourglass flowing sand"
+}, {
+	"character": "🎊",
+	"aliases": [],
+	"groups": [],
+	"name": "confetti ball"
+}, {
+	"character": "👏",
+	"aliases": [],
+	"groups": [],
+	"name": "clap"
+}, {
+	"character": "💬",
+	"aliases": [],
+	"groups": [],
+	"name": "speech balloon"
+}, {
+	"character": "🎶",
+	"aliases": [],
+	"groups": [],
+	"name": "notes"
+}, {
+	"character": "🗿",
+	"aliases": [],
+	"groups": [],
+	"name": "moyai"
+}, {
+	"character": "🌻",
+	"aliases": [],
+	"groups": [],
+	"name": "sunflower"
+}, {
+	"character": "↙",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow lower left"
+}, {
+	"character": "💖",
+	"aliases": [],
+	"groups": [],
+	"name": "sparkling heart"
+}, {
+	"character": "😗",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "kissing"
+}, {
+	"character": "🌇",
+	"aliases": [],
+	"groups": [],
+	"name": "city sunrise"
+}, {
+	"character": "🍧",
+	"aliases": [],
+	"groups": [],
+	"name": "shaved ice"
+}, {
+	"character": "🚢",
+	"aliases": [],
+	"groups": [],
+	"name": "ship"
+}, {
+	"character": "🔇",
+	"aliases": [],
+	"groups": [],
+	"name": "mute"
+}, {
+	"character": "💇",
+	"aliases": [],
+	"groups": [],
+	"name": "haircut"
+}, {
+	"character": "🔂",
+	"aliases": [],
+	"groups": [],
+	"name": "repeat one"
+}, {
+	"character": "🏧",
+	"aliases": [],
+	"groups": [],
+	"name": "atm"
+}, {
+	"character": "⏬",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow double down"
+}, {
+	"character": "💩",
+	"aliases": [],
+	"groups": [],
+	"name": "poop"
+}, {
+	"character": "⚓",
+	"aliases": [],
+	"groups": [],
+	"name": "anchor"
+}, {
+	"character": "🔭",
+	"aliases": [],
+	"groups": [],
+	"name": "telescope"
+}, {
+	"character": "✈",
+	"aliases": [],
+	"groups": [],
+	"name": "airplane"
+}, {
+	"character": "🔤",
+	"aliases": [],
+	"groups": [],
+	"name": "abc"
+}, {
+	"character": "❕",
+	"aliases": [],
+	"groups": [],
+	"name": "grey exclamation"
+}, {
+	"character": "🈯",
+	"aliases": [],
+	"groups": [],
+	"name": "u6307"
+}, {
+	"character": "🍍",
+	"aliases": [],
+	"groups": [],
+	"name": "pineapple"
+}, {
+	"character": "🌀",
+	"aliases": [],
+	"groups": [],
+	"name": "cyclone"
+}, {
+	"character": "🌍",
+	"aliases": [],
+	"groups": [],
+	"name": "earth africa"
+}, {
+	"character": "☁",
+	"aliases": [],
+	"groups": [],
+	"name": "cloud"
+}, {
+	"character": "♏",
+	"aliases": [],
+	"groups": [],
+	"name": "scorpius"
+}, {
+	"character": "🐷",
+	"aliases": [],
+	"groups": [],
+	"name": "pig"
+}, {
+	"character": "🔊",
+	"aliases": [],
+	"groups": [],
+	"name": "speaker"
+}, {
+	"character": "🐧",
+	"aliases": [],
+	"groups": [],
+	"name": "penguin"
+}, {
+	"character": "💮",
+	"aliases": [],
+	"groups": [],
+	"name": "white flower"
+}, {
+	"character": "✏",
+	"aliases": [],
+	"groups": [],
+	"name": "pencil2"
+}, {
+	"character": "🐄",
+	"aliases": [],
+	"groups": [],
+	"name": "cow2"
+}, {
+	"character": "💘",
+	"aliases": [],
+	"groups": [],
+	"name": "cupid"
+}, {
+	"character": "💤",
+	"aliases": [],
+	"groups": [],
+	"name": "zzz"
+}, {
+	"character": "😅",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "sweat smile"
+}, {
+	"character": "💗",
+	"aliases": [],
+	"groups": [],
+	"name": "heartpulse"
+}, {
+	"character": "🍸",
+	"aliases": [],
+	"groups": [],
+	"name": "cocktail"
+}, {
+	"character": "✅",
+	"aliases": [],
+	"groups": [],
+	"name": "white check mark"
+}, {
+	"character": "⚽",
+	"aliases": [],
+	"groups": [],
+	"name": "soccer"
+}, {
+	"character": "⛔",
+	"aliases": [],
+	"groups": [],
+	"name": "no entry"
+}, {
+	"character": "🅿",
+	"aliases": [],
+	"groups": [],
+	"name": "parking"
+}, {
+	"character": "🌰",
+	"aliases": [],
+	"groups": [],
+	"name": "chestnut"
+}, {
+	"character": "🏥",
+	"aliases": [],
+	"groups": [],
+	"name": "hospital"
+}, {
+	"character": "🔯",
+	"aliases": [],
+	"groups": [],
+	"name": "six pointed star"
+}, {
+	"character": "🐸",
+	"aliases": [],
+	"groups": [],
+	"name": "frog"
+}, {
+	"character": "♊",
+	"aliases": [],
+	"groups": [],
+	"name": "gemini"
+}, {
+	"character": "🎎",
+	"aliases": [],
+	"groups": [],
+	"name": "dolls"
+}, {
+	"character": "❗",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy exclamation mark"
+}, {
+	"character": "👩",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "woman"
+}, {
+	"character": "🍋",
+	"aliases": [],
+	"groups": [],
+	"name": "lemon"
+}, {
+	"character": "📞",
+	"aliases": [],
+	"groups": [],
+	"name": "telephone receiver"
+}, {
+	"character": "💚",
+	"aliases": [],
+	"groups": [],
+	"name": "green heart"
+}, {
+	"character": "🔫",
+	"aliases": [],
+	"groups": [],
+	"name": "gun"
+}, {
+	"character": "📢",
+	"aliases": [],
+	"groups": [],
+	"name": "loudspeaker"
+}, {
+	"character": "😧",
+	"aliases": [],
+	"groups": [],
+	"name": "anguished"
+}, {
+	"character": "🍷",
+	"aliases": [],
+	"groups": [],
+	"name": "wine glass"
+}, {
+	"character": "🎾",
+	"aliases": [],
+	"groups": [],
+	"name": "tennis"
+}, {
+	"character": "🌏",
+	"aliases": [],
+	"groups": [],
+	"name": "earth asia"
+}, {
+	"character": "👪",
+	"aliases": [],
+	"groups": [],
+	"name": "family"
+}, {
+	"character": "⏰",
+	"aliases": [],
+	"groups": [],
+	"name": "alarm clock"
+}, {
+	"character": "💃",
+	"aliases": [],
+	"groups": [],
+	"name": "dancer"
+}, {
+	"character": "👗",
+	"aliases": [],
+	"groups": [],
+	"name": "dress"
+}, {
+	"character": "⤴",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow heading up"
+}, {
+	"character": "🏡",
+	"aliases": [],
+	"groups": [],
+	"name": "house with garden"
+}, {
+	"character": "👶",
+	"aliases": [],
+	"groups": [],
+	"name": "baby"
+}, {
+	"character": "❔",
+	"aliases": [],
+	"groups": [],
+	"name": "grey question"
+}, {
+	"character": "👚",
+	"aliases": [],
+	"groups": [],
+	"name": "womans clothes"
+}, {
+	"character": "🍞",
+	"aliases": [],
+	"groups": [],
+	"name": "bread"
+}, {
+	"character": "📳",
+	"aliases": [],
+	"groups": [],
+	"name": "vibration mode"
+}, {
+	"character": "🛃",
+	"aliases": [],
+	"groups": [],
+	"name": "customs"
+}, {
+	"character": "🔆",
+	"aliases": [],
+	"groups": [],
+	"name": "high brightness"
+}, {
+	"character": "🇺🇸",
+	"aliases": [],
+	"groups": [],
+	"name": "us"
+}, {
+	"character": "🍠",
+	"aliases": [],
+	"groups": [],
+	"name": "sweet potato"
+}, {
+	"character": "👒",
+	"aliases": [],
+	"groups": [],
+	"name": "womans hat"
+}, {
+	"character": "🔷",
+	"aliases": [],
+	"groups": [],
+	"name": "large blue diamond"
+}, {
+	"character": "🍮",
+	"aliases": [],
+	"groups": [],
+	"name": "custard"
+}, {
+	"character": "🕦",
+	"aliases": [],
+	"groups": [],
+	"name": "clock1130"
+}, {
+	"character": "🔥",
+	"aliases": [],
+	"groups": [],
+	"name": "fire"
+}, {
+	"character": "📤",
+	"aliases": [],
+	"groups": [],
+	"name": "outbox tray"
+}, {
+	"character": "🌾",
+	"aliases": [],
+	"groups": [],
+	"name": "ear of rice"
+}, {
+	"character": "#️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "hash"
+}, {
+	"character": "🏉",
+	"aliases": [],
+	"groups": [],
+	"name": "rugby football"
+}, {
+	"character": "💥",
+	"aliases": [],
+	"groups": [],
+	"name": "boom"
+}, {
+	"character": "🐌",
+	"aliases": [],
+	"groups": [],
+	"name": "snail"
+}, {
+	"character": "🚩",
+	"aliases": [],
+	"groups": [],
+	"name": "triangular flag on post"
+}, {
+	"character": "📲",
+	"aliases": [],
+	"groups": [],
+	"name": "calling"
+}, {
+	"character": "😄",
+	"aliases": [],
+	"groups": [],
+	"name": "smile"
+}, {
+	"character": "🌸",
+	"aliases": [],
+	"groups": [],
+	"name": "cherry blossom"
+}, {
+	"character": "🐀",
+	"aliases": [],
+	"groups": [],
+	"name": "rat"
+}, {
+	"character": "❎",
+	"aliases": [],
+	"groups": [],
+	"name": "negative squared cross mark"
+}, {
+	"character": "📷",
+	"aliases": [],
+	"groups": [],
+	"name": "camera"
+}, {
+	"character": "🇫🇷",
+	"aliases": [],
+	"groups": [],
+	"name": "fr"
+}, {
+	"character": "💵",
+	"aliases": [],
+	"groups": [],
+	"name": "dollar"
+}, {
+	"character": "🍡",
+	"aliases": [],
+	"groups": [],
+	"name": "dango"
+}, {
+	"character": "🚴",
+	"aliases": [],
+	"groups": [],
+	"name": "bicyclist"
+}, {
+	"character": "🈚",
+	"aliases": [],
+	"groups": [],
+	"name": "u7121"
+}, {
+	"character": "🎲",
+	"aliases": [],
+	"groups": [],
+	"name": "game die"
+}, {
+	"character": "📻",
+	"aliases": [],
+	"groups": [],
+	"name": "radio"
+}, {
+	"character": "😁",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "grin"
+}, {
+	"character": "🎍",
+	"aliases": [],
+	"groups": [],
+	"name": "bamboo"
+}, {
+	"character": "😈",
+	"aliases": [],
+	"groups": [],
+	"name": "smiling imp"
+}, {
+	"character": "🐢",
+	"aliases": [],
+	"groups": [],
+	"name": "turtle"
+}, {
+	"character": "0️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "zero"
+}, {
+	"character": "🎡",
+	"aliases": [],
+	"groups": [],
+	"name": "ferris wheel"
+}, {
+	"character": "🆔",
+	"aliases": [],
+	"groups": [],
+	"name": "id"
+}, {
+	"character": "🚾",
+	"aliases": [],
+	"groups": [],
+	"name": "wc"
+}, {
+	"character": "🚕",
+	"aliases": [],
+	"groups": [],
+	"name": "cab"
+}, {
+	"character": "👔",
+	"aliases": [],
+	"groups": [],
+	"name": "necktie"
+}, {
+	"character": "😃",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "smiley"
+}, {
+	"character": "🎴",
+	"aliases": [],
+	"groups": [],
+	"name": "flower playing cards"
+}, {
+	"character": "😾",
+	"aliases": [],
+	"groups": [],
+	"name": "pouting cat"
+}, {
+	"character": "📡",
+	"aliases": [],
+	"groups": [],
+	"name": "satellite"
+}, {
+	"character": "⬛",
+	"aliases": [],
+	"groups": [],
+	"name": "black large square"
+}, {
+	"character": "🎣",
+	"aliases": [],
+	"groups": [],
+	"name": "fishing pole and fish"
+}, {
+	"character": "🍃",
+	"aliases": [],
+	"groups": [],
+	"name": "leaves"
+}, {
+	"character": "🔙",
+	"aliases": [],
+	"groups": [],
+	"name": "back"
+}, {
+	"character": "💩",
+	"aliases": [],
+	"groups": [],
+	"name": "shit"
+}, {
+	"character": "🔜",
+	"aliases": [],
+	"groups": [],
+	"name": "soon"
+}, {
+	"character": "📠",
+	"aliases": [],
+	"groups": [],
+	"name": "fax"
+}, {
+	"character": "🏄",
+	"aliases": [],
+	"groups": [],
+	"name": "surfer"
+}, {
+	"character": "😏",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "smirk"
+}, {
+	"character": "🙈",
+	"aliases": [],
+	"groups": [],
+	"name": "see no evil"
+}, {
+	"character": "🐔",
+	"aliases": [],
+	"groups": [],
+	"name": "chicken"
+}, {
+	"character": "😠",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "angry"
+}, {
+	"character": "🕚",
+	"aliases": [],
+	"groups": [],
+	"name": "clock11"
+}, {
+	"character": "🍊",
+	"aliases": [],
+	"groups": [],
+	"name": "tangerine"
+}, {
+	"character": "💼",
+	"aliases": [],
+	"groups": [],
+	"name": "briefcase"
+}, {
+	"character": "🎤",
+	"aliases": [],
+	"groups": [],
+	"name": "microphone"
+}, {
+	"character": "🔨",
+	"aliases": [],
+	"groups": [],
+	"name": "hammer"
+}, {
+	"character": "🙌",
+	"aliases": [],
+	"groups": [],
+	"name": "raised hands"
+}, {
+	"character": "💆",
+	"aliases": [],
+	"groups": [],
+	"name": "massage"
+}, {
+	"character": "🐭",
+	"aliases": [],
+	"groups": [],
+	"name": "mouse"
+}, {
+	"character": "⌛",
+	"aliases": [],
+	"groups": [],
+	"name": "hourglass"
+}, {
+	"character": "🍈",
+	"aliases": [],
+	"groups": [],
+	"name": "melon"
+}, {
+	"character": "📁",
+	"aliases": [],
+	"groups": [],
+	"name": "file folder"
+}, {
+	"character": "🎱",
+	"aliases": [],
+	"groups": [],
+	"name": "8ball"
+}, {
+	"character": "🐘",
+	"aliases": [],
+	"groups": [],
+	"name": "elephant"
+}, {
+	"character": "↪",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow right hook"
+}, {
+	"character": "👑",
+	"aliases": [],
+	"groups": [],
+	"name": "crown"
+}, {
+	"character": "💨",
+	"aliases": [],
+	"groups": [],
+	"name": "dash"
+}, {
+	"character": "🔵",
+	"aliases": [],
+	"groups": [],
+	"name": "large blue circle"
+}, {
+	"character": "👧",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "girl"
+}, {
+	"character": "💭",
+	"aliases": [],
+	"groups": [],
+	"name": "thought balloon"
+}, {
+	"character": "🀄",
+	"aliases": [],
+	"groups": [],
+	"name": "mahjong"
+}, {
+	"character": "🚪",
+	"aliases": [],
+	"groups": [],
+	"name": "door"
+}, {
+	"character": "👋",
+	"aliases": [],
+	"groups": [],
+	"name": "wave"
+}, {
+	"character": "💉",
+	"aliases": [],
+	"groups": [],
+	"name": "syringe"
+}, {
+	"character": "💔",
+	"aliases": [],
+	"groups": [],
+	"name": "broken heart"
+}, {
+	"character": "⌚",
+	"aliases": [],
+	"groups": [],
+	"name": "watch"
+}, {
+	"character": "❓",
+	"aliases": [],
+	"groups": [],
+	"name": "question"
+}, {
+	"character": "🔺",
+	"aliases": [],
+	"groups": [],
+	"name": "small red triangle"
+}, {
+	"character": "❌",
+	"aliases": [],
+	"groups": [],
+	"name": "x"
+}, {
+	"character": "🐻",
+	"aliases": [],
+	"groups": [],
+	"name": "bear"
+}, {
+	"character": "⬅",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow left"
+}, {
+	"character": "🔉",
+	"aliases": [],
+	"groups": [],
+	"name": "sound"
+}, {
+	"character": "🐶",
+	"aliases": [],
+	"groups": [],
+	"name": "dog"
+}, {
+	"character": "🎽",
+	"aliases": [],
+	"groups": [],
+	"name": "running shirt with sash"
+}, {
+	"character": "😆",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "laughing"
+}, {
+	"character": "🙍",
+	"aliases": [],
+	"groups": [],
+	"name": "person frowning"
+}, {
+	"character": "🍷",
+	"aliases": [],
+	"groups": [],
+	"name": "wine"
+}, {
+	"character": "👅",
+	"aliases": [],
+	"groups": [],
+	"name": "tongue"
+}, {
+	"character": "💿",
+	"aliases": [],
+	"groups": [],
+	"name": "cd"
+}, {
+	"character": "🚳",
+	"aliases": [],
+	"groups": [],
+	"name": "no bicycles"
+}, {
+	"character": "◼",
+	"aliases": [],
+	"groups": [],
+	"name": "black medium square"
+}, {
+	"character": "⚪",
+	"aliases": [],
+	"groups": [],
+	"name": "white circle"
+}, {
+	"character": "👠",
+	"aliases": [],
+	"groups": [],
+	"name": "high heel"
+}, {
+	"character": "🐯",
+	"aliases": [],
+	"groups": [],
+	"name": "tiger"
+}, {
+	"character": "🈷",
+	"aliases": [],
+	"groups": [],
+	"name": "u6708"
+}, {
+	"character": "👓",
+	"aliases": [],
+	"groups": [],
+	"name": "eyeglasses"
+}, {
+	"character": "🌿",
+	"aliases": [],
+	"groups": [],
+	"name": "herb"
+}, {
+	"character": "🚺",
+	"aliases": [],
+	"groups": [],
+	"name": "womens"
+}, {
+	"character": "🐗",
+	"aliases": [],
+	"groups": [],
+	"name": "boar"
+}, {
+	"character": "🇨🇳",
+	"aliases": [],
+	"groups": [],
+	"name": "cn"
+}, {
+	"character": "🕘",
+	"aliases": [],
+	"groups": [],
+	"name": "clock9"
+}, {
+	"character": "🍣",
+	"aliases": [],
+	"groups": [],
+	"name": "sushi"
+}, {
+	"character": "😯",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "hushed"
+}, {
+	"character": "🐖",
+	"aliases": [],
+	"groups": [],
+	"name": "pig2"
+}, {
+	"character": "🅾",
+	"aliases": [],
+	"groups": [],
+	"name": "o2"
+}, {
+	"character": "🔽",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow down small"
+}, {
+	"character": "📓",
+	"aliases": [],
+	"groups": [],
+	"name": "notebook"
+}, {
+	"character": "™",
+	"aliases": [],
+	"groups": [],
+	"name": "tm"
+}, {
+	"character": "🐤",
+	"aliases": [],
+	"groups": [],
+	"name": "baby chick"
+}, {
+	"character": "🔝",
+	"aliases": [],
+	"groups": [],
+	"name": "top"
+}, {
+	"character": "🏊",
+	"aliases": [],
+	"groups": [],
+	"name": "swimmer"
+}, {
+	"character": "🕙",
+	"aliases": [],
+	"groups": [],
+	"name": "clock10"
+}, {
+	"character": "🎊",
+	"aliases": [],
+	"groups": [],
+	"name": "confetti"
+}, {
+	"character": "🐑",
+	"aliases": [],
+	"groups": [],
+	"name": "sheep"
+}, {
+	"character": "🎧",
+	"aliases": [],
+	"groups": [],
+	"name": "headphones"
+}, {
+	"character": "📦",
+	"aliases": [],
+	"groups": [],
+	"name": "package"
+}, {
+	"character": "♓",
+	"aliases": [],
+	"groups": [],
+	"name": "pisces"
+}, {
+	"character": "🕤",
+	"aliases": [],
+	"groups": [],
+	"name": "clock930"
+}, {
+	"character": "😨",
+	"aliases": [],
+	"groups": [],
+	"name": "fearful"
+}, {
+	"character": "🍢",
+	"aliases": [],
+	"groups": [],
+	"name": "oden"
+}, {
+	"character": "🕓",
+	"aliases": [],
+	"groups": [],
+	"name": "clock4"
+}, {
+	"character": "🐮",
+	"aliases": [],
+	"groups": [],
+	"name": "cow"
+}, {
+	"character": "🎼",
+	"aliases": [],
+	"groups": [],
+	"name": "musical score"
+}, {
+	"character": "🏀",
+	"aliases": [],
+	"groups": [],
+	"name": "basketball"
+}, {
+	"character": "🇯🇵",
+	"aliases": [],
+	"groups": [],
+	"name": "jp"
+}, {
+	"character": "🕢",
+	"aliases": [],
+	"groups": [],
+	"name": "clock730"
+}, {
+	"character": "🏨",
+	"aliases": [],
+	"groups": [],
+	"name": "hotel"
+}, {
+	"character": "🙆",
+	"aliases": [],
+	"groups": [],
+	"name": "ok woman"
+}, {
+	"character": "✉",
+	"aliases": [],
+	"groups": [],
+	"name": "envelope"
+}, {
+	"character": "🔳",
+	"aliases": [],
+	"groups": [],
+	"name": "white square button"
+}, {
+	"character": "👨",
+	"aliases": [],
+	"groups": [],
+	"name": "man"
+}, {
+	"character": "💙",
+	"aliases": [],
+	"groups": [],
+	"name": "blue heart"
+}, {
+	"character": "🔕",
+	"aliases": [],
+	"groups": [],
+	"name": "no bell"
+}, {
+	"character": "💱",
+	"aliases": [],
+	"groups": [],
+	"name": "currency exchange"
+}, {
+	"character": "🚈",
+	"aliases": [],
+	"groups": [],
+	"name": "light rail"
+}, {
+	"character": "🎄",
+	"aliases": [],
+	"groups": [],
+	"name": "christmas tree"
+}, {
+	"character": "🚝",
+	"aliases": [],
+	"groups": [],
+	"name": "monorail"
+}, {
+	"character": "🛄",
+	"aliases": [],
+	"groups": [],
+	"name": "baggage claim"
+}, {
+	"character": "🔩",
+	"aliases": [],
+	"groups": [],
+	"name": "nut and bolt"
+}, {
+	"character": "💧",
+	"aliases": [],
+	"groups": [],
+	"name": "droplet"
+}, {
+	"character": "⛪",
+	"aliases": [],
+	"groups": [],
+	"name": "church"
+}, {
+	"character": "⛳",
+	"aliases": [],
+	"groups": [],
+	"name": "golf"
+}, {
+	"character": "☎",
+	"aliases": [],
+	"groups": [],
+	"name": "telephone"
+}, {
+	"character": "🃏",
+	"aliases": [],
+	"groups": [],
+	"name": "black joker"
+}, {
+	"character": "💰",
+	"aliases": [],
+	"groups": [],
+	"name": "moneybag"
+}, {
+	"character": "📜",
+	"aliases": [],
+	"groups": [],
+	"name": "scroll"
+}, {
+	"character": "🙊",
+	"aliases": [],
+	"groups": [],
+	"name": "speak no evil"
+}, {
+	"character": "🐝",
+	"aliases": [],
+	"groups": [],
+	"name": "honeybee"
+}, {
+	"character": "🍀",
+	"aliases": [],
+	"groups": [],
+	"name": "four leaf clover"
+}, {
+	"character": "👎",
+	"aliases": [],
+	"groups": [],
+	"name": "-1"
+}, {
+	"character": "🚨",
+	"aliases": [],
+	"groups": [],
+	"name": "rotating light"
+}, {
+	"character": "📊",
+	"aliases": [],
+	"groups": [],
+	"name": "bar chart"
+}, {
+	"character": "🏪",
+	"aliases": [],
+	"groups": [],
+	"name": "convenience store"
+}, {
+	"character": "🌔",
+	"aliases": [],
+	"groups": [],
+	"name": "moon"
+}, {
+	"character": "🌼",
+	"aliases": [],
+	"groups": [],
+	"name": "blossom"
+}, {
+	"character": "🐝",
+	"aliases": [],
+	"groups": [],
+	"name": "bee"
+}, {
+	"character": "🌙",
+	"aliases": [],
+	"groups": [],
+	"name": "crescent moon"
+}, {
+	"character": "📂",
+	"aliases": [],
+	"groups": [],
+	"name": "open file folder"
+}, {
+	"character": "🔛",
+	"aliases": [],
+	"groups": [],
+	"name": "on"
+}, {
+	"character": "📗",
+	"aliases": [],
+	"groups": [],
+	"name": "green book"
+}, {
+	"character": "🔗",
+	"aliases": [],
+	"groups": [],
+	"name": "link"
+}, {
+	"character": "💂",
+	"aliases": [],
+	"groups": [],
+	"name": "guardsman"
+}, {
+	"character": "💜",
+	"aliases": [],
+	"groups": [],
+	"name": "purple heart"
+}, {
+	"character": "🛀",
+	"aliases": [],
+	"groups": [],
+	"name": "bath"
+}, {
+	"character": "👹",
+	"aliases": [],
+	"groups": [],
+	"name": "japanese ogre"
+}, {
+	"character": "🐡",
+	"aliases": [],
+	"groups": [],
+	"name": "blowfish"
+}, {
+	"character": "👯",
+	"aliases": [],
+	"groups": [],
+	"name": "dancers"
+}, {
+	"character": "🎏",
+	"aliases": [],
+	"groups": [],
+	"name": "flags"
+}, {
+	"character": "⬇",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow down"
+}, {
+	"character": "🚊",
+	"aliases": [],
+	"groups": [],
+	"name": "tram"
+}, {
+	"character": "👃",
+	"aliases": [],
+	"groups": [],
+	"name": "nose"
+}, {
+	"character": "💌",
+	"aliases": [],
+	"groups": [],
+	"name": "love letter"
+}, {
+	"character": "🍎",
+	"aliases": [],
+	"groups": [],
+	"name": "apple"
+}, {
+	"character": "🍵",
+	"aliases": [],
+	"groups": [],
+	"name": "tea"
+}, {
+	"character": "🐃",
+	"aliases": [],
+	"groups": [],
+	"name": "water buffalo"
+}, {
+	"character": "📰",
+	"aliases": [],
+	"groups": [],
+	"name": "newspaper"
+}, {
+	"character": "🚙",
+	"aliases": [],
+	"groups": [],
+	"name": "blue car"
+}, {
+	"character": "🚣",
+	"aliases": [],
+	"groups": [],
+	"name": "rowboat"
+}, {
+	"character": "🐐",
+	"aliases": [],
+	"groups": [],
+	"name": "goat"
+}, {
+	"character": "👺",
+	"aliases": [],
+	"groups": [],
+	"name": "japanese goblin"
+}, {
+	"character": "🔻",
+	"aliases": [],
+	"groups": [],
+	"name": "small red triangle down"
+}, {
+	"character": "🐽",
+	"aliases": [],
+	"groups": [],
+	"name": "pig nose"
+}, {
+	"character": "🍗",
+	"aliases": [],
+	"groups": [],
+	"name": "drumstick"
+}, {
+	"character": "🍓",
+	"aliases": [],
+	"groups": [],
+	"name": "strawberry"
+}, {
+	"character": "🌽",
+	"aliases": [],
+	"groups": [],
+	"name": "corn"
+}, {
+	"character": "♿",
+	"aliases": [],
+	"groups": [],
+	"name": "wheelchair"
+}, {
+	"character": "📬",
+	"aliases": [],
+	"groups": [],
+	"name": "mailbox with mail"
+}, {
+	"character": "📖",
+	"aliases": [],
+	"groups": [],
+	"name": "open book"
+}, {
+	"character": "🕥",
+	"aliases": [],
+	"groups": [],
+	"name": "clock1030"
+}, {
+	"character": "🚑",
+	"aliases": [],
+	"groups": [],
+	"name": "ambulance"
+}, {
+	"character": "🈶",
+	"aliases": [],
+	"groups": [],
+	"name": "u6709"
+}, {
+	"character": "📙",
+	"aliases": [],
+	"groups": [],
+	"name": "orange book"
+}, {
+	"character": "📨",
+	"aliases": [],
+	"groups": [],
+	"name": "incoming envelope"
+}, {
+	"character": "✉",
+	"aliases": [],
+	"groups": [],
+	"name": "email"
+}, {
+	"character": "🆓",
+	"aliases": [],
+	"groups": [],
+	"name": "free"
+}, {
+	"character": "📏",
+	"aliases": [],
+	"groups": [],
+	"name": "straight ruler"
+}, {
+	"character": "🎀",
+	"aliases": [],
+	"groups": [],
+	"name": "ribbon"
+}, {
+	"character": "🐰",
+	"aliases": [],
+	"groups": [],
+	"name": "rabbit"
+}, {
+	"character": "👖",
+	"aliases": [],
+	"groups": [],
+	"name": "jeans"
+}, {
+	"character": "🚀",
+	"aliases": [],
+	"groups": [],
+	"name": "rocket"
+}, {
+	"character": "🈹",
+	"aliases": [],
+	"groups": [],
+	"name": "u5272"
+}, {
+	"character": "🍨",
+	"aliases": [],
+	"groups": [],
+	"name": "ice cream"
+}, {
+	"character": "👆",
+	"aliases": [],
+	"groups": [],
+	"name": "point up 2"
+}, {
+	"character": "💻",
+	"aliases": [],
+	"groups": [],
+	"name": "computer"
+}, {
+	"character": "📉",
+	"aliases": [],
+	"groups": [],
+	"name": "chart with downwards trend"
+}, {
+	"character": "📺",
+	"aliases": [],
+	"groups": [],
+	"name": "tv"
+}, {
+	"character": "😙",
+	"aliases": [],
+	"groups": [],
+	"name": "kissing smiling eyes"
+}, {
+	"character": "7️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "seven"
+}, {
+	"character": "🆚",
+	"aliases": [],
+	"groups": [],
+	"name": "vs"
+}, {
+	"character": "🍫",
+	"aliases": [],
+	"groups": [],
+	"name": "chocolate bar"
+}, {
+	"character": "⬜",
+	"aliases": [],
+	"groups": [],
+	"name": "white large square"
+}, {
+	"character": "⏫",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow double up"
+}, {
+	"character": "👬",
+	"aliases": [],
+	"groups": [],
+	"name": "two men holding hands"
+}, {
+	"character": "🐪",
+	"aliases": [],
+	"groups": [],
+	"name": "dromedary camel"
+}, {
+	"character": "🌟",
+	"aliases": [],
+	"groups": [],
+	"name": "star2"
+}, {
+	"character": "🆎",
+	"aliases": [],
+	"groups": [],
+	"name": "ab"
+}, {
+	"character": "☎",
+	"aliases": [],
+	"groups": [],
+	"name": "phone"
+}, {
+	"character": "👍",
+	"aliases": [],
+	"groups": [],
+	"name": "+1"
+}, {
+	"character": "🎰",
+	"aliases": [],
+	"groups": [],
+	"name": "slot machine"
+}, {
+	"character": "😷",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "mask"
+}, {
+	"character": "🙋",
+	"aliases": [],
+	"groups": [],
+	"name": "raising hand"
+}, {
+	"character": "🏫",
+	"aliases": [],
+	"groups": [],
+	"name": "school"
+}, {
+	"character": "👇",
+	"aliases": [],
+	"groups": [],
+	"name": "point down"
+}, {
+	"character": "♐",
+	"aliases": [],
+	"groups": [],
+	"name": "sagittarius"
+}, {
+	"character": "🍖",
+	"aliases": [],
+	"groups": [],
+	"name": "meat on bone"
+}, {
+	"character": "🕑",
+	"aliases": [],
+	"groups": [],
+	"name": "clock2"
+}, {
+	"character": "🔮",
+	"aliases": [],
+	"groups": [],
+	"name": "crystal ball"
+}, {
+	"character": "🚅",
+	"aliases": [],
+	"groups": [],
+	"name": "bullettrain front"
+}, {
+	"character": "💡",
+	"aliases": [],
+	"groups": [],
+	"name": "bulb"
+}, {
+	"character": "➗",
+	"aliases": [],
+	"groups": [],
+	"name": "heavy division sign"
+}, {
+	"character": "🐍",
+	"aliases": [],
+	"groups": [],
+	"name": "snake"
+}, {
+	"character": "🎆",
+	"aliases": [],
+	"groups": [],
+	"name": "fireworks"
+}, {
+	"character": "🐟",
+	"aliases": [],
+	"groups": [],
+	"name": "fish"
+}, {
+	"character": "😐",
+	"aliases": [],
+	"groups": [],
+	"name": "neutral face"
+}, {
+	"character": "🚟",
+	"aliases": [],
+	"groups": [],
+	"name": "suspension railway"
+}, {
+	"character": "😩",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "weary"
+}, {
+	"character": "🚌",
+	"aliases": [],
+	"groups": [],
+	"name": "bus"
+}, {
+	"character": "👼",
+	"aliases": [],
+	"groups": [],
+	"name": "angel"
+}, {
+	"character": "🌌",
+	"aliases": [],
+	"groups": [],
+	"name": "milky way"
+}, {
+	"character": "🔒",
+	"aliases": [],
+	"groups": [],
+	"name": "lock"
+}, {
+	"character": "🚕",
+	"aliases": [],
+	"groups": [],
+	"name": "taxi"
+}, {
+	"character": "🕟",
+	"aliases": [],
+	"groups": [],
+	"name": "clock430"
+}, {
+	"character": "😂",
+	"aliases": [],
+	"groups": [],
+	"name": "joy"
+}, {
+	"character": "👐",
+	"aliases": [],
+	"groups": [],
+	"name": "open hands"
+}, {
+	"character": "📭",
+	"aliases": [],
+	"groups": [],
+	"name": "mailbox with no mail"
+}, {
+	"character": "🎃",
+	"aliases": [],
+	"groups": [],
+	"name": "jack o lantern"
+}, {
+	"character": "🙅",
+	"aliases": [],
+	"groups": [],
+	"name": "no good"
+}, {
+	"character": "🎐",
+	"aliases": [],
+	"groups": [],
+	"name": "wind chime"
+}, {
+	"character": "🚒",
+	"aliases": [],
+	"groups": [],
+	"name": "fire engine"
+}, {
+	"character": "😶",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "no mouth"
+}, {
+	"character": "😺",
+	"aliases": [],
+	"groups": [],
+	"name": "smiley cat"
+}, {
+	"character": "💕",
+	"aliases": [],
+	"groups": [],
+	"name": "two hearts"
+}, {
+	"character": "💴",
+	"aliases": [],
+	"groups": [],
+	"name": "yen"
+}, {
+	"character": "👘",
+	"aliases": [],
+	"groups": [],
+	"name": "kimono"
+}, {
+	"character": "🐕",
+	"aliases": [],
+	"groups": [],
+	"name": "dog2"
+}, {
+	"character": "🙎",
+	"aliases": [],
+	"groups": [],
+	"name": "person with pouting face"
+}, {
+	"character": "🆘",
+	"aliases": [],
+	"groups": [],
+	"name": "sos"
+}, {
+	"character": "🍳",
+	"aliases": [],
+	"groups": [],
+	"name": "egg"
+}, {
+	"character": "💋",
+	"aliases": [],
+	"groups": [],
+	"name": "kiss"
+}, {
+	"character": "🕖",
+	"aliases": [],
+	"groups": [],
+	"name": "clock7"
+}, {
+	"character": "😮",
+	"aliases": [],
+	"groups": [],
+	"name": "open mouth"
+}, {
+	"character": "〽",
+	"aliases": [],
+	"groups": [],
+	"name": "part alternation mark"
+}, {
+	"character": "🏮",
+	"aliases": [],
+	"groups": [],
+	"name": "lantern"
+}, {
+	"character": "🍤",
+	"aliases": [],
+	"groups": [],
+	"name": "fried shrimp"
+}, {
+	"character": "🔋",
+	"aliases": [],
+	"groups": [],
+	"name": "battery"
+}, {
+	"character": "🇰🇷",
+	"aliases": [],
+	"groups": [],
+	"name": "kr"
+}, {
+	"character": "🌆",
+	"aliases": [],
+	"groups": [],
+	"name": "city sunset"
+}, {
+	"character": "🔅",
+	"aliases": [],
+	"groups": [],
+	"name": "low brightness"
+}, {
+	"character": "🌎",
+	"aliases": [],
+	"groups": [],
+	"name": "earth americas"
+}, {
+	"character": "🐬",
+	"aliases": [],
+	"groups": [],
+	"name": "flipper"
+}, {
+	"character": "✴",
+	"aliases": [],
+	"groups": [],
+	"name": "eight pointed black star"
+}, {
+	"character": "🌚",
+	"aliases": [],
+	"groups": [],
+	"name": "new moon with face"
+}, {
+	"character": "😓",
+	"aliases": [],
+	"groups": [],
+	"name": "sweat"
+}, {
+	"character": "◽",
+	"aliases": [],
+	"groups": [],
+	"name": "white medium small square"
+}, {
+	"character": "👎",
+	"aliases": [],
+	"groups": [],
+	"name": "thumbsdown"
+}, {
+	"character": "📝",
+	"aliases": [],
+	"groups": [],
+	"name": "pencil"
+}, {
+	"character": "🐛",
+	"aliases": [],
+	"groups": [],
+	"name": "bug"
+}, {
+	"character": "🙏",
+	"aliases": [],
+	"groups": [],
+	"name": "pray"
+}, {
+	"character": "📛",
+	"aliases": [],
+	"groups": [],
+	"name": "name badge"
+}, {
+	"character": "🛂",
+	"aliases": [],
+	"groups": [],
+	"name": "passport control"
+}, {
+	"character": "🌺",
+	"aliases": [],
+	"groups": [],
+	"name": "hibiscus"
+}, {
+	"character": "🍲",
+	"aliases": [],
+	"groups": [],
+	"name": "stew"
+}, {
+	"character": "🚬",
+	"aliases": [],
+	"groups": [],
+	"name": "smoking"
+}, {
+	"character": "🐅",
+	"aliases": [],
+	"groups": [],
+	"name": "tiger2"
+}, {
+	"character": "🍺",
+	"aliases": [],
+	"groups": [],
+	"name": "beer"
+}, {
+	"character": "😹",
+	"aliases": [],
+	"groups": [],
+	"name": "joy cat"
+}, {
+	"character": "🔸",
+	"aliases": [],
+	"groups": [],
+	"name": "small orange diamond"
+}, {
+	"character": "🍟",
+	"aliases": [],
+	"groups": [],
+	"name": "fries"
+}, {
+	"character": "🉑",
+	"aliases": [],
+	"groups": [],
+	"name": "accept"
+}, {
+	"character": "🚗",
+	"aliases": [],
+	"groups": [],
+	"name": "car"
+}, {
+	"character": "😲",
+	"aliases": [],
+	"groups": [
+    "face"
+  ],
+	"name": "astonished"
+}, {
+	"character": "🚏",
+	"aliases": [],
+	"groups": [],
+	"name": "busstop"
+}, {
+	"character": "🕔",
+	"aliases": [],
+	"groups": [],
+	"name": "clock5"
+}, {
+	"character": "🚧",
+	"aliases": [],
+	"groups": [],
+	"name": "construction"
+}, {
+	"character": "🚦",
+	"aliases": [],
+	"groups": [],
+	"name": "vertical traffic light"
+}, {
+	"character": "☑",
+	"aliases": [],
+	"groups": [],
+	"name": "ballot box with check"
+}, {
+	"character": "🚡",
+	"aliases": [],
+	"groups": [],
+	"name": "aerial tramway"
+}, {
+	"character": "🍩",
+	"aliases": [],
+	"groups": [],
+	"name": "doughnut"
+}, {
+	"character": "🏬",
+	"aliases": [],
+	"groups": [],
+	"name": "department store"
+}, {
+	"character": "🐠",
+	"aliases": [],
+	"groups": [],
+	"name": "tropical fish"
+}, {
+	"character": "📋",
+	"aliases": [],
+	"groups": [],
+	"name": "clipboard"
+}, {
+	"character": "♻",
+	"aliases": [],
+	"groups": [],
+	"name": "recycle"
+}, {
+	"character": "🔌",
+	"aliases": [],
+	"groups": [],
+	"name": "electric plug"
+}, {
+	"character": "🎇",
+	"aliases": [],
+	"groups": [],
+	"name": "sparkler"
+}, {
+	"character": "😡",
+	"aliases": [],
+	"groups": [],
+	"name": "rage"
+}, {
+	"character": "🏈",
+	"aliases": [],
+	"groups": [],
+	"name": "football"
+}, {
+	"character": "👉",
+	"aliases": [],
+	"groups": [],
+	"name": "point right"
+}, {
+	"character": "⬆",
+	"aliases": [],
+	"groups": [],
+	"name": "arrow up"
+}, {
+	"character": "♑",
+	"aliases": [],
+	"groups": [],
+	"name": "capricorn"
+}, {
+	"character": "‼",
+	"aliases": [],
+	"groups": [],
+	"name": "bangbang"
+}, {
+	"character": "🐺",
+	"aliases": [],
+	"groups": [],
+	"name": "wolf"
+}, {
+	"character": "🚂",
+	"aliases": [],
+	"groups": [],
+	"name": "steam locomotive"
+}, {
+	"character": "🚼",
+	"aliases": [],
+	"groups": [],
+	"name": "baby symbol"
+}, {
+	"character": "🐉",
+	"aliases": [],
+	"groups": [],
+	"name": "dragon"
+}, {
+	"character": "⛎",
+	"aliases": [],
+	"groups": [],
+	"name": "ophiuchus"
+}, {
+	"character": "8️⃣",
+	"aliases": [],
+	"groups": [],
+	"name": "eight"
+}, {
+	"character": "🕕",
+	"aliases": [],
+	"groups": [],
+	"name": "clock6"
+}, {
+	"character": "👛",
+	"aliases": [],
+	"groups": [],
+	"name": "purse"
+}, {
+	"character": "🚿",
+	"aliases": [],
+	"groups": [],
+	"name": "shower"
+}, {
+	"character": "🚜",
+	"aliases": [],
+	"groups": [],
+	"name": "tractor"
+}, {
+	"character": "🎸",
+	"aliases": [],
+	"groups": [],
+	"name": "guitar"
+}, {
+	"character": "🉐",
+	"aliases": [],
+	"groups": [],
+	"name": "ideograph advantage"
+}, {
+	"character": "🐬",
+	"aliases": [],
+	"groups": [],
+	"name": "dolphin"
+}, {
+	"character": "🔚",
+	"aliases": [],
+	"groups": [],
+	"name": "end"
+}, {
+	"character": "🚵",
+	"aliases": [],
+	"groups": [],
+	"name": "mountain bicyclist"
+}, {
+	"character": "🎨",
+	"aliases": [],
+	"groups": [],
+	"name": "art"
+}, {
+	"character": "🐇",
+	"aliases": [],
+	"groups": [],
+	"name": "rabbit2"
+}, {
+	"character": "👱",
+	"aliases": [],
+	"groups": [],
+	"name": "person with blond hair"
+}, {
+	"character": "🐒",
+	"aliases": [],
+	"groups": [],
+	"name": "monkey"
+}, {
+	"character": "🍯",
+	"aliases": [],
+	"groups": [],
+	"name": "honey pot"
+}, {
+	"character": "🏩",
+	"aliases": [],
+	"groups": [],
+	"name": "love hotel"
+}, {
+	"character": "⏩",
+	"aliases": [],
+	"groups": [],
+	"name": "fast forward"
+}, {
+	"character": "🆙",
+	"aliases": [],
+	"groups": [],
+	"name": "up"
+}]
