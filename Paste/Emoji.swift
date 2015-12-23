@@ -10,12 +10,17 @@ struct Emoji: Equatable {
     let name: String
     let character: String
 
+    var ID: String {
+        // There will never be more that 1 emoji struct for a given character,
+        // so we can use the character itself to represent the ID
+        return character
+    }
+
     init(name: String, character: String) {
         self.name = name
         self.character = character
     }
 }
-
 
 extension Emoji: DictionaryDeserializable, DictionarySerializable {
 
@@ -32,6 +37,13 @@ extension Emoji: DictionaryDeserializable, DictionarySerializable {
             "name": name,
             "character": character
         ]
+    }
+}
+
+
+extension Emoji: Hashable {
+    var hashValue: Int {
+        return ID.hashValue
     }
 }
 
