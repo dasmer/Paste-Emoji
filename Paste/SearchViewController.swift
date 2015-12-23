@@ -145,15 +145,16 @@ extension SearchViewController: UITableViewDelegate {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
 
         guard let cell = tableView.cellForRowAtIndexPath(indexPath),
-            text = cell.textLabel?.text else { return }
+            character = cell.textLabel?.text else { return }
 
-        UIPasteboard.generalPasteboard().string = text
+        UIPasteboard.generalPasteboard().string = character
 
-        SVProgressHUD.showSuccessWithStatus("Copied \(text)")
+        SVProgressHUD.showSuccessWithStatus("Copied \(character)")
 
         let properties = [
-            "Emoji Character": text,
-            "Search Text": searchView.text ?? ""
+            "Emoji Character": character,
+            "Search Text": searchView.text ?? "",
+            "Search Text Count": String(searchView.text?.characters.count ?? 0)
         ]
         Analytics.sharedInstance.track("Emoji Selected", properties: properties)
 

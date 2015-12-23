@@ -13,10 +13,13 @@ struct Analytics {
    static let sharedInstance = Analytics()
 
     func start() {
-        Mixpanel.sharedInstanceWithToken("")
+        Mixpanel.sharedInstanceWithToken("547e5d6894da24ac5876599ffa3ebb12")
     }
 
     func track(eventName: String, properties: [String: String]) {
         Mixpanel.sharedInstance().track(eventName, properties: properties)
+        #if DEBUG
+            print("✒️ Event Tracked == Name:\(eventName) Properties:\(properties))")
+        #endif
     }
 }
