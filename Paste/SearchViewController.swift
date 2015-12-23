@@ -98,7 +98,6 @@ final class SearchViewController: UIViewController {
     // MARK: - Private
 
     func reset() {
-        searchTextFieldView.text = nil
         results = recents
     }
 
@@ -144,22 +143,28 @@ extension SearchViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
 
-        guard let cell = tableView.cellForRowAtIndexPath(indexPath),
-            character = cell.textLabel?.text else { return }
+        let emoji = self.results[indexPath.row]
 
-        UIPasteboard.generalPasteboard().string = character
+        UIPasteboard.generalPasteboard().string = emoji.character
 
-        SVProgressHUD.showSuccessWithStatus("Copied \(character)")
+        SVProgressHUD.showSuccessWithStatus("Copied \(emoji.character)")
 
         let properties = [
-            "Emoji Character": character,
+            "Emoji Character": emoji.character,
             "Search Text": searchTextFieldView.text ?? "",
             "Search Text Count": String(searchTextFieldView.text?.characters.count ?? 0)
         ]
         Analytics.sharedInstance.track("Emoji Selected", properties: properties)
 
-        let newRecents = [self.results[indexPath.row]] + recents
-        recents = newRecents
+        var currentRecents = recents
+        if let index = currentRecents.indexOf(emoji) {
+            currentRecents.removeAtIndex(index)
+        }
+        currentRecents.insert(emoji, atIndex: 0)
+
+        recents = Array(currentRecents.prefix(10))
+
+        self.searchTextFieldView.text = nil
         reset()
     }
 }
