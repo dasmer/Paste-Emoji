@@ -19,7 +19,7 @@ struct Analytics {
     func track(eventName: String, properties: [String: String]) {
         Mixpanel.sharedInstance().track(eventName, properties: properties)
         #if DEBUG
-            print("✒️ Event Tracked == Name:\(eventName) Properties:\(properties))")
+            print("Analytics Event Tracked ✒️\nName: \(eventName)\nProperties: \(properties))\n")
         #endif
     }
 }
