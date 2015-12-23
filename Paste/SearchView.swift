@@ -10,6 +10,7 @@ import UIKit
 
 protocol SearchViewDelegate: class {
     func searchView(searchView: SearchView, didChangeText text: String)
+    func searchViewWillClearText(searchView: SearchView)
 }
 
 final class SearchView: UIView {
@@ -24,14 +25,23 @@ final class SearchView: UIView {
         }
 
         set {
-            textField.text = text
+            textField.text = newValue
+        }
+    }
+
+    var placeholder: String? {
+        get {
+            return textField.placeholder
+        }
+
+        set {
+            textField.placeholder = newValue
         }
     }
 
     private let textField: UITextField = {
         let textField = UITextField(frame: .zero)
         textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Emoji name"
         textField.clearButtonMode = .WhileEditing
         textField.autocapitalizationType = .None
         textField.autocorrectionType = .No
@@ -63,6 +73,12 @@ final class SearchView: UIView {
 
 }
 
+extension SearchView: UITextFieldDelegate {
+    func textFieldShouldClear(textField: UITextField) -> Bool {
+        delegate?.searchViewWillClearText(self)
+        return true
+    }
+}
 
 
 extension SearchView {

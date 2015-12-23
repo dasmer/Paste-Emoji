@@ -16,6 +16,26 @@ struct Emoji: Equatable {
     }
 }
 
+
+extension Emoji: DictionaryDeserializable, DictionarySerializable {
+
+    init?(dictionary: JSONDictionary) {
+        guard let name = dictionary["name"] as? String,
+            character = dictionary["character"] as? String else { return nil }
+
+        self.name = name
+        self.character = character
+    }
+
+    var dictionary: JSONDictionary {
+        return [
+            "name": name,
+            "character": character
+        ]
+    }
+}
+
+
 func ==(lhs: Emoji, rhs: Emoji) -> Bool {
     return lhs.name == rhs.name
 }

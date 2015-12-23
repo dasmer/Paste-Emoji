@@ -19,10 +19,21 @@ final class SearchViewController: UIViewController {
         }
     }
 
+    private var recents: [Emoji] {
+        set {
+            RecentEmojiStore.set(newValue)
+        }
+
+        get {
+            return RecentEmojiStore.get()
+        }
+    }
+
     private lazy var searchView: SearchView = {
         let view = SearchView()
-        view.backgroundColor = .whiteColor()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.placeholder = "Type an emoji name to search"
+        view.backgroundColor = .whiteColor()
         view.delegate = self
         return view
     }()
@@ -50,6 +61,7 @@ final class SearchViewController: UIViewController {
         super.viewDidLoad()
 
         title = "Emoji Search"
+        automaticallyAdjustsScrollViewInsets = false
 
         view.backgroundColor = .whiteColor()
 
@@ -78,18 +90,35 @@ final class SearchViewController: UIViewController {
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
 
-        automaticallyAdjustsScrollViewInsets = false
+        reset()
         searchView.becomeFirstResponder()
     }
+
+
+    // MARK: - Private
+
+    func reset() {
+        searchView.text = nil
+        results = recents
+    }
+
 }
 
 
 extension SearchViewController: SearchViewDelegate {
 
     func searchView(searchView: SearchView, didChangeText text: String) {
-        fetcher.query(text) { [weak self] in
-            self?.results = $0
+        if (text.characters.count > 0) {
+            fetcher.query(text) { [weak self] in
+                self?.results = $0
+            }
+        } else {
+            reset()
         }
+    }
+
+    func searchViewWillClearText(searchView: SearchView) {
+        reset()
     }
 }
 
@@ -128,7 +157,8 @@ extension SearchViewController: UITableViewDelegate {
         ]
         Analytics.sharedInstance.track("Emoji Selected", properties: properties)
 
-        searchView.text = nil
-        results = []
+        let newRecents = [self.results[indexPath.row]] + recents
+        recents = newRecents
+        reset()
     }
 }
