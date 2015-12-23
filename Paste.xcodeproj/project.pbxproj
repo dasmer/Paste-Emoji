@@ -14,7 +14,7 @@
 		3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE01C27285E00F394CA /* SearchViewController.swift */; };
 		3A8F5EE61C27285E00F394CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE51C27285E00F394CA /* Assets.xcassets */; };
 		3A8F5EE91C27285E00F394CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE71C27285E00F394CA /* LaunchScreen.storyboard */; };
-		3A8F5EF11C272A8300F394CA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EF01C272A8300F394CA /* SearchView.swift */; };
+		3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */; };
 		3A8F5EF61C27363D00F394CA /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */; };
 		3AE7CF691C2A146600485FB2 /* DictionarySerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7CF681C2A146600485FB2 /* DictionarySerialization.swift */; };
 		3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7CF6A1C2A161D00485FB2 /* Store.swift */; };
@@ -32,7 +32,7 @@
 		3A8F5EE51C27285E00F394CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8F5EE81C27285E00F394CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8F5EEA1C27285E00F394CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A8F5EF01C272A8300F394CA /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextFieldView.swift; sourceTree = "<group>"; };
 		3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		3AE7CF681C2A146600485FB2 /* DictionarySerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionarySerialization.swift; sourceTree = "<group>"; };
 		3AE7CF6A1C2A161D00485FB2 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			children = (
 				3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */,
 				3A8F5EE01C27285E00F394CA /* SearchViewController.swift */,
-				3A8F5EF01C272A8300F394CA /* SearchView.swift */,
+				3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */,
 				3AF144BC1C2770F900BA2089 /* Emoji.swift */,
 				3AE7CF6A1C2A161D00485FB2 /* Store.swift */,
 				3AF144BE1C27716500BA2089 /* EmojiFetcher.swift */,
@@ -190,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */,
-				3A8F5EF11C272A8300F394CA /* SearchView.swift in Sources */,
+				3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */,
 				3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */,
 				3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */,
 				3AE7CF691C2A146600485FB2 /* DictionarySerialization.swift in Sources */,

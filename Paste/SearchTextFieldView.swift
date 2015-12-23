@@ -1,5 +1,5 @@
 //
-//  SearchView.swift
+//  SearchTextFieldView.swift
 //  Paste
 //
 //  Created by Dasmer Singh on 12/20/15.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-protocol SearchViewDelegate: class {
-    func searchView(searchView: SearchView, didChangeText text: String)
-    func searchViewWillClearText(searchView: SearchView)
+protocol SearchTextFieldViewDelegate: class {
+    func searchTextFieldView(searchTextFieldView: SearchTextFieldView, didChangeText text: String)
+    func searchTextFieldViewWillClearText(searchTextFieldView: SearchTextFieldView)
 }
 
-final class SearchView: UIView {
+final class SearchTextFieldView: UIView {
 
     // MARK: - Properties
 
-    weak var delegate: SearchViewDelegate?
+    weak var delegate: SearchTextFieldViewDelegate?
 
     var text: String? {
         get {
@@ -68,20 +68,20 @@ final class SearchView: UIView {
     // MARK: - Private
 
     @objc private func textFieldDidChange(sender: AnyObject?) {
-        delegate?.searchView(self, didChangeText: textField.text ?? "")
+        delegate?.searchTextFieldView(self, didChangeText: textField.text ?? "")
     }
 
 }
 
-extension SearchView: UITextFieldDelegate {
+extension SearchTextFieldView: UITextFieldDelegate {
     func textFieldShouldClear(textField: UITextField) -> Bool {
-        delegate?.searchViewWillClearText(self)
+        delegate?.searchTextFieldViewWillClearText(self)
         return true
     }
 }
 
 
-extension SearchView {
+extension SearchTextFieldView {
 
 
     // MARK: - UIResponder

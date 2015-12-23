@@ -29,8 +29,8 @@ final class SearchViewController: UIViewController {
         }
     }
 
-    private lazy var searchView: SearchView = {
-        let view = SearchView()
+    private lazy var searchTextFieldView: SearchTextFieldView = {
+        let view = SearchTextFieldView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.placeholder = "Type an emoji name to search"
         view.backgroundColor = .whiteColor()
@@ -65,7 +65,7 @@ final class SearchViewController: UIViewController {
 
         view.backgroundColor = .whiteColor()
 
-        view.addSubview(searchView)
+        view.addSubview(searchTextFieldView)
 
         let separatorView = UIView(frame: .zero)
         separatorView.translatesAutoresizingMaskIntoConstraints = false
@@ -78,7 +78,7 @@ final class SearchViewController: UIViewController {
 
         let views: [String: AnyObject] = [
             "topLayoutGuide": topLayoutGuide,
-            "searchView": searchView,
+            "searchView": searchTextFieldView,
             "separatorView": separatorView,
             "tableView": tableViewController.view
         ]
@@ -91,23 +91,23 @@ final class SearchViewController: UIViewController {
         NSLayoutConstraint.activateConstraints(constraints)
 
         reset()
-        searchView.becomeFirstResponder()
+        searchTextFieldView.becomeFirstResponder()
     }
 
 
     // MARK: - Private
 
     func reset() {
-        searchView.text = nil
+        searchTextFieldView.text = nil
         results = recents
     }
 
 }
 
 
-extension SearchViewController: SearchViewDelegate {
+extension SearchViewController: SearchTextFieldViewDelegate {
 
-    func searchView(searchView: SearchView, didChangeText text: String) {
+    func searchTextFieldView(searchTextFieldView: SearchTextFieldView, didChangeText text: String) {
         if (text.characters.count > 0) {
             fetcher.query(text) { [weak self] in
                 self?.results = $0
@@ -117,7 +117,7 @@ extension SearchViewController: SearchViewDelegate {
         }
     }
 
-    func searchViewWillClearText(searchView: SearchView) {
+    func searchTextFieldViewWillClearText(searchTextFieldView: SearchTextFieldView) {
         reset()
     }
 }
@@ -153,8 +153,8 @@ extension SearchViewController: UITableViewDelegate {
 
         let properties = [
             "Emoji Character": character,
-            "Search Text": searchView.text ?? "",
-            "Search Text Count": String(searchView.text?.characters.count ?? 0)
+            "Search Text": searchTextFieldView.text ?? "",
+            "Search Text Count": String(searchTextFieldView.text?.characters.count ?? 0)
         ]
         Analytics.sharedInstance.track("Emoji Selected", properties: properties)
 
