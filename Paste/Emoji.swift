@@ -18,13 +18,6 @@ public struct Emoji: Equatable {
         // so we can use the character itself to represent the unique ID
         return character
     }
-
-    public init(name: String, character: String, aliases: [String], groups: [String]) {
-        self.name = name
-        self.character = character
-        self.aliases = aliases
-        self.groups = groups
-    }
 }
 
 extension Emoji: DictionaryDeserializable, DictionarySerializable {
