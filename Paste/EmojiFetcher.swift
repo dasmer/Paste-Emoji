@@ -119,7 +119,7 @@ private final class EmojiFetchOperation: NSOperation {
             var validResult = false
 
             for group in emoji.groups {
-                if group == lowercaseSearchString {
+                if lowercaseSearchString.hasPrefix(group) {
                     validResult = true
                     break
                 }
