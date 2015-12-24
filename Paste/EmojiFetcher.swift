@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct EmojiFetcher {
+public struct EmojiFetcher {
 
     // MARK: - Properties
 
@@ -18,7 +18,7 @@ struct EmojiFetcher {
         return queue
     }()
 
-    func query(searchString: String, completion: ([Emoji] -> Void)) {
+    public func query(searchString: String, completion: ([Emoji] -> Void)) {
         backgroundQueue.cancelAllOperations()
 
         let operation = EmojiFetchOperation(searchString: searchString)
@@ -68,44 +68,67 @@ private final class EmojiFetchOperation: NSOperation {
 
     override func main() {
         let lowercaseSearchString = self.searchString.lowercaseString
-
+        let allEmoji = self.dynamicType.allEmoji
         guard !cancelled else { return }
 
-        let results = self.dynamicType.allEmoji.filter { emoji in
-            var validResult = emoji.name.hasPrefix(lowercaseSearchString)
+        var results = [Emoji]()
 
-            if !validResult {
-                let emojiNameWords = emoji.name.characters.split{$0 == " "}.map(String.init)
-                for emojiNameWord in emojiNameWords {
-                    if (emojiNameWord == lowercaseSearchString) {
-                        validResult = true
-                        break
-                    }
+        // Matches of the full names of the emoji
+        results += allEmoji.filter { $0.name.hasPrefix(lowercaseSearchString) }
+        guard !cancelled else { return }
+
+        // Matches of individual words in the name
+        results += allEmoji.filter { emoji in
+            guard results.indexOf(emoji) == nil else { return false }
+
+            var validResult = false
+
+            let emojiNameWords = emoji.name.characters.split{$0 == " "}.map(String.init)
+
+            for emojiNameWord in emojiNameWords {
+                if emojiNameWord.hasPrefix(lowercaseSearchString) {
+                    validResult = true
+                    break
                 }
             }
+            return validResult
+        }
+        guard !cancelled else { return }
 
-            if !validResult {
+        // Alias matches
+        results += allEmoji.filter { emoji in
+            guard results.indexOf(emoji) == nil else { return false }
+
+            var validResult = false
+
                 for alias in emoji.aliases {
                     if alias.hasPrefix(lowercaseSearchString) {
                         validResult = true
                         break
                     }
                 }
-            }
 
-            if !validResult {
-                for group in emoji.groups {
-                    if group == lowercaseSearchString {
-                        validResult = true
-                        break
-                    }
+            return validResult
+        }
+        guard !cancelled else { return }
+
+        // Group matches
+        results += allEmoji.filter { emoji in
+            guard results.indexOf(emoji) == nil else { return false }
+
+            var validResult = false
+
+            for group in emoji.groups {
+                if group == lowercaseSearchString {
+                    validResult = true
+                    break
                 }
             }
 
             return validResult
         }
-
         guard !cancelled else { return }
+
         self.results = results
     }
 }
