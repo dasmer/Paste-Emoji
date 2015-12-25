@@ -2104,9 +2104,13 @@
 	"name": "page with curl"
 }, {
 	"character": "🕜",
-	"aliases": [],
+	"aliases": [
+		"1:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock130"
+	"name": "clock 1:30"
 }, {
 	"character": "🍄",
 	"aliases": [],
@@ -2417,9 +2421,13 @@
 	"name": "persevere"
 }, {
 	"character": "🕡",
-	"aliases": [],
+	"aliases": [
+		"6:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock630"
+	"name": "clock 6:30"
 }, {
 	"character": "🐏",
 	"aliases": [],
@@ -2449,9 +2457,14 @@
 	"name": "fish cake"
 }, {
 	"character": "🕒",
-	"aliases": [],
+	"aliases": [
+		"3",
+		"3:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock3"
+	"name": "clock 3:00"
 }, {
 	"character": "📕",
 	"aliases": [],
@@ -3276,9 +3289,13 @@
 	"name": "custard"
 }, {
 	"character": "🕦",
-	"aliases": [],
+	"aliases": [
+		"11:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock1130"
+	"name": "clock 11:30"
 }, {
 	"character": "🔥",
 	"aliases": [],
@@ -3526,9 +3543,14 @@
 	"name": "angry"
 }, {
 	"character": "🕚",
-	"aliases": [],
+	"aliases": [
+		"11",
+		"11:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock11"
+	"name": "clock 11:00"
 }, {
 	"character": "🍊",
 	"aliases": [],
@@ -3779,9 +3801,14 @@
 	"name": "cn"
 }, {
 	"character": "🕘",
-	"aliases": [],
+	"aliases": [
+		"9",
+		"9:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock9"
+	"name": "clock 9:00"
 }, {
 	"character": "🍣",
 	"aliases": [],
@@ -3836,9 +3863,14 @@
 	"name": "swimmer"
 }, {
 	"character": "🕙",
-	"aliases": [],
+	"aliases": [
+		"10",
+		"10:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock10"
+	"name": "clock 10:00"
 }, {
 	"character": "🎊",
 	"aliases": [],
@@ -3866,9 +3898,13 @@
 	"name": "pisces"
 }, {
 	"character": "🕤",
-	"aliases": [],
+	"aliases": [
+		"9:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock930"
+	"name": "clock 9:30"
 }, {
 	"character": "😨",
 	"aliases": [],
@@ -3908,9 +3944,13 @@
 	"name": "jp"
 }, {
 	"character": "🕢",
-	"aliases": [],
+	"aliases": [
+		"7:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock730"
+	"name": "clock 7:30"
 }, {
 	"character": "🏨",
 	"aliases": [],
@@ -4224,9 +4264,13 @@
 	"name": "open book"
 }, {
 	"character": "🕥",
-	"aliases": [],
+	"aliases": [
+		"10:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock1030"
+	"name": "clock 10:30"
 }, {
 	"character": "🚑",
 	"aliases": [],
@@ -4415,9 +4459,14 @@
 	"name": "meat on bone"
 }, {
 	"character": "🕑",
-	"aliases": [],
+	"aliases": [
+		"2",
+		"2:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock2"
+	"name": "clock 2:00"
 }, {
 	"character": "🔮",
 	"aliases": [],
@@ -4497,9 +4546,13 @@
 	"name": "taxi"
 }, {
 	"character": "🕟",
-	"aliases": [],
+	"aliases": [
+		"4:30",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock430"
+	"name": "clock 4:30"
 }, {
 	"character": "😂",
 	"aliases": [],
@@ -4591,9 +4644,14 @@
 	"name": "kiss"
 }, {
 	"character": "🕖",
-	"aliases": [],
+	"aliases": [
+		"7",
+		"7:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock7"
+	"name": "clock 7:00"
 }, {
 	"character": "😮",
 	"aliases": [],
@@ -4764,9 +4822,14 @@
 	"name": "busstop"
 }, {
 	"character": "🕔",
-	"aliases": [],
+	"aliases": [
+		"5",
+		"5:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock5"
+	"name": "clock 5:00"
 }, {
 	"character": "🚧",
 	"aliases": [],
@@ -4888,9 +4951,14 @@
 	"name": "eight"
 }, {
 	"character": "🕕",
-	"aliases": [],
+	"aliases": [
+		"6",
+		"6:00",
+		"watch",
+		"time"
+	],
 	"groups": [],
-	"name": "clock6"
+	"name": "clock 6:00"
 }, {
 	"character": "👛",
 	"aliases": [],
