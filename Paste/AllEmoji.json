@@ -2707,17 +2707,17 @@
 	"name": "oncoming taxi"
 }, {
 	"character": "📹",
-	"aliases": [],
+	"aliases": [
+		"camcorder"
+	],
 	"groups": [],
 	"name": "video camera"
 }, {
-	"character": "㊗",
-	"aliases": [],
-	"groups": [],
-	"name": "congratulations"
-}, {
 	"character": "👽",
-	"aliases": [],
+	"aliases": [
+		"mask",
+		"halloween"
+	],
 	"groups": [],
 	"name": "alien"
 }, {
@@ -2727,7 +2727,10 @@
 	"name": "lips"
 }, {
 	"character": "😵",
-	"aliases": [],
+	"aliases": [
+		"xox",
+		"xxx"
+	],
 	"groups": [
 		"face"
 	],
@@ -2735,11 +2738,15 @@
 }, {
 	"character": "👕",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"cloth"
+	],
 	"name": "shirt"
 }, {
 	"character": "🚭",
-	"aliases": [],
+	"aliases": [
+		"cigarrette"
+	],
 	"groups": [],
 	"name": "no smoking"
 }, {
@@ -2749,87 +2756,110 @@
 	"name": "o"
 }, {
 	"character": "👜",
-	"aliases": [],
+	"aliases": [
+		"pocketbook"
+	],
 	"groups": [],
 	"name": "handbag"
 }, {
 	"character": "🌷",
-	"aliases": [],
+	"aliases": [
+		"flower"
+	],
 	"groups": [],
 	"name": "tulip"
 }, {
-	"character": "〰",
-	"aliases": [],
-	"groups": [],
-	"name": "wavy dash"
-}, {
 	"character": "🍬",
-	"aliases": [],
+	"aliases": [
+		"sweet"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "candy"
 }, {
 	"character": "🗾",
-	"aliases": [],
+	"aliases": [
+		"island"
+	],
 	"groups": [],
 	"name": "japan"
 }, {
 	"character": "👣",
-	"aliases": [],
+	"aliases": [
+		"prints"
+	],
 	"groups": [],
 	"name": "footprints"
 }, {
 	"character": "📱",
-	"aliases": [],
+	"aliases": [
+		"mobile",
+		"cell",
+		"phone"
+	],
 	"groups": [],
 	"name": "iphone"
 }, {
 	"character": "🍅",
-	"aliases": [],
+	"aliases": [
+		"vegetable"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "tomato"
 }, {
-	"character": "🈸",
-	"aliases": [],
-	"groups": [],
-	"name": "u7533"
-}, {
 	"character": "🍉",
-	"aliases": [],
+	"aliases": [
+		"fruit"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "watermelon"
 }, {
 	"character": "🌋",
-	"aliases": [],
+	"aliases": [
+		"erupt"
+	],
 	"groups": [],
 	"name": "volcano"
 }, {
 	"character": "✔",
-	"aliases": [],
+	"aliases": [
+		"correct",
+		"tik"
+	],
 	"groups": [],
-	"name": "heavy check mark"
+	"name": "check mark"
 }, {
 	"character": "😘",
-	"aliases": [],
+	"aliases": [
+		"kiss",
+		"love",
+		"heart"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "kissing heart"
 }, {
 	"character": "🍪",
-	"aliases": [],
+	"aliases": [
+		"chocolate chip"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "cookie"
 }, {
 	"character": "🍜",
-	"aliases": [],
+	"aliases": [
+		"noodles",
+		"korean food",
+		"chinese food"
+	],
 	"groups": [
 		"food"
 	],
@@ -2848,28 +2878,30 @@
 	"name": "relieved"
 }, {
 	"character": "💾",
-	"aliases": [],
+	"aliases": [
+		"diskette"
+	],
 	"groups": [],
 	"name": "floppy disk"
 }, {
 	"character": "😒",
-	"aliases": [],
+	"aliases": [
+		"pissed",
+		"annoyed"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "unamused"
 }, {
 	"character": "🍙",
-	"aliases": [],
+	"aliases": [
+		"chinese food"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "rice ball"
-}, {
-	"character": "✳",
-	"aliases": [],
-	"groups": [],
-	"name": "eight spoked asterisk"
 }, {
 	"character": "🚥",
 	"aliases": [],
@@ -2893,7 +2925,7 @@
 	"character": "🌐",
 	"aliases": [],
 	"groups": [],
-	"name": "globe with meridians"
+	"name": "globe meridians"
 }, {
 	"character": "♋",
 	"aliases": [],
@@ -2901,7 +2933,9 @@
 	"name": "cancer"
 }, {
 	"character": "💎",
-	"aliases": [],
+	"aliases": [
+		"diamond"
+	],
 	"groups": [],
 	"name": "gem"
 }, {
@@ -2925,17 +2959,17 @@
 	"name": "hearts"
 }, {
 	"character": "🍚",
-	"aliases": [],
+	"aliases": [
+		"bowl"
+	],
 	"groups": [],
 	"name": "rice"
 }, {
-	"character": "✒",
-	"aliases": [],
-	"groups": [],
-	"name": "black nib"
-}, {
 	"character": "👊",
-	"aliases": [],
+	"aliases": [
+		"punch",
+		"fist"
+	],
 	"groups": [],
 	"name": "facepunch"
 }, {
@@ -2951,21 +2985,30 @@
 }, {
 	"character": "🐲",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"animal"
+	],
 	"name": "dragon face"
 }, {
 	"character": "🏯",
-	"aliases": [],
+	"aliases": [
+		"building"
+	],
 	"groups": [],
 	"name": "japanese castle"
 }, {
 	"character": "➖",
 	"aliases": [],
 	"groups": [],
-	"name": "heavy minus sign"
+	"name": "minus sign"
 }, {
 	"character": "😴",
-	"aliases": [],
+	"aliases": [
+		"zzz",
+		"sleep",
+		"drowzy",
+		"tired"
+	],
 	"groups": [
 		"face"
 	],
@@ -2988,76 +3031,104 @@
 	"name": "muscle"
 }, {
 	"character": "🎥",
-	"aliases": [],
+	"aliases": [
+		"movie",
+		"theater",
+		"film",
+		"camcorder"
+	],
 	"groups": [],
 	"name": "movie camera"
 }, {
 	"character": "💏",
-	"aliases": [],
+	"aliases": [
+		"love",
+		"kiss"
+	],
 	"groups": [],
 	"name": "couplekiss"
 }, {
 	"character": "😪",
-	"aliases": [],
+	"aliases": [
+		"tired",
+		"drowzy"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "sleepy"
 }, {
 	"character": "⏳",
-	"aliases": [],
+	"aliases": [
+		"time"
+	],
 	"groups": [],
 	"name": "hourglass flowing sand"
 }, {
 	"character": "🎊",
-	"aliases": [],
+	"aliases": [
+		"birthday",
+		"celebrate"
+	],
 	"groups": [],
 	"name": "confetti ball"
 }, {
 	"character": "👏",
-	"aliases": [],
+	"aliases": [
+		"hands"
+	],
 	"groups": [],
 	"name": "clap"
 }, {
 	"character": "💬",
-	"aliases": [],
+	"aliases": [
+		"talk"
+	],
 	"groups": [],
 	"name": "speech balloon"
 }, {
 	"character": "🎶",
-	"aliases": [],
+	"aliases": [
+		"music"
+	],
 	"groups": [],
 	"name": "notes"
 }, {
 	"character": "🗿",
-	"aliases": [],
+	"aliases": [
+		"statue"
+	],
 	"groups": [],
 	"name": "moyai"
 }, {
 	"character": "🌻",
-	"aliases": [],
+	"aliases": [
+		"flower"
+	],
 	"groups": [],
 	"name": "sunflower"
 }, {
-	"character": "↙",
-	"aliases": [],
-	"groups": [],
-	"name": "arrow lower left"
-}, {
 	"character": "💖",
-	"aliases": [],
+	"aliases": [
+		"love",
+		"heart"
+	],
 	"groups": [],
 	"name": "sparkling heart"
 }, {
 	"character": "😗",
-	"aliases": [],
+	"aliases": [
+		"kiss"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "kissing"
 }, {
 	"character": "🌇",
-	"aliases": [],
+	"aliases": [
+		"morning"
+	],
 	"groups": [],
 	"name": "city sunrise"
 }, {
@@ -3069,7 +3140,10 @@
 	"name": "shaved ice"
 }, {
 	"character": "🚢",
-	"aliases": [],
+	"aliases": [
+		"boat",
+		"cruise"
+	],
 	"groups": [],
 	"name": "ship"
 }, {
@@ -3079,7 +3153,9 @@
 	"name": "mute"
 }, {
 	"character": "💇",
-	"aliases": [],
+	"aliases": [
+		"barber"
+	],
 	"groups": [],
 	"name": "haircut"
 }, {
@@ -3089,7 +3165,9 @@
 	"name": "repeat one"
 }, {
 	"character": "🏧",
-	"aliases": [],
+	"aliases": [
+		"cash"
+	],
 	"groups": [],
 	"name": "atm"
 }, {
@@ -3098,40 +3176,41 @@
 	"groups": [],
 	"name": "arrow double down"
 }, {
-	"character": "💩",
-	"aliases": [],
-	"groups": [],
-	"name": "poop"
-}, {
 	"character": "⚓",
-	"aliases": [],
+	"aliases": [
+		"ship anchor"
+	],
 	"groups": [],
 	"name": "anchor"
 }, {
 	"character": "🔭",
-	"aliases": [],
+	"aliases": [
+		"space"
+	],
 	"groups": [],
 	"name": "telescope"
 }, {
 	"character": "✈",
-	"aliases": [],
+	"aliases": [
+		"plane",
+		"airport"
+	],
 	"groups": [],
 	"name": "airplane"
 }, {
 	"character": "🔤",
-	"aliases": [],
+	"aliases": [
+		"alphabet"
+	],
 	"groups": [],
 	"name": "abc"
 }, {
 	"character": "❕",
-	"aliases": [],
+	"aliases": [
+		"!"
+	],
 	"groups": [],
 	"name": "grey exclamation"
-}, {
-	"character": "🈯",
-	"aliases": [],
-	"groups": [],
-	"name": "u6307"
 }, {
 	"character": "🍍",
 	"aliases": [],
@@ -3141,12 +3220,19 @@
 	"name": "pineapple"
 }, {
 	"character": "🌀",
-	"aliases": [],
+	"aliases": [
+		"hurricane",
+		"tornado",
+		"swirl",
+		"twirl"
+	],
 	"groups": [],
 	"name": "cyclone"
 }, {
 	"character": "🌍",
-	"aliases": [],
+	"aliases": [
+		"globe"
+	],
 	"groups": [],
 	"name": "earth africa"
 }, {
@@ -3162,7 +3248,9 @@
 }, {
 	"character": "🐷",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"animal"
+	],
 	"name": "pig"
 }, {
 	"character": "🔊",
@@ -3171,61 +3259,90 @@
 	"name": "speaker"
 }, {
 	"character": "🐧",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"bird"
+	],
+	"groups": [
+		"animal"
+	],
 	"name": "penguin"
 }, {
 	"character": "💮",
-	"aliases": [],
+	"aliases": [
+		"flower"
+	],
 	"groups": [],
 	"name": "white flower"
 }, {
 	"character": "✏",
 	"aliases": [],
 	"groups": [],
-	"name": "pencil2"
+	"name": "pencil"
 }, {
 	"character": "🐄",
 	"aliases": [],
-	"groups": [],
-	"name": "cow2"
+	"groups": [
+		"animal"
+	],
+	"name": "cow"
 }, {
 	"character": "💘",
-	"aliases": [],
+	"aliases": [
+		"heart",
+		"love"
+	],
 	"groups": [],
 	"name": "cupid"
 }, {
 	"character": "💤",
-	"aliases": [],
+	"aliases": [
+		"sleep"
+	],
 	"groups": [],
 	"name": "zzz"
 }, {
 	"character": "😅",
-	"aliases": [],
+	"aliases": [
+		"nervous"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "sweat smile"
 }, {
 	"character": "💗",
-	"aliases": [],
+	"aliases": [
+		"throb",
+		"heart",
+		"heart throb"
+	],
 	"groups": [],
 	"name": "heartpulse"
 }, {
 	"character": "🍸",
-	"aliases": [],
+	"aliases": [
+		"drink",
+		"alcohol",
+		"martini"
+	],
 	"groups": [],
 	"name": "cocktail"
 }, {
 	"character": "✅",
-	"aliases": [],
+	"aliases": [
+		"ok",
+		"checkmark",
+		"tik"
+	],
 	"groups": [],
 	"name": "white check mark"
 }, {
 	"character": "⚽",
 	"aliases": [],
-	"groups": [],
-	"name": "soccer"
+	"groups": [
+		"sport"
+	],
+	"name": "soccer ball"
 }, {
 	"character": "⛔",
 	"aliases": [],
@@ -3238,24 +3355,34 @@
 	"name": "parking"
 }, {
 	"character": "🌰",
-	"aliases": [],
+	"aliases": [
+		"nut"
+	],
 	"groups": [],
 	"name": "chestnut"
 }, {
 	"character": "🏥",
-	"aliases": [],
+	"aliases": [
+		"infirmary"
+	],
 	"groups": [],
 	"name": "hospital"
 }, {
 	"character": "🔯",
-	"aliases": [],
+	"aliases": [
+		"jewish star",
+		"star of david",
+		"david"
+	],
 	"groups": [],
 	"name": "six pointed star"
 }, {
 	"character": "🐸",
 	"aliases": [],
-	"groups": [],
-	"name": "frog"
+	"groups": [
+		"animal"
+	],
+	"name": "frog face"
 }, {
 	"character": "♊",
 	"aliases": [],
@@ -3268,9 +3395,11 @@
 	"name": "dolls"
 }, {
 	"character": "❗",
-	"aliases": [],
+	"aliases": [
+		"!"
+	],
 	"groups": [],
-	"name": "heavy exclamation mark"
+	"name": "exclamation mark"
 }, {
 	"character": "👩",
 	"aliases": [],
@@ -3280,24 +3409,34 @@
 	"name": "woman"
 }, {
 	"character": "🍋",
-	"aliases": [],
+	"aliases": [
+		"lime"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "lemon"
 }, {
 	"character": "📞",
-	"aliases": [],
+	"aliases": [
+		"phone",
+		"home phone"
+	],
 	"groups": [],
-	"name": "telephone receiver"
+	"name": "telephone"
 }, {
 	"character": "💚",
-	"aliases": [],
+	"aliases": [
+		"love",
+		"heart"
+	],
 	"groups": [],
 	"name": "green heart"
 }, {
 	"character": "🔫",
-	"aliases": [],
+	"aliases": [
+		"weapon"
+	],
 	"groups": [],
 	"name": "gun"
 }, {
@@ -3307,37 +3446,52 @@
 	"name": "loudspeaker"
 }, {
 	"character": "😧",
-	"aliases": [],
+	"aliases": [
+		":("
+	],
 	"groups": [],
 	"name": "anguished"
 }, {
 	"character": "🍷",
-	"aliases": [],
+	"aliases": [
+		"alcohol"
+	],
 	"groups": [],
 	"name": "wine glass"
 }, {
 	"character": "🎾",
 	"aliases": [],
-	"groups": [],
-	"name": "tennis"
+	"groups": [
+		"sport"
+	],
+	"name": "tennis ball"
 }, {
 	"character": "🌏",
-	"aliases": [],
+	"aliases": [
+		"globe",
+		"world"
+	],
 	"groups": [],
 	"name": "earth asia"
 }, {
 	"character": "👪",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"people"
+	],
 	"name": "family"
 }, {
 	"character": "⏰",
-	"aliases": [],
+	"aliases": [
+		"watch"
+	],
 	"groups": [],
 	"name": "alarm clock"
 }, {
 	"character": "💃",
-	"aliases": [],
+	"aliases": [
+		"performer"
+	],
 	"groups": [],
 	"name": "dancer"
 }, {
@@ -3346,33 +3500,41 @@
 	"groups": [],
 	"name": "dress"
 }, {
-	"character": "⤴",
-	"aliases": [],
-	"groups": [],
-	"name": "arrow heading up"
-}, {
 	"character": "🏡",
-	"aliases": [],
+	"aliases": [
+		"tree"
+	],
 	"groups": [],
 	"name": "house with garden"
 }, {
 	"character": "👶",
-	"aliases": [],
+	"aliases": [
+		"boy",
+		"toddler"
+	],
 	"groups": [],
 	"name": "baby"
 }, {
 	"character": "❔",
-	"aliases": [],
+	"aliases": [
+		"?"
+	],
 	"groups": [],
 	"name": "grey question"
 }, {
 	"character": "👚",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"shirt"
+	],
+	"groups": [
+		"cloth"
+	],
 	"name": "womans clothes"
 }, {
 	"character": "🍞",
-	"aliases": [],
+	"aliases": [
+		"loaf"
+	],
 	"groups": [
 		"food"
 	],
@@ -3389,7 +3551,9 @@
 	"name": "customs"
 }, {
 	"character": "🔆",
-	"aliases": [],
+	"aliases": [
+		"sun"
+	],
 	"groups": [],
 	"name": "high brightness"
 }, {
@@ -3432,7 +3596,9 @@
 	"name": "clock 11:30"
 }, {
 	"character": "🔥",
-	"aliases": [],
+	"aliases": [
+		"hot"
+	],
 	"groups": [],
 	"name": "fire"
 }, {
@@ -3452,49 +3618,77 @@
 	"name": "hash"
 }, {
 	"character": "🏉",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"football",
+		"ball"
+	],
+	"groups": [
+		"sport"
+	],
 	"name": "rugby football"
 }, {
 	"character": "💥",
-	"aliases": [],
+	"aliases": [
+		"bomb",
+		"explode"
+	],
 	"groups": [],
 	"name": "boom"
 }, {
 	"character": "🐌",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"animal"
+	],
 	"name": "snail"
 }, {
 	"character": "🚩",
 	"aliases": [],
-	"groups": [],
-	"name": "triangular flag on post"
+	"groups": [
+		"flag"
+	],
+	"name": "red flag"
 }, {
 	"character": "📲",
-	"aliases": [],
+	"aliases": [
+		"phone",
+		"mobile",
+		"iphone"
+	],
 	"groups": [],
 	"name": "calling"
 }, {
 	"character": "😄",
-	"aliases": [],
+	"aliases": [
+		":D",
+		":)",
+		"happy"
+	],
 	"groups": [],
 	"name": "smile"
 }, {
 	"character": "🌸",
-	"aliases": [],
+	"aliases": [
+		"flower"
+	],
 	"groups": [],
 	"name": "cherry blossom"
 }, {
 	"character": "🐀",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"mouse"
+	],
+	"groups": [
+		"animal"
+	],
 	"name": "rat"
 }, {
 	"character": "❎",
-	"aliases": [],
+	"aliases": [
+		"x"
+	],
 	"groups": [],
-	"name": "negative squared cross mark"
+	"name": "green x"
 }, {
 	"character": "📷",
 	"aliases": [],
@@ -3502,12 +3696,19 @@
 	"name": "camera"
 }, {
 	"character": "🇫🇷",
-	"aliases": [],
+	"aliases": [
+		"france"
+	],
 	"groups": [],
 	"name": "fr"
 }, {
 	"character": "💵",
-	"aliases": [],
+	"aliases": [
+		"cash",
+		"money",
+		"currency",
+		"$"
+	],
 	"groups": [],
 	"name": "dollar"
 }, {
@@ -3519,19 +3720,20 @@
 	"name": "dango"
 }, {
 	"character": "🚴",
-	"aliases": [],
+	"aliases": [
+		"athlete",
+		"bike"
+	],
 	"groups": [],
 	"name": "bicyclist"
 }, {
-	"character": "🈚",
-	"aliases": [],
-	"groups": [],
-	"name": "u7121"
-}, {
 	"character": "🎲",
-	"aliases": [],
+	"aliases": [
+		"game",
+		"die"
+	],
 	"groups": [],
-	"name": "game die"
+	"name": "dice"
 }, {
 	"character": "📻",
 	"aliases": [],
@@ -3539,15 +3741,23 @@
 	"name": "radio"
 }, {
 	"character": "😁",
-	"aliases": [],
+	"aliases": [
+		"smile",
+		"fake smile"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "grin"
 }, {
 	"character": "🎍",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"chinese",
+		"shoots"
+	],
+	"groups": [
+		"plant"
+	],
 	"name": "bamboo"
 }, {
 	"character": "😈",
@@ -3557,41 +3767,63 @@
 }, {
 	"character": "🐢",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"animal"
+	],
 	"name": "turtle"
 }, {
 	"character": "0️⃣",
-	"aliases": [],
+	"aliases": [
+		"0"
+	],
 	"groups": [],
 	"name": "zero"
 }, {
 	"character": "🎡",
-	"aliases": [],
+	"aliases": [
+		"carnival",
+		"amusement park"
+	],
 	"groups": [],
 	"name": "ferris wheel"
 }, {
 	"character": "🆔",
-	"aliases": [],
+	"aliases": [
+		"identification"
+	],
 	"groups": [],
 	"name": "id"
 }, {
 	"character": "🚾",
-	"aliases": [],
+	"aliases": [
+		"washroom"
+	],
 	"groups": [],
 	"name": "wc"
 }, {
 	"character": "🚕",
-	"aliases": [],
+	"aliases": [
+		"taxi",
+		"yellow cab"
+	],
 	"groups": [],
 	"name": "cab"
 }, {
 	"character": "👔",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"tie",
+		"shirt"
+	],
+	"groups": [
+		"cloth"
+	],
 	"name": "necktie"
 }, {
 	"character": "😃",
-	"aliases": [],
+	"aliases": [
+		":D",
+		"happy"
+	],
 	"groups": [
 		"face"
 	],
@@ -3603,7 +3835,10 @@
 	"name": "flower playing cards"
 }, {
 	"character": "😾",
-	"aliases": [],
+	"aliases": [
+		"mad",
+		"pissed"
+	],
 	"groups": [],
 	"name": "pouting cat"
 }, {
@@ -3618,13 +3853,20 @@
 	"name": "black large square"
 }, {
 	"character": "🎣",
-	"aliases": [],
+	"aliases": [
+		"pole",
+		"fish"
+	],
 	"groups": [],
-	"name": "fishing pole and fish"
+	"name": "fishing"
 }, {
 	"character": "🍃",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"weed"
+	],
+	"groups": [
+		"plant"
+	],
 	"name": "leaves"
 }, {
 	"character": "🔙",
@@ -3632,45 +3874,54 @@
 	"groups": [],
 	"name": "back"
 }, {
-	"character": "💩",
-	"aliases": [],
-	"groups": [],
-	"name": "shit"
-}, {
 	"character": "🔜",
 	"aliases": [],
 	"groups": [],
 	"name": "soon"
 }, {
 	"character": "📠",
-	"aliases": [],
+	"aliases": [
+		"fax machine"
+	],
 	"groups": [],
 	"name": "fax"
 }, {
 	"character": "🏄",
-	"aliases": [],
+	"aliases": [
+		"surf"
+	],
 	"groups": [],
 	"name": "surfer"
 }, {
 	"character": "😏",
-	"aliases": [],
+	"aliases": [
+		"smile"
+	],
 	"groups": [
 		"face"
 	],
 	"name": "smirk"
 }, {
 	"character": "🙈",
-	"aliases": [],
+	"aliases": [
+		"mokey"
+	],
 	"groups": [],
 	"name": "see no evil"
 }, {
 	"character": "🐔",
-	"aliases": [],
+	"aliases": [
+		"rooster",
+		"bird"
+	],
 	"groups": [],
 	"name": "chicken"
 }, {
 	"character": "😠",
-	"aliases": [],
+	"aliases": [
+		"pissed",
+		"mad"
+	],
 	"groups": [
 		"face"
 	],
@@ -3687,24 +3938,35 @@
 	"name": "clock 11:00"
 }, {
 	"character": "🍊",
-	"aliases": [],
+	"aliases": [
+		"orange",
+		"fruit"
+	],
 	"groups": [
 		"food"
 	],
 	"name": "tangerine"
 }, {
 	"character": "💼",
-	"aliases": [],
+	"aliases": [
+		"suitcase",
+		"luggage",
+		"bag"
+	],
 	"groups": [],
 	"name": "briefcase"
 }, {
 	"character": "🎤",
-	"aliases": [],
+	"aliases": [
+		"mic"
+	],
 	"groups": [],
 	"name": "microphone"
 }, {
 	"character": "🔨",
-	"aliases": [],
+	"aliases": [
+		"tool"
+	],
 	"groups": [],
 	"name": "hammer"
 }, {
@@ -3724,12 +3986,16 @@
 	"name": "mouse face"
 }, {
 	"character": "⌛",
-	"aliases": [],
+	"aliases": [
+		"time"
+	],
 	"groups": [],
 	"name": "hourglass"
 }, {
 	"character": "🍈",
-	"aliases": [],
+	"aliases": [
+		"fruit"
+	],
 	"groups": [
 		"food"
 	],
@@ -3741,13 +4007,17 @@
 	"name": "file folder"
 }, {
 	"character": "🎱",
-	"aliases": [],
+	"aliases": [
+		"pool"
+	],
 	"groups": [],
 	"name": "8ball"
 }, {
 	"character": "🐘",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"animal"
+	],
 	"name": "elephant"
 }, {
 	"character": "↪",
@@ -3756,12 +4026,20 @@
 	"name": "arrow right hook"
 }, {
 	"character": "👑",
-	"aliases": [],
+	"aliases": [
+		"king",
+		"queen",
+		"prince",
+		"princess",
+		"gem"
+	],
 	"groups": [],
 	"name": "crown"
 }, {
 	"character": "💨",
-	"aliases": [],
+	"aliases": [
+		"fart"
+	],
 	"groups": [],
 	"name": "dash"
 }, {
@@ -3778,14 +4056,11 @@
 	"name": "girl"
 }, {
 	"character": "💭",
-	"aliases": [],
+	"aliases": [
+		"cloud"
+	],
 	"groups": [],
 	"name": "thought balloon"
-}, {
-	"character": "🀄",
-	"aliases": [],
-	"groups": [],
-	"name": "mahjong"
 }, {
 	"character": "🚪",
 	"aliases": [],
@@ -3793,27 +4068,38 @@
 	"name": "door"
 }, {
 	"character": "👋",
-	"aliases": [],
+	"aliases": [
+		"hi",
+		"hello"
+	],
 	"groups": [],
 	"name": "wave"
 }, {
 	"character": "💉",
-	"aliases": [],
+	"aliases": [
+		"shot"
+	],
 	"groups": [],
 	"name": "syringe"
 }, {
 	"character": "💔",
-	"aliases": [],
+	"aliases": [
+		"heartbroken"
+	],
 	"groups": [],
 	"name": "broken heart"
 }, {
 	"character": "⌚",
-	"aliases": [],
+	"aliases": [
+		"iwatch"
+	],
 	"groups": [],
 	"name": "watch"
 }, {
 	"character": "❓",
-	"aliases": [],
+	"aliases": [
+		"?"
+	],
 	"groups": [],
 	"name": "question"
 }, {
@@ -3823,14 +4109,18 @@
 	"name": "small red triangle"
 }, {
 	"character": "❌",
-	"aliases": [],
+	"aliases": [
+		"x"
+	],
 	"groups": [],
-	"name": "x"
+	"name": "red x"
 }, {
 	"character": "🐻",
 	"aliases": [],
-	"groups": [],
-	"name": "bear"
+	"groups": [
+		"animal"
+	],
+	"name": "bear face"
 }, {
 	"character": "⬅",
 	"aliases": [],
@@ -3845,7 +4135,7 @@
 	"character": "🐶",
 	"aliases": [],
 	"groups": [],
-	"name": "dog"
+	"name": "dog face"
 }, {
 	"character": "🎽",
 	"aliases": [],
@@ -3853,7 +4143,10 @@
 	"name": "running shirt with sash"
 }, {
 	"character": "😆",
-	"aliases": [],
+	"aliases": [
+		"haha",
+		"lol"
+	],
 	"groups": [
 		"face"
 	],
@@ -3875,7 +4168,10 @@
 	"name": "tongue"
 }, {
 	"character": "💿",
-	"aliases": [],
+	"aliases": [
+		"disk",
+		"album"
+	],
 	"groups": [],
 	"name": "cd"
 }, {
@@ -3895,7 +4191,11 @@
 	"name": "white circle"
 }, {
 	"character": "👠",
-	"aliases": [],
+	"aliases": [
+		"shoe",
+		"woman",
+		"heel"
+	],
 	"groups": [],
 	"name": "high heel"
 }, {
@@ -4060,7 +4360,7 @@
 	"character": "🐮",
 	"aliases": [],
 	"groups": [],
-	"name": "cow"
+	"name": "cow face"
 }, {
 	"character": "🎼",
 	"aliases": [],
@@ -4865,9 +5165,13 @@
 	"name": "thumbsdown"
 }, {
 	"character": "📝",
-	"aliases": [],
+	"aliases": [
+		"note",
+		"write",
+		"pencil"
+	],
 	"groups": [],
-	"name": "pencil"
+	"name": "note pencil"
 }, {
 	"character": "🐛",
 	"aliases": [],
