@@ -19,7 +19,7 @@ public struct EmojiFetcher {
     }()
 
     public func query(searchString: String, completion: ([Emoji] -> Void)) {
-        backgroundQueue.cancelAllOperations()
+        cancelFetches()
 
         let operation = EmojiFetchOperation(searchString: searchString)
 
@@ -35,6 +35,10 @@ public struct EmojiFetcher {
         }
 
         backgroundQueue.addOperation(operation)
+    }
+
+    public func cancelFetches() {
+        backgroundQueue.cancelAllOperations()
     }
 
 }

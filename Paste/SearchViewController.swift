@@ -98,6 +98,7 @@ final class SearchViewController: UIViewController {
     // MARK: - Private
 
     func reset() {
+        fetcher.cancelFetches()
         results = recents
     }
 
