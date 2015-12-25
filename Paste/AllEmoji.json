@@ -201,8 +201,10 @@
 	"aliases": [
 		"cone"
 	],
-	"groups": [],
-	"name": "ice cream"
+	"groups": [
+		"food"
+	],
+	"name": "soft ice cream"
 }, {
 	"character": "⁉",
 	"aliases": [
@@ -962,7 +964,9 @@
 	"aliases": [
 		"peel"
 	],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "banana"
 }, {
 	"character": "3️⃣",
@@ -1471,7 +1475,9 @@
 		"silverware",
 		"dinner"
 	],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "fork and knife"
 }, {
 	"character": "↕",
@@ -1589,7 +1595,9 @@
 	"aliases": [
 		"cake"
 	],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "birthday"
 }, {
 	"character": "🐈",
@@ -2005,7 +2013,9 @@
 	"name": "statue of liberty"
 }, {
 	"character": "🍔",
-	"aliases": [],
+	"aliases": [
+		"hamburger"
+	],
 	"groups": [
 		"food"
 	],
@@ -2100,7 +2110,9 @@
 }, {
 	"character": "🍄",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "mushroom"
 }, {
 	"character": "📫",
@@ -2238,7 +2250,9 @@
 }, {
 	"character": "🍇",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "grapes"
 }, {
 	"character": "🎺",
@@ -2270,12 +2284,16 @@
 }, {
 	"character": "🍭",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "lollipop"
 }, {
 	"character": "🍒",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "cherries"
 }, {
 	"character": "🏤",
@@ -2425,7 +2443,9 @@
 }, {
 	"character": "🍥",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "fish cake"
 }, {
 	"character": "🕒",
@@ -2602,7 +2622,9 @@
 }, {
 	"character": "🍬",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "candy"
 }, {
 	"character": "🗾",
@@ -2622,7 +2644,9 @@
 }, {
 	"character": "🍅",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "tomato"
 }, {
 	"character": "🈸",
@@ -2632,7 +2656,9 @@
 }, {
 	"character": "🍉",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "watermelon"
 }, {
 	"character": "🌋",
@@ -2654,12 +2680,16 @@
 }, {
 	"character": "🍪",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "cookie"
 }, {
 	"character": "🍜",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "ramen"
 }, {
 	"character": "🚰",
@@ -2688,7 +2718,9 @@
 }, {
 	"character": "🍙",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "rice ball"
 }, {
 	"character": "✳",
@@ -2702,8 +2734,12 @@
 	"name": "traffic light"
 }, {
 	"character": "🍕",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"slice"
+	],
+	"groups": [
+		"food"
+	],
 	"name": "pizza"
 }, {
 	"character": "💁",
@@ -2728,12 +2764,16 @@
 }, {
 	"character": "🌳",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"plant"
+	],
 	"name": "deciduous tree"
 }, {
 	"character": "🍐",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "pear"
 }, {
 	"character": "♥",
@@ -2876,7 +2916,9 @@
 }, {
 	"character": "🍧",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "shaved ice"
 }, {
 	"character": "🚢",
@@ -2946,7 +2988,9 @@
 }, {
 	"character": "🍍",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "pineapple"
 }, {
 	"character": "🌀",
@@ -3090,7 +3134,9 @@
 }, {
 	"character": "🍋",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "lemon"
 }, {
 	"character": "📞",
@@ -3180,7 +3226,9 @@
 }, {
 	"character": "🍞",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "bread"
 }, {
 	"character": "📳",
@@ -3205,7 +3253,9 @@
 }, {
 	"character": "🍠",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "sweet potato"
 }, {
 	"character": "👒",
@@ -3220,7 +3270,9 @@
 }, {
 	"character": "🍮",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "custard"
 }, {
 	"character": "🕦",
@@ -3310,7 +3362,9 @@
 }, {
 	"character": "🍡",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "dango"
 }, {
 	"character": "🚴",
@@ -3478,7 +3532,9 @@
 }, {
 	"character": "🍊",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "tangerine"
 }, {
 	"character": "💼",
@@ -3518,7 +3574,9 @@
 }, {
 	"character": "🍈",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "melon"
 }, {
 	"character": "📁",
@@ -3819,7 +3877,9 @@
 }, {
 	"character": "🍢",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "oden"
 }, {
 	"character": "🕓",
@@ -4084,8 +4144,10 @@
 }, {
 	"character": "🍎",
 	"aliases": [],
-	"groups": [],
-	"name": "apple"
+	"groups": [
+		"food"
+	],
+	"name": "red apple"
 }, {
 	"character": "🍵",
 	"aliases": [],
@@ -4134,12 +4196,16 @@
 }, {
 	"character": "🍓",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "strawberry"
 }, {
 	"character": "🌽",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "corn"
 }, {
 	"character": "♿",
@@ -4224,7 +4290,9 @@
 }, {
 	"character": "🍨",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "ice cream"
 }, {
 	"character": "👆",
@@ -4341,7 +4409,9 @@
 }, {
 	"character": "🍖",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "meat on bone"
 }, {
 	"character": "🕑",
@@ -4510,7 +4580,9 @@
 }, {
 	"character": "🍳",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "egg"
 }, {
 	"character": "💋",
@@ -4540,7 +4612,9 @@
 }, {
 	"character": "🍤",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "fried shrimp"
 }, {
 	"character": "🔋",
@@ -4659,8 +4733,12 @@
 	"name": "small orange diamond"
 }, {
 	"character": "🍟",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"french fries"
+	],
+	"groups": [
+		"food"
+	],
 	"name": "fries"
 }, {
 	"character": "🉑",
@@ -4711,8 +4789,12 @@
 	"name": "aerial tramway"
 }, {
 	"character": "🍩",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"donut"
+	],
+	"groups": [
+		"food"
+	],
 	"name": "doughnut"
 }, {
 	"character": "🏬",
@@ -4872,7 +4954,9 @@
 }, {
 	"character": "🍯",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"food"
+	],
 	"name": "honey pot"
 }, {
 	"character": "🏩",
