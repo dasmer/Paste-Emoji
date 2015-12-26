@@ -1066,7 +1066,9 @@
 	"name": "panda face"
 }, {
 	"character": "✊",
-	"aliases": [],
+	"aliases": [
+		"hand"
+	],
 	"groups": [],
 	"name": "fist"
 }, {
@@ -4758,7 +4760,8 @@
 }, {
 	"character": "🍵",
 	"aliases": [
-		"green tea"
+		"green tea",
+		"drink"
 	],
 	"groups": [],
 	"name": "tea"
@@ -5499,14 +5502,16 @@
 	"name": "caterpillar"
 }, {
 	"character": "🙏",
-	"aliases": [],
+	"aliases": [
+		"folded hands",
+		"hands",
+		"god",
+		"meditate",
+		"namaste",
+		"greet"
+	],
 	"groups": [],
 	"name": "pray"
-}, {
-	"character": "📛",
-	"aliases": [],
-	"groups": [],
-	"name": "name badge"
 }, {
 	"character": "🛂",
 	"aliases": [],
@@ -5514,24 +5519,40 @@
 	"name": "passport control"
 }, {
 	"character": "🌺",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"flower"
+	],
+	"groups": [
+		"plant"
+	],
 	"name": "hibiscus"
 }, {
 	"character": "🍲",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"soup",
+		"hot"
+	],
+	"groups": [
+		"food"
+	],
 	"name": "stew"
 }, {
 	"character": "🚬",
-	"aliases": [],
+	"aliases": [
+		"drug",
+		"cigarrette"
+	],
 	"groups": [],
 	"name": "smoking"
 }, {
 	"character": "🐅",
-	"aliases": [],
-	"groups": [],
-	"name": "tiger2"
+	"aliases": [
+		"leapord"
+	],
+	"groups": [
+		"animal"
+	],
+	"name": "tiger"
 }, {
 	"character": "🍺",
 	"aliases": [],
@@ -5539,7 +5560,13 @@
 	"name": "beer"
 }, {
 	"character": "😹",
-	"aliases": [],
+	"aliases": [
+		"laughing",
+		"funny",
+		"happy",
+		"lol",
+		"lmfao"
+	],
 	"groups": [],
 	"name": "joy cat"
 }, {
@@ -5550,34 +5577,36 @@
 }, {
 	"character": "🍟",
 	"aliases": [
-		"french fries"
+		"french fries",
+		"fast food"
 	],
 	"groups": [
 		"food"
 	],
 	"name": "fries"
 }, {
-	"character": "🉑",
-	"aliases": [],
-	"groups": [],
-	"name": "accept"
-}, {
 	"character": "🚗",
-	"aliases": [],
+	"aliases": [
+		"red car"
+	],
 	"groups": [],
 	"name": "car"
 }, {
 	"character": "😲",
-	"aliases": [],
+	"aliases": [
+		"xox",
+		"astonished",
+		"die"
+	],
 	"groups": [
 		"face"
 	],
-	"name": "astonished"
+	"name": "dead"
 }, {
 	"character": "🚏",
 	"aliases": [],
 	"groups": [],
-	"name": "busstop"
+	"name": "bus stop"
 }, {
 	"character": "🕔",
 	"aliases": [
@@ -5599,19 +5628,18 @@
 	"groups": [],
 	"name": "vertical traffic light"
 }, {
-	"character": "☑",
-	"aliases": [],
-	"groups": [],
-	"name": "ballot box with check"
-}, {
 	"character": "🚡",
-	"aliases": [],
+	"aliases": [
+		"tram",
+		"lift"
+	],
 	"groups": [],
 	"name": "aerial tramway"
 }, {
 	"character": "🍩",
 	"aliases": [
-		"donut"
+		"donut",
+		"chocolate"
 	],
 	"groups": [
 		"food"
@@ -5619,17 +5647,25 @@
 	"name": "doughnut"
 }, {
 	"character": "🏬",
-	"aliases": [],
+	"aliases": [
+		"building"
+	],
 	"groups": [],
 	"name": "department store"
 }, {
 	"character": "🐠",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"fish"
+	],
+	"groups": [
+		"animal"
+	],
 	"name": "tropical fish"
 }, {
 	"character": "📋",
-	"aliases": [],
+	"aliases": [
+		"board"
+	],
 	"groups": [],
 	"name": "clipboard"
 }, {
@@ -5639,23 +5675,40 @@
 	"name": "recycle"
 }, {
 	"character": "🔌",
-	"aliases": [],
+	"aliases": [
+		"electricity",
+		"port",
+		"socket"
+	],
 	"groups": [],
 	"name": "electric plug"
 }, {
 	"character": "🎇",
-	"aliases": [],
+	"aliases": [
+		"shooting star",
+		"star"
+	],
 	"groups": [],
 	"name": "sparkler"
 }, {
 	"character": "😡",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"angry",
+		"pissed",
+		"upset"
+	],
+	"groups": [
+		"face"
+	],
 	"name": "rage"
 }, {
 	"character": "🏈",
-	"aliases": [],
-	"groups": [],
+	"aliases": [
+		"ball"
+	],
+	"groups": [
+		"sport"
+	],
 	"name": "football"
 }, {
 	"character": "👉",
@@ -5674,17 +5727,24 @@
 	"name": "capricorn"
 }, {
 	"character": "‼",
-	"aliases": [],
+	"aliases": [
+		"!!"
+	],
 	"groups": [],
 	"name": "bangbang"
 }, {
 	"character": "🐺",
 	"aliases": [],
-	"groups": [],
-	"name": "wolf"
+	"groups": [
+		"animal"
+	],
+	"name": "wolf face"
 }, {
 	"character": "🚂",
-	"aliases": [],
+	"aliases": [
+		"train",
+		"choo choo"
+	],
 	"groups": [],
 	"name": "steam locomotive"
 }, {
@@ -5694,17 +5754,14 @@
 	"name": "baby symbol"
 }, {
 	"character": "🐉",
-	"aliases": [],
+	"aliases": [
+		"beast"
+	],
 	"groups": [],
 	"name": "dragon"
 }, {
-	"character": "⛎",
-	"aliases": [],
-	"groups": [],
-	"name": "ophiuchus"
-}, {
 	"character": "8️⃣",
-	"aliases": [],
+	"aliases": ["8"],
 	"groups": [],
 	"name": "eight"
 }, {
@@ -5719,34 +5776,34 @@
 	"name": "clock 6:00"
 }, {
 	"character": "👛",
-	"aliases": [],
+	"aliases": [
+		"bag"
+	],
 	"groups": [],
 	"name": "purse"
 }, {
 	"character": "🚿",
-	"aliases": [],
+	"aliases": [
+		"water",
+		"bath",
+		"faucet"
+	],
 	"groups": [],
 	"name": "shower"
 }, {
 	"character": "🚜",
-	"aliases": [],
+	"aliases": [
+		"trailer"
+	],
 	"groups": [],
 	"name": "tractor"
 }, {
 	"character": "🎸",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"instrument"
+	],
 	"name": "guitar"
-}, {
-	"character": "🉐",
-	"aliases": [],
-	"groups": [],
-	"name": "ideograph advantage"
-}, {
-	"character": "🐬",
-	"aliases": [],
-	"groups": [],
-	"name": "dolphin"
 }, {
 	"character": "🔚",
 	"aliases": [],
@@ -5754,19 +5811,31 @@
 	"name": "end"
 }, {
 	"character": "🚵",
-	"aliases": [],
+	"aliases": [
+		"bicycle",
+		"mountain",
+		"bike",
+		"athlete"
+	],
 	"groups": [],
 	"name": "mountain bicyclist"
 }, {
 	"character": "🎨",
-	"aliases": [],
+	"aliases": [
+		"palette",
+		"art"
+	],
 	"groups": [],
-	"name": "art"
+	"name": "paint"
 }, {
 	"character": "🐇",
-	"aliases": [],
-	"groups": [],
-	"name": "rabbit2"
+	"aliases": [
+		"bunny"
+	],
+	"groups": [
+		"animal"
+	],
+	"name": "rabbit"
 }, {
 	"character": "👱",
 	"aliases": [],
@@ -5775,7 +5844,9 @@
 }, {
 	"character": "🐒",
 	"aliases": [],
-	"groups": [],
+	"groups": [
+		"animal"
+	],
 	"name": "monkey"
 }, {
 	"character": "🍯",
@@ -5786,7 +5857,11 @@
 	"name": "honey pot"
 }, {
 	"character": "🏩",
-	"aliases": [],
+	"aliases": [
+		"building",
+		"hotel",
+		"motel"
+	],
 	"groups": [],
 	"name": "love hotel"
 }, {
