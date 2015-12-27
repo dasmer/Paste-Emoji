@@ -64,7 +64,9 @@
 }, {
 	"character": "🚤",
 	"aliases": [
-		"boat"
+		"boat",
+		"motorboat",
+		"motor boat"
 	],
 	"groups": [],
 	"name": "speedboat"
@@ -866,7 +868,7 @@
 		"lens"
 	],
 	"groups": [],
-	"name": "magnifying glass"
+	"name": "left magnifying glass"
 }, {
 	"character": "😥",
 	"aliases": [
@@ -5876,31 +5878,29 @@
 	"name": "up"
 },
 {
-	"groups": [
-
-	],
+	"groups": [],
 	"character": "☣",
 	"name": "biohazard sign",
 	"aliases": [
-
+		"dangerous"
 	]
 }, {
-	"groups": [
-
-	],
+	"groups": [],
 	"character": "☮",
 	"name": "peace symbol",
 	"aliases": [
-
+		"hippie"
 	]
 }, {
 	"groups": [
-
+		"food"
 	],
 	"character": "🍿",
 	"name": "popcorn",
 	"aliases": [
-
+		"movies",
+		"theater",
+		"corn"
 	]
 }, {
 	"groups": [
@@ -5909,25 +5909,21 @@
 	"character": "🕋",
 	"name": "kaaba",
 	"aliases": [
-
 	]
 }, {
 	"groups": [
-
+		"sport"
 	],
 	"character": "🏌",
 	"name": "golfer",
-	"aliases": [
-
-	]
+	"aliases": []
 }, {
-	"groups": [
-
-	],
+	"groups": [],
 	"character": "☠",
 	"name": "skull and crossbones",
 	"aliases": [
-
+		"danger",
+		"dangerous"
 	]
 }, {
 	"groups": [
@@ -5936,7 +5932,10 @@
 	"character": "🛋",
 	"name": "couch and lamp",
 	"aliases": [
-
+		"sofa",
+		"seat",
+		"chill",
+		"bum"
 	]
 }, {
 	"groups": [
@@ -5954,7 +5953,7 @@
 	"character": "⚒",
 	"name": "hammer and pick",
 	"aliases": [
-
+		"tools"
 	]
 }, {
 	"groups": [
@@ -5963,7 +5962,7 @@
 	"character": "🗒",
 	"name": "spiral note pad",
 	"aliases": [
-
+		"notebook"
 	]
 }, {
 	"groups": [
@@ -5972,23 +5971,14 @@
 	"character": "🚋",
 	"name": "tram car",
 	"aliases": [
-
+		"train"
 	]
 }, {
 	"groups": [
-
+		"lens"
 	],
 	"character": "🔎",
-	"name": "right-pointing magnifying glass",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "㊗",
-	"name": "circled ideograph congratulation",
+	"name": "right magnifying glass",
 	"aliases": [
 
 	]
@@ -5999,25 +5989,19 @@
 	"character": "📿",
 	"name": "prayer beads",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "Ⓜ",
-	"name": "circled latin capital letter m",
-	"aliases": [
-
+		"religion",
+		"pray",
+		"meditate"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖕",
-	"name": "reversed hand with middle finger extended",
+	"name": "middle finger",
 	"aliases": [
-
+		"fuck you",
+		"hand"
 	]
 }, {
 	"groups": [
@@ -6032,28 +6016,11 @@
 	"groups": [
 
 	],
-	"character": "➰",
-	"name": "curly loop",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
 	"character": "🛢",
 	"name": "oil drum",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈵",
-	"name": "squared cjk unified ideograph-6e80",
-	"aliases": [
-
+		"gas",
+		"crude"
 	]
 }, {
 	"groups": [
@@ -6062,7 +6029,8 @@
 	"character": "🖨",
 	"name": "printer",
 	"aliases": [
-
+		"copy",
+		"print"
 	]
 }, {
 	"groups": [
@@ -6071,7 +6039,11 @@
 	"character": "🏋",
 	"name": "weight lifter",
 	"aliases": [
-
+		"exercise",
+		"athlete",
+		"gym",
+		"dumbell",
+		"strong"
 	]
 }, {
 	"groups": [
@@ -6080,7 +6052,7 @@
 	"character": "🏜",
 	"name": "desert",
 	"aliases": [
-
+		"cactus"
 	]
 }, {
 	"groups": [
@@ -6089,16 +6061,19 @@
 	"character": "🗡",
 	"name": "dagger knife",
 	"aliases": [
-
+		"weapon",
+		"stab",
+		"sword"
 	]
 }, {
 	"groups": [
-
+		"sport"
 	],
 	"character": "🏏",
-	"name": "cricket bat and ball",
+	"name": "cricket",
 	"aliases": [
-
+		"bat",
+		"ball"
 	]
 }, {
 	"groups": [
@@ -6106,17 +6081,19 @@
 	],
 	"character": "🛎",
 	"name": "bellhop bell",
-	"aliases": [
-
-	]
+	"aliases": []
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🤕",
 	"name": "face with head-bandage",
 	"aliases": [
-
+		"injured",
+		"beat up",
+		"hurt",
+		"bandage",
+		"wrap"
 	]
 }, {
 	"groups": [
@@ -6125,7 +6102,8 @@
 	"character": "📽",
 	"name": "film projector",
 	"aliases": [
-
+		"movie",
+		"theater"
 	]
 }, {
 	"groups": [
@@ -6134,16 +6112,17 @@
 	"character": "🏅",
 	"name": "sports medal",
 	"aliases": [
-
+		"award"
 	]
 }, {
 	"groups": [
-
+		"sport"
 	],
 	"character": "⛹",
-	"name": "person with ball",
+	"name": "dribble",
 	"aliases": [
-
+		"basketball",
+		"ball"
 	]
 }, {
 	"groups": [
@@ -6152,25 +6131,30 @@
 	"character": "🎞",
 	"name": "film frames",
 	"aliases": [
-
+		"theater"
 	]
 }, {
 	"groups": [
-
+		"weather"
 	],
 	"character": "🌧",
 	"name": "cloud with rain",
 	"aliases": [
-
+		"drizzle",
+		"rain",
+		"clouds"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖐",
-	"name": "raised hand with fingers splayed",
+	"name": "hand with fingers splayed",
 	"aliases": [
-
+		"5",
+		"five",
+		"high five",
+		"high-five"
 	]
 }, {
 	"groups": [
@@ -6179,41 +6163,38 @@
 	"character": "🤐",
 	"name": "zipper-mouth face",
 	"aliases": [
-
+		"zipped",
+		"sealed",
+		"lips",
+		"secret"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🕎",
-	"name": "menorah with nine branches",
+	"name": "menorah",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈷",
-	"name": "squared cjk unified ideograph-6708",
-	"aliases": [
-
+		"hanukkah",
+		"chanukah",
+		"jewish"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "☃",
-	"name": "snowman",
+	"name": "snowman outline",
 	"aliases": [
-
-	]
+		"snow man",
+		"snow"
+		]
 }, {
 	"groups": [
 
 	],
 	"character": "⏯",
-	"name": "black right-pointing triangle with double vertical bar",
+	"name": "play pause",
 	"aliases": [
 
 	]
@@ -6224,79 +6205,56 @@
 	"character": "🗑",
 	"name": "wastebasket",
 	"aliases": [
-
+		"can",
+		"trash",
+		"bin",
+		"basket"
 	]
 }, {
 	"groups": [
-
+		"building"
 	],
 	"character": "🏘",
 	"name": "house buildings",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "⚗",
-	"name": "alembic",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "↙",
-	"name": "south west arrow",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈹",
-	"name": "squared cjk unified ideograph-5272",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🏽",
-	"name": "emoji modifier fitzpatrick type-4",
-	"aliases": [
-
+		"houses",
+		"homes"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖍",
-	"name": "lower left crayon",
+	"name": "crayon",
 	"aliases": [
-
+		"red crayon",
+		"art",
+		"draw",
+		"marker"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🛫",
-	"name": "airplane departure",
+	"name": "takeoff",
 	"aliases": [
-
+		"airplane",
+		"departure",
+		"plane"
 	]
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🙁",
 	"name": "slightly frowning face",
 	"aliases": [
-
+		"frown",
+		"sad",
+		":/",
+		"upset",
+		"unhappy"
 	]
 }, {
 	"groups": [
@@ -6305,25 +6263,29 @@
 	"character": "🏙",
 	"name": "cityscape",
 	"aliases": [
-
+		"city",
+		"skyline"
 	]
 }, {
 	"groups": [
-
+		"animal"
 	],
 	"character": "🐿",
 	"name": "chipmunk",
 	"aliases": [
-
+		"squirrel"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖱",
-	"name": "three button mouse",
+	"name": "mouse",
 	"aliases": [
-
+		"trackpad",
+		"laser mouse",
+		"computer",
+		"desktop"
 	]
 }, {
 	"groups": [
@@ -6332,43 +6294,35 @@
 	"character": "🏕",
 	"name": "camping",
 	"aliases": [
-
+		"tent",
+		"camp"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🗣",
-	"name": "speaking head in silhouette",
+	"name": "speaking silhouette",
 	"aliases": [
-
+		"talking"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🛠",
-	"name": "hammer and wrench",
+	"name": "hammer wrench",
 	"aliases": [
-
+		"tools"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖼",
-	"name": "frame with picture",
+	"name": "framed picture",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "◾",
-	"name": "black medium small square",
-	"aliases": [
-
+		"photo"
 	]
 }, {
 	"groups": [
@@ -6377,7 +6331,10 @@
 	"character": "🤓",
 	"name": "nerd face",
 	"aliases": [
-
+		"geek",
+		"scientist",
+		"dork",
+		"glasses"
 	]
 }, {
 	"groups": [
@@ -6386,11 +6343,11 @@
 	"character": "📸",
 	"name": "camera with flash",
 	"aliases": [
-
+		"photographer"
 	]
 }, {
 	"groups": [
-
+		"flag"
 	],
 	"character": "🏴",
 	"name": "waving black flag",
@@ -6404,16 +6361,18 @@
 	"character": "🛳",
 	"name": "passenger ship",
 	"aliases": [
-
+		"ship",
+		"cruise",
+		"boat"
 	]
 }, {
 	"groups": [
-
+		"weather"
 	],
 	"character": "🌫",
 	"name": "fog",
 	"aliases": [
-
+		"clouds"
 	]
 }, {
 	"groups": [
@@ -6422,14 +6381,15 @@
 	"character": "🕯",
 	"name": "candle",
 	"aliases": [
-
+		"fire",
+		"lit"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "✍",
-	"name": "writing hand",
+	"name": "writing hand outline",
 	"aliases": [
 
 	]
@@ -6440,7 +6400,7 @@
 	"character": "✡",
 	"name": "star of david",
 	"aliases": [
-
+		"jewish"
 	]
 }, {
 	"groups": [
@@ -6449,25 +6409,27 @@
 	"character": "⚔",
 	"name": "crossed swords",
 	"aliases": [
-
+		"sword",
+		"weapon"
 	]
 }, {
 	"groups": [
-
+		"animal"
 	],
 	"character": "🦀",
 	"name": "crab",
 	"aliases": [
-
+		"lobster"
 	]
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🙂",
 	"name": "slightly smiling face",
 	"aliases": [
-
+		"happy",
+		"smiley"
 	]
 }, {
 	"groups": [
@@ -6476,7 +6438,9 @@
 	"character": "🌬",
 	"name": "wind blowing face",
 	"aliases": [
-
+		"blow",
+		"smoke",
+		"hookah"
 	]
 }, {
 	"groups": [
@@ -6485,7 +6449,10 @@
 	"character": "🕹",
 	"name": "joystick",
 	"aliases": [
-
+		"videogame",
+		"play",
+		"game",
+		"controller"
 	]
 }, {
 	"groups": [
@@ -6494,16 +6461,18 @@
 	"character": "🏺",
 	"name": "amphora",
 	"aliases": [
-
+		"jar",
+		"urn"
 	]
 }, {
 	"groups": [
-
+		"food"
 	],
 	"character": "🌭",
 	"name": "hot dog",
 	"aliases": [
-
+		"hotdog",
+		"mustard"
 	]
 }, {
 	"groups": [
@@ -6521,16 +6490,18 @@
 	"character": "🏹",
 	"name": "bow and arrow",
 	"aliases": [
-
+		"weapon"
 	]
 }, {
 	"groups": [
-
+		"building"
 	],
 	"character": "🏛",
 	"name": "classical building",
 	"aliases": [
-
+		"government",
+		"pillars",
+		"greek"
 	]
 }, {
 	"groups": [
@@ -6539,7 +6510,7 @@
 	"character": "🏔",
 	"name": "snow capped mountain",
 	"aliases": [
-
+		"hill"
 	]
 }, {
 	"groups": [
