@@ -69,7 +69,7 @@
 		"motor boat"
 	],
 	"groups": [],
-	"name": "speedboat"
+	"name": "speed boat"
 }, {
 	"character": "🐋",
 	"aliases": [],
@@ -3089,7 +3089,9 @@
 }, {
 	"character": "💬",
 	"aliases": [
-		"talk"
+		"talk",
+		"speak",
+		"bubble"
 	],
 	"groups": [],
 	"name": "speech balloon"
@@ -4064,7 +4066,8 @@
 }, {
 	"character": "💭",
 	"aliases": [
-		"cloud"
+		"cloud",
+		"dream"
 	],
 	"groups": [],
 	"name": "thought balloon"
@@ -4971,11 +4974,10 @@
 	"character": "💻",
 	"aliases": [
 		"notebook",
-		"laptop",
-		"desktop"
+		"computer"
 	],
 	"groups": [],
-	"name": "computer"
+	"name": "laptop"
 }, {
 	"character": "📉",
 	"aliases": [],
@@ -6514,12 +6516,14 @@
 	]
 }, {
 	"groups": [
-
 	],
 	"character": "🏚",
-	"name": "derelict house building",
+	"name": "old house",
 	"aliases": [
-
+		"derelict",
+		"beat up",
+		"poor",
+		"home"
 	]
 }, {
 	"groups": [
@@ -6528,7 +6532,8 @@
 	"character": "🕶",
 	"name": "dark sunglasses",
 	"aliases": [
-
+		"shades",
+		"glasses"
 	]
 }, {
 	"groups": [
@@ -6537,7 +6542,8 @@
 	"character": "🎖",
 	"name": "military medal",
 	"aliases": [
-
+		"award",
+		"trophy"
 	]
 }, {
 	"groups": [
@@ -6546,7 +6552,8 @@
 	"character": "🗨",
 	"name": "left speech bubble",
 	"aliases": [
-
+		"talk",
+		"speak"
 	]
 }, {
 	"groups": [
@@ -6555,16 +6562,17 @@
 	"character": "🎚",
 	"name": "level slider",
 	"aliases": [
-
+		"switch"
 	]
 }, {
 	"groups": [
-
+		"weather"
 	],
 	"character": "🌤",
-	"name": "white sun with small cloud",
+	"name": "partly cloudy",
 	"aliases": [
-
+		"sun",
+		"cloud"
 	]
 }, {
 	"groups": [
@@ -6573,14 +6581,15 @@
 	"character": "⏱",
 	"name": "stopwatch",
 	"aliases": [
-
+		"timer",
+		"alarm"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "💠",
-	"name": "diamond shape with a dot inside",
+	"name": "diamond with a dot",
 	"aliases": [
 
 	]
@@ -6591,32 +6600,23 @@
 	"character": "🕌",
 	"name": "mosque",
 	"aliases": [
-
+		"masjid"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "❣",
-	"name": "heavy heart exclamation mark ornament",
+	"name": "heavy heart",
 	"aliases": [
-
+		"sad"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⏹",
-	"name": "black square for stop",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "◻",
-	"name": "white medium square",
+	"name": "stop button",
 	"aliases": [
 
 	]
@@ -6625,9 +6625,9 @@
 
 	],
 	"character": "🖋",
-	"name": "lower left fountain pen",
+	"name": "fountain pen",
 	"aliases": [
-
+		"ink"
 	]
 }, {
 	"groups": [
@@ -6636,16 +6636,10 @@
 	"character": "🌩",
 	"name": "cloud with lightning",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈂",
-	"name": "squared katakana sa",
-	"aliases": [
-
+		"weather",
+		"thunder",
+		"bolt",
+		"cloud"
 	]
 }, {
 	"groups": [
@@ -6654,25 +6648,19 @@
 	"character": "🧀",
 	"name": "cheese wedge",
 	"aliases": [
-
+		"slice",
+		"swiss"
 	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈚",
-	"name": "squared cjk unified ideograph-7121",
-	"aliases": [
-
-	]
-}, {
+},{
 	"groups": [
 
 	],
 	"character": "🌶",
 	"name": "hot pepper",
 	"aliases": [
-
+		"red pepper",
+		"spicy",
+		"hot"
 	]
 }, {
 	"groups": [
@@ -6681,7 +6669,6 @@
 	"character": "🕸",
 	"name": "spider web",
 	"aliases": [
-
 	]
 }, {
 	"groups": [
@@ -6690,7 +6677,7 @@
 	"character": "🤖",
 	"name": "robot face",
 	"aliases": [
-
+		"android"
 	]
 }, {
 	"groups": [
@@ -6699,16 +6686,11 @@
 	"character": "🤘",
 	"name": "sign of the horns",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🀄",
-	"name": "mahjong tile red dragon",
-	"aliases": [
-
+		"horns",
+		"longhorns",
+		"texas",
+		"university of texas",
+		"ut"
 	]
 }, {
 	"groups": [
@@ -6717,7 +6699,9 @@
 	"character": "🍾",
 	"name": "bottle with popping cork",
 	"aliases": [
-
+		"wine",
+		"alcohol",
+		"champagne"
 	]
 }, {
 	"groups": [
@@ -6726,7 +6710,7 @@
 	"character": "⛸",
 	"name": "ice skate",
 	"aliases": [
-
+		"skating"
 	]
 }, {
 	"groups": [
@@ -6735,43 +6719,38 @@
 	"character": "👁",
 	"name": "eye",
 	"aliases": [
-
+		"eyeball",
+		"pupil"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🤗",
-	"name": "hugging face",
+	"name": "hug",
 	"aliases": [
-
+		"hands",
+		"happy"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🕵",
-	"name": "sleuth or spy",
+	"name": "detective",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "☹",
-	"name": "white frowning face",
-	"aliases": [
-
+		"sleuth",
+		"spy"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖌",
-	"name": "lower left paintbrush",
+	"name": "paintbrush",
 	"aliases": [
-
+		"brush",
+		"art"
 	]
 }, {
 	"groups": [
@@ -6786,35 +6765,19 @@
 	"groups": [
 
 	],
-	"character": "⤴",
-	"name": "arrow pointing rightwards then curving upwards",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
 	"character": "🗞",
 	"name": "rolled-up newspaper",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🉐",
-	"name": "circled ideograph advantage",
-	"aliases": [
-
+		"news",
+		"paper",
+		"periodical"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⏺",
-	"name": "black circle for record",
+	"name": "record button",
 	"aliases": [
 
 	]
@@ -6823,18 +6786,18 @@
 
 	],
 	"character": "🕴",
-	"name": "man in business suit levitating",
+	"name": "floating",
 	"aliases": [
-
+		"levitating"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖊",
-	"name": "lower left ballpoint pen",
+	"name": "ballpoint pen",
 	"aliases": [
-
+		"ink"
 	]
 }, {
 	"groups": [
@@ -6843,7 +6806,10 @@
 	"character": "⚖",
 	"name": "scales",
 	"aliases": [
-
+		"equal",
+		"level",
+		"weight",
+		"balance"
 	]
 }, {
 	"groups": [
@@ -6852,25 +6818,31 @@
 	"character": "☪",
 	"name": "star and crescent",
 	"aliases": [
-
+		"muslim",
+		"islam",
+		"flag"
 	]
 }, {
 	"groups": [
-
+		"animal"
 	],
 	"character": "🦃",
 	"name": "turkey",
 	"aliases": [
-
+		"bird",
+		"thanksgiving"
 	]
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🤒",
 	"name": "face with thermometer",
 	"aliases": [
-
+		"sick",
+		"temperature",
+		"cold",
+		"fever"
 	]
 }, {
 	"groups": [
@@ -6879,7 +6851,8 @@
 	"character": "🗯",
 	"name": "right anger bubble",
 	"aliases": [
-
+		"talk",
+		"speak"
 	]
 }, {
 	"groups": [
@@ -6888,41 +6861,16 @@
 	"character": "🛥",
 	"name": "motor boat",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈳",
-	"name": "squared cjk unified ideograph-7a7a",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🔲",
-	"name": "black square button",
-	"aliases": [
-
+		"boat",
+		"speedboat",
+		"speed boat"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⏸",
-	"name": "double vertical bar",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🆖",
-	"name": "squared ng",
+	"name": "pause button",
 	"aliases": [
 
 	]
@@ -6937,12 +6885,12 @@
 	]
 }, {
 	"groups": [
-
+		"sport",
+		"ball"
 	],
 	"character": "🏐",
 	"name": "volleyball",
 	"aliases": [
-
 	]
 }, {
 	"groups": [
@@ -6951,7 +6899,7 @@
 	"character": "🛏",
 	"name": "bed",
 	"aliases": [
-
+		"sleep"
 	]
 }, {
 	"groups": [
@@ -6960,32 +6908,36 @@
 	"character": "🏷",
 	"name": "label",
 	"aliases": [
-
+		"tag"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🌪",
-	"name": "cloud with tornado",
+	"name": "tornado",
 	"aliases": [
-
+		"gust",
+		"hurricane",
+		"twister"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🌥",
-	"name": "white sun behind cloud",
+	"name": "mostyle cloudy",
 	"aliases": [
-
+		"sun",
+		"cloud",
+		"weather"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⏭",
-	"name": "black right-pointing double triangle with vertical bar",
+	"name": "next track button",
 	"aliases": [
 
 	]
@@ -6996,7 +6948,7 @@
 	"character": "🕳",
 	"name": "hole",
 	"aliases": [
-
+		"ditch"
 	]
 }, {
 	"groups": [
@@ -7009,21 +6961,12 @@
 	]
 }, {
 	"groups": [
-
+		"animal"
 	],
 	"character": "🕷",
 	"name": "spider",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "⚫",
-	"name": "medium black circle",
-	"aliases": [
-
+		"bug"
 	]
 }, {
 	"groups": [
@@ -7032,7 +6975,7 @@
 	"character": "⛰",
 	"name": "mountain",
 	"aliases": [
-
+		"hill"
 	]
 }, {
 	"groups": [
@@ -7041,7 +6984,8 @@
 	"character": "🛤",
 	"name": "railway track",
 	"aliases": [
-
+		"train track",
+		"railroad track"
 	]
 }, {
 	"groups": [
@@ -7050,7 +6994,7 @@
 	"character": "🏵",
 	"name": "rosette",
 	"aliases": [
-
+		"flower"
 	]
 }, {
 	"groups": [
@@ -7068,7 +7012,12 @@
 	"character": "🤑",
 	"name": "money-mouth face",
 	"aliases": [
-
+		"cash",
+		"money",
+		"rich",
+		"money minded",
+		"wealthy",
+		"tongue"
 	]
 }, {
 	"groups": [
@@ -7083,19 +7032,11 @@
 	"groups": [
 
 	],
-	"character": "🉑",
-	"name": "circled ideograph accept",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
 	"character": "🕰",
 	"name": "mantelpiece clock",
 	"aliases": [
-
+		"watch",
+		"time"
 	]
 }, {
 	"groups": [
@@ -7104,34 +7045,36 @@
 	"character": "🏍",
 	"name": "racing motorcycle",
 	"aliases": [
-
+		"bike",
+		"bicycle",
+		"motorbike"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🛌",
-	"name": "sleeping accommodation",
+	"name": "sleeping",
 	"aliases": [
-
+		"bed"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🏖",
-	"name": "beach with umbrella",
+	"name": "beach",
 	"aliases": [
-
+		"umbrella"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🎛",
-	"name": "control knobs",
+	"name": "knobs",
 	"aliases": [
-
+		"stove"
 	]
 }, {
 	"groups": [
@@ -7144,39 +7087,12 @@
 	]
 }, {
 	"groups": [
-
-	],
-	"character": "▪",
-	"name": "black small square",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
+		"animal"
 	],
 	"character": "🦁",
 	"name": "lion face",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "✒",
-	"name": "black nib",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈲",
-	"name": "squared cjk unified ideograph-7981",
-	"aliases": [
-
+		"cub"
 	]
 }, {
 	"groups": [
@@ -7185,25 +7101,18 @@
 	"character": "🛡",
 	"name": "shield",
 	"aliases": [
-
+		"protection",
+		"security"
 	]
 }, {
 	"groups": [
-
+		"sport"
 	],
 	"character": "🏑",
-	"name": "field hockey stick and ball",
+	"name": "field hockey",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🛐",
-	"name": "place of worship",
-	"aliases": [
-
+		"stick",
+		"ball"
 	]
 }, {
 	"groups": [
@@ -7218,37 +7127,19 @@
 	"groups": [
 
 	],
-	"character": "🆑",
-	"name": "squared cl",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
 	"character": "🛰",
 	"name": "satellite",
 	"aliases": [
-
+		"space"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🗓",
-	"name": "spiral calendar pad",
+	"name": "spiral calendar",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "✳",
-	"name": "eight spoked asterisk",
-	"aliases": [
-
+		"pad"
 	]
 }, {
 	"groups": [
@@ -7257,14 +7148,15 @@
 	"character": "☄",
 	"name": "comet",
 	"aliases": [
-
+		"space",
+		"meteor"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🏳",
-	"name": "waving white flag",
+	"name": "white flag",
 	"aliases": [
 
 	]
@@ -7275,7 +7167,7 @@
 	"character": "🌡",
 	"name": "thermometer",
 	"aliases": [
-
+		"temperature"
 	]
 }, {
 	"groups": [
@@ -7284,29 +7176,21 @@
 	"character": "☢",
 	"name": "radioactive sign",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈺",
-	"name": "squared cjk unified ideograph-55b6",
-	"aliases": [
-
+		"danger"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🖥",
-	"name": "desktop computer",
+	"name": "desktop",
 	"aliases": [
-
+		"computer",
+		"imac"
 	]
 }, {
 	"groups": [
-
+		"food"
 	],
 	"character": "🌮",
 	"name": "taco",
@@ -7338,7 +7222,9 @@
 	"character": "🎙",
 	"name": "studio microphone",
 	"aliases": [
-
+		"sing",
+		"megaphone",
+		"record"
 	]
 }, {
 	"groups": [
@@ -7347,14 +7233,15 @@
 	"character": "⛴",
 	"name": "ferry",
 	"aliases": [
-
+		"boat",
+		"ship"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🏗",
-	"name": "building construction",
+	"name": "construction",
 	"aliases": [
 
 	]
@@ -7369,16 +7256,7 @@
 	]
 }, {
 	"groups": [
-
-	],
-	"character": "㊙",
-	"name": "circled ideograph secret",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
+		"animal"
 	],
 	"character": "🦂",
 	"name": "scorpion",
@@ -7390,9 +7268,10 @@
 
 	],
 	"character": "🗳",
-	"name": "ballot box with ballot",
+	"name": "ballot box",
 	"aliases": [
-
+		"vote",
+		"elect"
 	]
 }, {
 	"groups": [
@@ -7407,19 +7286,11 @@
 	"groups": [
 
 	],
-	"character": "🈁",
-	"name": "squared katakana koko",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
 	"character": "⛏",
 	"name": "pick",
 	"aliases": [
-
+		"tool",
+		"hook"
 	]
 }, {
 	"groups": [
@@ -7435,9 +7306,8 @@
 
 	],
 	"character": "🎟",
-	"name": "admission tickets",
+	"name": "raffle tickets",
 	"aliases": [
-
 	]
 }, {
 	"groups": [
@@ -7455,79 +7325,38 @@
 	"character": "☂",
 	"name": "umbrella",
 	"aliases": [
-
+		"rain"
 	]
 }, {
 	"groups": [
-
+		"weather"
 	],
 	"character": "🌨",
 	"name": "cloud with snow",
 	"aliases": [
-
+		"hail"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "📅",
-	"name": "calendar",
+	"name": "large calendar",
 	"aliases": [
-
+		"date"
 	]
 }, {
 	"groups": [
-
+		"sport",
+		"ball"
 	],
 	"character": "🏓",
-	"name": "table tennis paddle and ball",
+	"name": "table tennis",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "☸",
-	"name": "wheel of dharma",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🏻",
-	"name": "emoji modifier fitzpatrick type-1-2",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈶",
-	"name": "squared cjk unified ideograph-6709",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🔼",
-	"name": "up-pointing small red triangle",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🈯",
-	"name": "squared cjk unified ideograph-6307",
-	"aliases": [
-
+		"ping",
+		"pong",
+		"paddle",
+		"ball"
 	]
 }, {
 	"groups": [
@@ -7536,34 +7365,30 @@
 	"character": "🍽",
 	"name": "fork and knife with plate",
 	"aliases": [
-
+		"dinner",
+		"silverware",
+		"cutlery"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⏮",
-	"name": "black left-pointing double triangle with vertical bar",
+	"name": "previous track",
 	"aliases": [
 
 	]
 }, {
 	"groups": [
-
-	],
-	"character": "🈴",
-	"name": "squared cjk unified ideograph-5408",
-	"aliases": [
-
-	]
-}, {
-	"groups": [
-
+		"weather"
 	],
 	"character": "🌦",
-	"name": "white sun behind cloud with rain",
+	"name": "sunny with showers",
 	"aliases": [
-
+		"sun",
+		"clouds",
+		"rain",
+		"partly cloudy"
 	]
 }, {
 	"groups": [
@@ -7572,16 +7397,15 @@
 	"character": "⏲",
 	"name": "timer clock",
 	"aliases": [
-
+		"stopwatch"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⛱",
-	"name": "umbrella on ground",
+	"name": "beach umbrella",
 	"aliases": [
-
 	]
 }, {
 	"groups": [
@@ -7606,9 +7430,9 @@
 
 	],
 	"character": "🗃",
-	"name": "card file box",
+	"name": "file box",
 	"aliases": [
-
+		"cabinet"
 	]
 }, {
 	"groups": [
@@ -7626,7 +7450,8 @@
 	"character": "🛣",
 	"name": "motorway",
 	"aliases": [
-
+		"highway",
+		"freeway"
 	]
 }, {
 	"groups": [
@@ -7635,16 +7460,8 @@
 	"character": "🛩",
 	"name": "small airplane",
 	"aliases": [
-
-	]
-}, {
-	"groups": [
-
-	],
-	"character": "🔃",
-	"name": "clockwise downwards and upwards open circle arrows",
-	"aliases": [
-
+		"plane",
+		"takeoff"
 	]
 }, {
 	"groups": [
@@ -7662,34 +7479,35 @@
 	"character": "🕍",
 	"name": "synagogue",
 	"aliases": [
-
+		"jewish"
 	]
 }, {
 	"groups": [
-
+		"weather"
 	],
 	"character": "⛈",
 	"name": "thunder cloud and rain",
 	"aliases": [
-
+		"lightning"
 	]
 }, {
 	"groups": [
-
+		"sport"
 	],
 	"character": "🏒",
-	"name": "ice hockey stick and puck",
+	"name": "ice hockey",
 	"aliases": [
-
+		"stick",
+		"puck"
 	]
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🤔",
 	"name": "thinking face",
 	"aliases": [
-
+		"thought"
 	]
 }, {
 	"groups": [
@@ -7702,7 +7520,7 @@
 	]
 }, {
 	"groups": [
-
+		"food"
 	],
 	"character": "🌯",
 	"name": "burrito",
@@ -7734,16 +7552,16 @@
 	"character": "🏟",
 	"name": "stadium",
 	"aliases": [
-
+		"colosseum",
+		"coliseum"
 	]
 }, {
 	"groups": [
-
+		"ball"
 	],
 	"character": "🖲",
 	"name": "trackball",
 	"aliases": [
-
 	]
 }, {
 	"groups": [
@@ -7752,14 +7570,15 @@
 	"character": "⚛",
 	"name": "atom symbol",
 	"aliases": [
-
+		"neutron",
+		"subatomic"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🦄",
-	"name": "unicorn face",
+	"name": "unicorn",
 	"aliases": [
 
 	]
@@ -7768,9 +7587,10 @@
 
 	],
 	"character": "🛬",
-	"name": "airplane arriving",
+	"name": "airplane landing",
 	"aliases": [
-
+		"plane",
+		"runway"
 	]
 }, {
 	"groups": [
@@ -7786,18 +7606,24 @@
 
 	],
 	"character": "🖖",
-	"name": "raised hand with part between middle and ring fingers",
+	"name": "vulcan salute",
 	"aliases": [
-
+		"starwars",
+		"star",
+		"wars",
+		"hand",
+		"fingers"
 	]
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🙃",
 	"name": "upside-down face",
 	"aliases": [
-
+		"upside down",
+		"happy",
+		"smiley"
 	]
 }, {
 	"groups": [
@@ -7824,34 +7650,37 @@
 	"character": "🌠",
 	"name": "shooting star",
 	"aliases": [
-
+		"space"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🏝",
-	"name": "desert island",
+	"name": "tropical island",
 	"aliases": [
-
+		"beach",
+		"palm tree"
 	]
 }, {
 	"groups": [
-
+		"sport"
 	],
 	"character": "🏸",
-	"name": "badminton racquet and shuttlecock",
+	"name": "badminton",
 	"aliases": [
-
+		"racket",
+		"racquet",
+		"shuttlecock"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "🏎",
-	"name": "racing car",
+	"name": "race car",
 	"aliases": [
-
+		"racecar"
 	]
 }, {
 	"groups": [
@@ -7860,24 +7689,26 @@
 	"character": "🛍",
 	"name": "shopping bags",
 	"aliases": [
-
+		"spree"
 	]
 }, {
 	"groups": [
-
+		"face"
 	],
 	"character": "🙄",
 	"name": "face with rolling eyes",
 	"aliases": [
-
+		"unamused",
+		"bored"
 	]
 }, {
 	"groups": [
 
 	],
 	"character": "⛑",
-	"name": "helmet with white cross",
+	"name": "helmet",
 	"aliases": [
-
+		"construction",
+		"red"
 	]
 }]
