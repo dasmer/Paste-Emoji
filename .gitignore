@@ -17,6 +17,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 *.DS_Store
+Paste/Key.swift
 
 Carthage/Checkouts
 Carthage/Build
