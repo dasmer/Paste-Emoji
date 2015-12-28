@@ -1,6 +1,16 @@
 task :default do
+  Rake::Task["keys"].execute
   puts 'Installing Carthage Dependencies'
   system('carthage bootstrap')
+end
+
+task :keys do
+  if (File.file?('./Paste/Key.swift'))
+    puts "Using existing ./Paste/Key.swift"
+  else
+    puts "Creating ./Paste/Key.swift"
+    FileUtils.cp('./Scripts/Resources/Key.swift', './Paste')
+  end
 end
 
 task :update do
