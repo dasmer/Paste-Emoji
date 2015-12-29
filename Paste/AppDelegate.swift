@@ -20,8 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = UINavigationController(rootViewController: SearchViewController())
         window.makeKeyAndVisible()
 
+        Analytics.sharedInstance.track("Application Opened", properties: ["Type": "Launch"])
+
         self.window = window
 
         return true
+    }
+
+    func applicationWillEnterForeground(application: UIApplication) {
+        Analytics.sharedInstance.track("Application Opened", properties: ["Type": "From Background"])
     }
 }
