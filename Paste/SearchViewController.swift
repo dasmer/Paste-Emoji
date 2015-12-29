@@ -157,6 +157,8 @@ extension SearchViewController: UITableViewDelegate {
         ]
         Analytics.sharedInstance.track("Emoji Selected", properties: properties)
 
+        RateReminder.sharedInstance.logEvent()
+
         var currentRecents = recents
         if let index = currentRecents.indexOf(emoji) {
             currentRecents.removeAtIndex(index)
