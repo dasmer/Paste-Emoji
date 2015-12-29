@@ -1,7 +1,7 @@
 task :default do
   Rake::Task["keys"].execute
   puts 'Installing Carthage Dependencies'
-  system('carthage bootstrap')
+  system('carthage bootstrap --platform iOS')
 end
 
 task :keys do
@@ -15,5 +15,5 @@ end
 
 task :update do
   puts 'Updating Carthage Dependencies'
-  system('carthage update')
+  system('carthage update --platform iOS')
 end
