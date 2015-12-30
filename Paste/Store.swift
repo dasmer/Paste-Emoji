@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import EmojiKit
 
 let RecentEmojiStore = Store<Emoji>(dbFileName: "RecentEmojiStoreV1.txt", queueLabel: "com.dastronics.Paste.RecentEmojiStore")!
 

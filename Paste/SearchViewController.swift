@@ -8,6 +8,7 @@
 
 import UIKit
 import SVProgressHUD
+import EmojiKit
 
 final class SearchViewController: UIViewController {
 
