@@ -5,6 +5,8 @@
 Have you ever spent more than a minute swiping through the Emoji Keyboard looking for a particular emoji? You know it exists, but swear you can't find it. Ever even just give up?
 Paste eases that frustration. Instead of swiping around for a particularly hard to find emoji or giving up, just open up Paste and search for it by name. When you select one of the search results, the emoji is immediately copied. Go back to the original app and just paste it in.
 
+<p style="text-align:center;">
+<img src="http://i.imgur.com/qd4C7Ml.png" width="200">   <img src="http://i.imgur.com/10tP22g.png" width="200"></p>
 
 ## Run Paste in Xcode
 Want to get the app running as an OSS project? Install [Carthage](http://github.com/Carthage/Carthage) if you haven't already and run this in your shell:
