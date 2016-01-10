@@ -64,6 +64,9 @@ final class SearchViewController: UIViewController {
         title = "Emoji Search"
         automaticallyAdjustsScrollViewInsets = false
 
+        navigationController?.navigationBar.tintColor = .blackColor()
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "☰", style: .Plain, target: self, action: "optionsButtonAction:")
+
         view.backgroundColor = .whiteColor()
 
         view.addSubview(searchTextFieldView)
@@ -92,6 +95,10 @@ final class SearchViewController: UIViewController {
         NSLayoutConstraint.activateConstraints(constraints)
 
         reset()
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         searchTextFieldView.becomeFirstResponder()
     }
 
@@ -103,6 +110,9 @@ final class SearchViewController: UIViewController {
         results = recents
     }
 
+    @objc private func optionsButtonAction(sender: AnyObject?) {
+        presentViewController(UINavigationController(rootViewController: OptionsViewController()), animated: true, completion: nil)
+    }
 }
 
 

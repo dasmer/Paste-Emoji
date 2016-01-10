@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Analytics.sharedInstance.start()
+        UINavigationBar.appearance().tintColor = UIColor(red: 0, green: 188.0/255.0, blue: 242.0/255.0, alpha: 1.0)
 
         let window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window.rootViewController = UINavigationController(rootViewController: SearchViewController())
