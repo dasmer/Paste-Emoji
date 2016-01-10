@@ -64,6 +64,9 @@ final class SearchViewController: UIViewController {
         title = "Emoji Search"
         automaticallyAdjustsScrollViewInsets = false
 
+        navigationController?.navigationBar.tintColor = .blackColor()
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "☰", style: .Plain, target: self, action: "optionsButtonAction:")
+
         view.backgroundColor = .whiteColor()
 
         view.addSubview(searchTextFieldView)
@@ -91,7 +94,13 @@ final class SearchViewController: UIViewController {
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
 
+        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
+
         reset()
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         searchTextFieldView.becomeFirstResponder()
     }
 
@@ -103,6 +112,9 @@ final class SearchViewController: UIViewController {
         results = recents
     }
 
+    @objc private func optionsButtonAction(sender: AnyObject?) {
+        presentViewController(UINavigationController(rootViewController: OptionsViewController()), animated: true, completion: nil)
+    }
 }
 
 
@@ -131,7 +143,7 @@ extension SearchViewController: UITableViewDataSource {
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .Value1, reuseIdentifier: "")
+        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCell.reuseIdentifier, forIndexPath: indexPath)
         let emoji = self.results[indexPath.row]
         cell.textLabel?.text = emoji.character
         cell.detailTextLabel?.text = emoji.name
