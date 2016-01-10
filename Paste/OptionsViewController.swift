@@ -135,39 +135,29 @@ class OptionsViewController: UITableViewController {
             presentViewController(alertController, animated: true, completion: nil)
         }
     }
-}
 
-
-extension OptionsViewController: MFMessageComposeViewControllerDelegate {
-
-    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult composeResult: MessageComposeResult) {
-        dismissViewControllerAnimated(true, completion: nil)
-
-        var result: String
-        switch composeResult {
-        case MessageComposeResultSent: result = "Sent"
-        case MessageComposeResultCancelled: result = "Cancelled"
-        case MessageComposeResultFailed: result = "Failed"
-        default: result = "Unknown"
-        }
-        Analytics.sharedInstance.track("Share App Compose Finished", properties: ["Result": result])
+    private func logMessageUIComposeFinished(composeKind composeKind: MessageUIKind, resultKind: MessageUIFinishedResultKind) {
+        let properties: [String: String] = [
+            "Type": composeKind.rawValue,
+            "Result": resultKind.rawValue,
+            "Source": "Options View"
+        ]
+        Analytics.sharedInstance.track("Message UI Compose Finished", properties: properties)
     }
 }
 
 
-extension OptionsViewController: MFMailComposeViewControllerDelegate {
+extension OptionsViewController: MFMessageComposeViewControllerDelegate, MFMailComposeViewControllerDelegate {
 
-    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult composeResult: MFMailComposeResult, error: NSError?) {
+    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
         dismissViewControllerAnimated(true, completion: nil)
 
-        var result: String
-        switch composeResult {
-        case MFMailComposeResultSent: result = "Sent"
-        case MFMailComposeResultSaved: result = "Saved"
-        case MFMailComposeResultCancelled: result = "Cancelled"
-        case MFMailComposeResultFailed: result = "Failed"
-        default: result = "Unknown"
-        }
-        Analytics.sharedInstance.track("Send Feedback Compose Finished", properties: ["Result": result])
+        logMessageUIComposeFinished(composeKind: MessageUIKind.Mail, resultKind: MessageUIFinishedResultKind(messageComposeResult: result))
+    }
+
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        dismissViewControllerAnimated(true, completion: nil)
+
+        logMessageUIComposeFinished(composeKind: MessageUIKind.Mail, resultKind: MessageUIFinishedResultKind(mailComposeResult: result))
     }
 }

@@ -19,6 +19,7 @@
 		3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */; };
 		3A8F5EF61C27363D00F394CA /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */; };
 		3AB0992F1C42F8C300B9A7A2 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */; };
+		3AB099331C431ADC00B9A7A2 /* MessageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB099321C431ADC00B9A7A2 /* MessageUI.swift */; };
 		3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7CF6A1C2A161D00485FB2 /* Store.swift */; };
 		845CA7BC1C31D4CD00BF8F77 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA7BB1C31D4CD00BF8F77 /* Key.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextFieldView.swift; sourceTree = "<group>"; };
 		3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		3AB099321C431ADC00B9A7A2 /* MessageUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageUI.swift; sourceTree = "<group>"; };
 		3AE7CF6A1C2A161D00485FB2 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		845CA7BB1C31D4CD00BF8F77 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */,
 				3A8F5EE01C27285E00F394CA /* SearchViewController.swift */,
 				3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */,
+				3AB099321C431ADC00B9A7A2 /* MessageUI.swift */,
 				3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */,
 				3AE7CF6A1C2A161D00485FB2 /* Store.swift */,
 				3A457AC11C28CD5200C35867 /* Analytics.swift */,
@@ -199,6 +202,7 @@
 				3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */,
 				3AB0992F1C42F8C300B9A7A2 /* OptionsViewController.swift in Sources */,
 				3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */,
+				3AB099331C431ADC00B9A7A2 /* MessageUI.swift in Sources */,
 				845CA7BC1C31D4CD00BF8F77 /* Key.swift in Sources */,
 				2F5B143C1C32395000461390 /* RateReminder.swift in Sources */,
 				3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */,
