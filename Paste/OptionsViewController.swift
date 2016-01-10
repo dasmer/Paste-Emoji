@@ -30,6 +30,14 @@ class OptionsViewController: UITableViewController {
             }
         }
 
+        var subtitle: String {
+            switch self {
+            case .Share: return "👯"
+            case .Rate: return "⭐️"
+            case .Feedback: return "📧"
+            }
+        }
+
         var analyticsTitle: String {
             switch self {
             case .Share: return "Share"
@@ -60,7 +68,7 @@ class OptionsViewController: UITableViewController {
     override func viewDidLoad() {
         title = "Options"
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Cancel, target: self, action: "dismissButtonAction:")
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: NSStringFromClass(UITableViewCell.self))
+        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
     }
 
 
@@ -71,11 +79,13 @@ class OptionsViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(NSStringFromClass(UITableViewCell.self), forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCell.reuseIdentifier, forIndexPath: indexPath)
         let option = Options(rawValue: indexPath.row)
         cell.textLabel?.text = option?.title
+        cell.detailTextLabel?.text = option?.subtitle
         return cell
     }
+
 
     // MARK: UITableViewDelegate
 

@@ -94,6 +94,8 @@ final class SearchViewController: UIViewController {
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
 
+        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
+
         reset()
     }
 
@@ -141,7 +143,7 @@ extension SearchViewController: UITableViewDataSource {
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .Value1, reuseIdentifier: "")
+        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCell.reuseIdentifier, forIndexPath: indexPath)
         let emoji = self.results[indexPath.row]
         cell.textLabel?.text = emoji.character
         cell.detailTextLabel?.text = emoji.name
