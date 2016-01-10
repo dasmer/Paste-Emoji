@@ -1,5 +1,5 @@
 //
-//  Value1TableViewCell.swift
+//  TableViewCell.swift
 //  Paste
 //
 //  Created by Dasmer Singh on 1/10/16.

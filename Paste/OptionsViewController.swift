@@ -100,7 +100,7 @@ class OptionsViewController: UITableViewController {
         case .Feedback: feedbackAction()
         }
 
-        Analytics.sharedInstance.track("Options View: Cell Tapped", properties: ["Type": option.analyticsTitle])
+        Analytics.sharedInstance.track("Options View Cell Selected", properties: ["Type": option.analyticsTitle])
     }
 
 
