@@ -140,7 +140,7 @@ class OptionsViewController: UITableViewController {
             presentViewController(viewController, animated: true, completion: nil)
         } else {
             tableView.deselectRowAtIndexPath(Options.Feedback.indexPath, animated: true)
-            let alertController = UIAlertController(title: "Send Feedback", message: "Email us at usepaste@gmail.com    ", preferredStyle: .Alert)
+            let alertController = UIAlertController(title: "Send Feedback", message: "Email us at usepaste@gmail.com", preferredStyle: .Alert)
             alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
             presentViewController(alertController, animated: true, completion: nil)
         }
@@ -152,7 +152,7 @@ class OptionsViewController: UITableViewController {
             "Result": resultKind.rawValue,
             "Source": "Options View"
         ]
-        Analytics.sharedInstance.track("Message UI Compose Finished", properties: properties)
+        Analytics.sharedInstance.track("MessageUI Compose Finished", properties: properties)
     }
 }
 
