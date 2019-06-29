@@ -42,9 +42,9 @@ final class SearchTextFieldView: UIView {
     private let textField: UITextField = {
         let textField = UITextField(frame: .zero)
         textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.clearButtonMode = .WhileEditing
-        textField.autocapitalizationType = .None
-        textField.autocorrectionType = .No
+        textField.clearButtonMode = .whileEditing
+        textField.autocapitalizationType = .none
+        textField.autocorrectionType = .no
         return textField
     }()
 
@@ -54,11 +54,12 @@ final class SearchTextFieldView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(textField)
-        let constraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|-[textField]-|", options: [], metrics: nil, views: ["textField":textField])
-            + [NSLayoutConstraint(item: textField, attribute: .CenterY, relatedBy: .Equal, toItem: self, attribute: .CenterY, multiplier: 1.0, constant: 0.0)]
-        NSLayoutConstraint.activateConstraints(constraints)
 
-        textField.addTarget(self, action: "textFieldDidChange:", forControlEvents: .EditingChanged)
+        textField.leftAnchor.constraint(equalTo: readableContentGuide.leftAnchor).isActive = true
+        textField.rightAnchor.constraint(equalTo: readableContentGuide.rightAnchor).isActive = true
+        textField.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+
+        textField.addTarget(self, action: #selector(textFieldDidChange(sender:)), for: .editingChanged)
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -68,14 +69,14 @@ final class SearchTextFieldView: UIView {
     // MARK: - Private
 
     @objc private func textFieldDidChange(sender: AnyObject?) {
-        delegate?.searchTextFieldView(self, didChangeText: textField.text ?? "")
+        delegate?.searchTextFieldView(searchTextFieldView: self, didChangeText: textField.text ?? "")
     }
 
 }
 
 extension SearchTextFieldView: UITextFieldDelegate {
-    func textFieldShouldClear(textField: UITextField) -> Bool {
-        delegate?.searchTextFieldViewWillClearText(self)
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+        delegate?.searchTextFieldViewWillClearText(searchTextFieldView: self)
         return true
     }
 }
@@ -86,23 +87,23 @@ extension SearchTextFieldView {
 
     // MARK: - UIResponder
 
-    override func canBecomeFirstResponder() -> Bool {
-        return textField.canBecomeFirstResponder()
+    override var canBecomeFirstResponder: Bool {
+        return textField.canBecomeFirstResponder
     }
 
     override func becomeFirstResponder() -> Bool {
         return textField.becomeFirstResponder()
     }
 
-    override func canResignFirstResponder() -> Bool {
-        return textField.canResignFirstResponder()
+    override var canResignFirstResponder: Bool {
+        return textField.canResignFirstResponder
     }
 
     override func resignFirstResponder() -> Bool {
         return textField.resignFirstResponder()
     }
 
-    override func isFirstResponder() -> Bool {
-        return textField.isFirstResponder()
+    override var isFirstResponder: Bool {
+        return textField.isFirstResponder
     }
 }

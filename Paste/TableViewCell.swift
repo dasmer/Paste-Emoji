@@ -11,10 +11,10 @@ import UIKit
 /// A standard UITableViewCell that has default style: UITableViewCellStyle.Value1
 final class TableViewCell: UITableViewCell {
 
-    static let reuseIdentifier = NSStringFromClass(TableViewCell)
+    static let reuseIdentifier = String(describing: self)
 
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: .Value1, reuseIdentifier: reuseIdentifier)
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: .value1, reuseIdentifier: reuseIdentifier)
     }
 
     required init?(coder aDecoder: NSCoder) {

@@ -22,7 +22,7 @@ final class SearchViewController: UIViewController {
 
     private var recents: [Emoji] {
         set {
-            RecentEmojiStore.set(newValue)
+            RecentEmojiStore.set(items: newValue)
         }
 
         get {
@@ -34,7 +34,7 @@ final class SearchViewController: UIViewController {
         let view = SearchTextFieldView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.placeholder = "Type an emoji name to search"
-        view.backgroundColor = .whiteColor()
+        view.backgroundColor = .white
         view.delegate = self
         return view
     }()
@@ -60,46 +60,49 @@ final class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         title = "Emoji Search"
-        automaticallyAdjustsScrollViewInsets = false
+        tableViewController.tableView.contentInsetAdjustmentBehavior = .automatic
 
-        navigationController?.navigationBar.tintColor = .blackColor()
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "☰", style: .Plain, target: self, action: "optionsButtonAction:")
+        navigationController?.navigationBar.tintColor = .black
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "☰", style: .plain, target: self, action: #selector(optionsButtonAction(sender:)))
 
-        view.backgroundColor = .whiteColor()
+        view.backgroundColor = .white
 
         view.addSubview(searchTextFieldView)
 
         let separatorView = UIView(frame: .zero)
         separatorView.translatesAutoresizingMaskIntoConstraints = false
-        separatorView.backgroundColor = .grayColor()
+        separatorView.backgroundColor = .gray
         view.addSubview(separatorView)
 
-        addChildViewController(tableViewController)
+        addChild(tableViewController)
         view.addSubview(tableViewController.view)
-        tableViewController.didMoveToParentViewController(self)
+        tableViewController.didMove(toParent: self)
 
-        let views: [String: AnyObject] = [
-            "topLayoutGuide": topLayoutGuide,
-            "searchView": searchTextFieldView,
-            "separatorView": separatorView,
-            "tableView": tableViewController.view
-        ]
+        searchTextFieldView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
+        searchTextFieldView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
 
-        var constraints = [NSLayoutConstraint]()
-        constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[searchView]|", options: [], metrics: nil, views: views)
-                constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[separatorView]|", options: [], metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[tableView]|", options: [], metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[topLayoutGuide][searchView(50)][separatorView(1)][tableView]|", options: [], metrics: nil, views: views)
-        NSLayoutConstraint.activateConstraints(constraints)
+        separatorView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
+        separatorView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
 
-        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
+        tableView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
+        tableView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
+
+        searchTextFieldView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+        searchTextFieldView.heightAnchor.constraint(equalToConstant: 50).isActive = true
+
+        separatorView.topAnchor.constraint(equalTo: searchTextFieldView.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        separatorView.heightAnchor.constraint(equalToConstant: 1).isActive = true
+
+        tableView.topAnchor.constraint(equalTo: separatorView.bottomAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+
+        tableView.register(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
 
         reset()
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         searchTextFieldView.becomeFirstResponder()
     }
@@ -113,7 +116,7 @@ final class SearchViewController: UIViewController {
     }
 
     @objc private func optionsButtonAction(sender: AnyObject?) {
-        presentViewController(UINavigationController(rootViewController: OptionsViewController()), animated: true, completion: nil)
+        present(UINavigationController(rootViewController: OptionsViewController()), animated: true, completion: nil)
     }
 }
 
@@ -121,7 +124,7 @@ final class SearchViewController: UIViewController {
 extension SearchViewController: SearchTextFieldViewDelegate {
 
     func searchTextFieldView(searchTextFieldView: SearchTextFieldView, didChangeText text: String) {
-        if (text.characters.count > 0) {
+        if (text.count > 0) {
             fetcher.query(text) { [weak self] in
                 self?.results = $0
             }
@@ -138,12 +141,12 @@ extension SearchViewController: SearchTextFieldViewDelegate {
 
 extension SearchViewController: UITableViewDataSource {
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return results.count
     }
 
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCell.reuseIdentifier, forIndexPath: indexPath)
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.reuseIdentifier, for: indexPath)
         let emoji = self.results[indexPath.row]
         cell.textLabel?.text = emoji.character
         cell.detailTextLabel?.text = emoji.name
@@ -154,29 +157,29 @@ extension SearchViewController: UITableViewDataSource {
 
 extension SearchViewController: UITableViewDelegate {
 
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
 
         let emoji = self.results[indexPath.row]
 
-        UIPasteboard.generalPasteboard().string = emoji.character
+        UIPasteboard.general.string = emoji.character
 
-        SVProgressHUD.showSuccessWithStatus("Copied \(emoji.character)")
+        SVProgressHUD.showSuccess(withStatus: "Copied \(emoji.character)")
 
         let properties = [
             "Emoji Character": emoji.character,
             "Search Text": searchTextFieldView.text ?? "",
-            "Search Text Count": String(searchTextFieldView.text?.characters.count ?? 0)
+            "Search Text Count": String(searchTextFieldView.text?.count ?? 0)
         ]
-        Analytics.sharedInstance.track("Emoji Selected", properties: properties)
+        Analytics.sharedInstance.track(eventName: "Emoji Selected", properties: properties)
 
         RateReminder.sharedInstance.logEvent()
 
         var currentRecents = recents
-        if let index = currentRecents.indexOf(emoji) {
-            currentRecents.removeAtIndex(index)
+        if let index = currentRecents.firstIndex(of: emoji) {
+            currentRecents.remove(at: index)
         }
-        currentRecents.insert(emoji, atIndex: 0)
+        currentRecents.insert(emoji, at: 0)
 
         recents = Array(currentRecents.prefix(10))
 

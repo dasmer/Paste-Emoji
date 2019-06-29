@@ -20,7 +20,7 @@ struct Analytics {
             token = Key.MixpanelRelease
         #endif
 
-        Mixpanel.sharedInstanceWithToken(token)
+        Mixpanel.sharedInstance(withToken: token)
     }
 
     func track(eventName: String, properties: [String: String]) {

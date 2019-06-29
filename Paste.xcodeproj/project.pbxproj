@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F5B143A1C32377300461390 /* iRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5B14391C32377300461390 /* iRate.framework */; };
 		2F5B143C1C32395000461390 /* RateReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B143B1C32395000461390 /* RateReminder.swift */; };
+		2FB48AD322C7C28E001F2F71 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB48AD222C7C28E001F2F71 /* Key.swift */; };
 		2FD740A61C3443C20059751B /* EmojiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD740A51C3443C20059751B /* EmojiKit.framework */; };
 		3A457AC01C28CBAD00C35867 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */; };
 		3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A457AC11C28CD5200C35867 /* Analytics.swift */; };
@@ -22,12 +23,12 @@
 		3AB099331C431ADC00B9A7A2 /* MessageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB099321C431ADC00B9A7A2 /* MessageUI.swift */; };
 		3AB099351C431EA200B9A7A2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB099341C431EA200B9A7A2 /* TableViewCell.swift */; };
 		3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7CF6A1C2A161D00485FB2 /* Store.swift */; };
-		845CA7BC1C31D4CD00BF8F77 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA7BB1C31D4CD00BF8F77 /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F5B14391C32377300461390 /* iRate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iRate.framework; path = Carthage/Build/iOS/iRate.framework; sourceTree = SOURCE_ROOT; };
 		2F5B143B1C32395000461390 /* RateReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateReminder.swift; sourceTree = "<group>"; };
+		2FB48AD222C7C28E001F2F71 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		2FD740A51C3443C20059751B /* EmojiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmojiKit.framework; path = Carthage/Build/iOS/EmojiKit.framework; sourceTree = SOURCE_ROOT; };
 		3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = ../Carthage/Build/iOS/Mixpanel.framework; sourceTree = "<group>"; };
 		3A457AC11C28CD5200C35867 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		3AB099321C431ADC00B9A7A2 /* MessageUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageUI.swift; sourceTree = "<group>"; };
 		3AB099341C431EA200B9A7A2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3AE7CF6A1C2A161D00485FB2 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		845CA7BB1C31D4CD00BF8F77 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				3AE7CF6A1C2A161D00485FB2 /* Store.swift */,
 				3A457AC11C28CD5200C35867 /* Analytics.swift */,
 				2F5B143B1C32395000461390 /* RateReminder.swift */,
-				845CA7BB1C31D4CD00BF8F77 /* Key.swift */,
+				2FB48AD222C7C28E001F2F71 /* Key.swift */,
 				3A8F5EE51C27285E00F394CA /* Assets.xcassets */,
 				3A8F5EE71C27285E00F394CA /* LaunchScreen.storyboard */,
 				3A8F5EEA1C27285E00F394CA /* Info.plist */,
@@ -143,6 +143,7 @@
 					3A8F5EDA1C27285E00F394CA = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 63259B266M;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -151,6 +152,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -203,11 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */,
+				2FB48AD322C7C28E001F2F71 /* Key.swift in Sources */,
 				3AB099351C431EA200B9A7A2 /* TableViewCell.swift in Sources */,
 				3AB0992F1C42F8C300B9A7A2 /* OptionsViewController.swift in Sources */,
 				3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */,
 				3AB099331C431ADC00B9A7A2 /* MessageUI.swift in Sources */,
-				845CA7BC1C31D4CD00BF8F77 /* Key.swift in Sources */,
 				2F5B143C1C32395000461390 /* RateReminder.swift in Sources */,
 				3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */,
 				3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */,
@@ -322,13 +324,14 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Paste/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dastronics.Paste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -343,12 +346,13 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
 				INFOPLIST_FILE = Paste/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dastronics.Paste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cd7e4655-d846-44c8-824f-7cbede054a6b";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

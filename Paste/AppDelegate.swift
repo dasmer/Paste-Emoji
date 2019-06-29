@@ -13,26 +13,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    override class func initialize () {
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        print("TEST")
         RateReminder.sharedInstance.start()
-    }
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Analytics.sharedInstance.start()
         UINavigationBar.appearance().tintColor = UIColor(red: 0, green: 188.0/255.0, blue: 242.0/255.0, alpha: 1.0)
 
-        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window.rootViewController = UINavigationController(rootViewController: SearchViewController())
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = UINavigationController(rootViewController:
+        SearchViewController())
         window.makeKeyAndVisible()
 
-        Analytics.sharedInstance.track("Application Opened", properties: ["Type": "Launch"])
+        Analytics.sharedInstance.track(eventName: "Application Opened", properties: ["Type": "Launch"])
 
         self.window = window
 
         return true
     }
 
-    func applicationWillEnterForeground(application: UIApplication) {
-        Analytics.sharedInstance.track("Application Opened", properties: ["Type": "From Background"])
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        Analytics.sharedInstance.track(eventName: "Application Opened", properties: ["Type": "From Background"])
     }
 }
