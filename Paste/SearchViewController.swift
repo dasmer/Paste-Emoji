@@ -104,7 +104,7 @@ final class SearchViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        searchTextFieldView.becomeFirstResponder()
+        let _ = searchTextFieldView.becomeFirstResponder()
     }
 
 
