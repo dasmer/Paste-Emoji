@@ -20,7 +20,7 @@ struct Store<T> where T:DictionaryDeserializable, T:DictionarySerializable {
     init?(dbFileName: String, queueLabel: String) {
         guard let documentsDirectory = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)).first else { return nil }
         dbFilePath = (documentsDirectory as NSString).appendingPathComponent(dbFileName)
-        queue = DispatchQueue(label: queueLabel, attributes: .concurrent)
+        queue = DispatchQueue(label: queueLabel)
     }
 
     func get() -> [T] {

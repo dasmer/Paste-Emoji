@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,14 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        print("TEST")
         RateReminder.sharedInstance.start()
         Analytics.sharedInstance.start()
         UINavigationBar.appearance().tintColor = UIColor(red: 0, green: 188.0/255.0, blue: 242.0/255.0, alpha: 1.0)
 
+
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = UINavigationController(rootViewController:
-        SearchViewController())
+        window.rootViewController = UIHostingController(rootView: SearchView().environmentObject(EmojiStore()))
         window.makeKeyAndVisible()
 
         Analytics.sharedInstance.track(eventName: "Application Opened", properties: ["Type": "Launch"])

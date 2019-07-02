@@ -9,40 +9,44 @@
 /* Begin PBXBuildFile section */
 		2F5B143A1C32377300461390 /* iRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5B14391C32377300461390 /* iRate.framework */; };
 		2F5B143C1C32395000461390 /* RateReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B143B1C32395000461390 /* RateReminder.swift */; };
+		2F63A24422CADE51007CAEF7 /* EmojiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63A24322CADE51007CAEF7 /* EmojiStore.swift */; };
+		2F7675A522CBBA6D007EE1B9 /* ControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7675A422CBBA6D007EE1B9 /* ControllerPage.swift */; };
+		2F9E268F22CBE9C3001D4D83 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E268E22CBE9C2001D4D83 /* TableViewCell.swift */; };
 		2FB48AD322C7C28E001F2F71 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB48AD222C7C28E001F2F71 /* Key.swift */; };
+		2FB48AD622C84368001F2F71 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB48AD522C84368001F2F71 /* SearchView.swift */; };
+		2FC5AA4322CBB27200D2BB16 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5AA4222CBB27200D2BB16 /* OptionsView.swift */; };
 		2FD740A61C3443C20059751B /* EmojiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD740A51C3443C20059751B /* EmojiKit.framework */; };
 		3A457AC01C28CBAD00C35867 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */; };
 		3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A457AC11C28CD5200C35867 /* Analytics.swift */; };
 		3A8F5EDF1C27285E00F394CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */; };
-		3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE01C27285E00F394CA /* SearchViewController.swift */; };
 		3A8F5EE61C27285E00F394CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE51C27285E00F394CA /* Assets.xcassets */; };
 		3A8F5EE91C27285E00F394CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F5EE71C27285E00F394CA /* LaunchScreen.storyboard */; };
-		3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */; };
 		3A8F5EF61C27363D00F394CA /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */; };
 		3AB0992F1C42F8C300B9A7A2 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */; };
 		3AB099331C431ADC00B9A7A2 /* MessageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB099321C431ADC00B9A7A2 /* MessageUI.swift */; };
-		3AB099351C431EA200B9A7A2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB099341C431EA200B9A7A2 /* TableViewCell.swift */; };
 		3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7CF6A1C2A161D00485FB2 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F5B14391C32377300461390 /* iRate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iRate.framework; path = Carthage/Build/iOS/iRate.framework; sourceTree = SOURCE_ROOT; };
 		2F5B143B1C32395000461390 /* RateReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateReminder.swift; sourceTree = "<group>"; };
+		2F63A24322CADE51007CAEF7 /* EmojiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiStore.swift; sourceTree = "<group>"; };
+		2F7675A422CBBA6D007EE1B9 /* ControllerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerPage.swift; sourceTree = "<group>"; };
+		2F9E268E22CBE9C2001D4D83 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2FB48AD222C7C28E001F2F71 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		2FB48AD522C84368001F2F71 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2FC5AA4222CBB27200D2BB16 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		2FD740A51C3443C20059751B /* EmojiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmojiKit.framework; path = Carthage/Build/iOS/EmojiKit.framework; sourceTree = SOURCE_ROOT; };
 		3A457ABF1C28CBAD00C35867 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = ../Carthage/Build/iOS/Mixpanel.framework; sourceTree = "<group>"; };
 		3A457AC11C28CD5200C35867 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		3A8F5EDB1C27285E00F394CA /* Paste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A8F5EE01C27285E00F394CA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3A8F5EE51C27285E00F394CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8F5EE81C27285E00F394CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8F5EEA1C27285E00F394CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextFieldView.swift; sourceTree = "<group>"; };
 		3A8F5EF51C27363D00F394CA /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		3AB099321C431ADC00B9A7A2 /* MessageUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageUI.swift; sourceTree = "<group>"; };
-		3AB099341C431EA200B9A7A2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3AE7CF6A1C2A161D00485FB2 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FB48AD422C84286001F2F71 /* SearchUI */ = {
+			isa = PBXGroup;
+			children = (
+				2FB48AD522C84368001F2F71 /* SearchView.swift */,
+				2FC5AA4222CBB27200D2BB16 /* OptionsView.swift */,
+				2F7675A422CBBA6D007EE1B9 /* ControllerPage.swift */,
+				2F63A24322CADE51007CAEF7 /* EmojiStore.swift */,
+			);
+			name = SearchUI;
+			sourceTree = "<group>";
+		};
 		3A8F5ED21C27285E00F394CA = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +95,11 @@
 		3A8F5EDD1C27285E00F394CA /* Paste */ = {
 			isa = PBXGroup;
 			children = (
+				2FB48AD422C84286001F2F71 /* SearchUI */,
 				3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */,
-				3A8F5EE01C27285E00F394CA /* SearchViewController.swift */,
 				3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */,
-				3AB099341C431EA200B9A7A2 /* TableViewCell.swift */,
+				2F9E268E22CBE9C2001D4D83 /* TableViewCell.swift */,
 				3AB099321C431ADC00B9A7A2 /* MessageUI.swift */,
-				3A8F5EF01C272A8300F394CA /* SearchTextFieldView.swift */,
 				3AE7CF6A1C2A161D00485FB2 /* Store.swift */,
 				3A457AC11C28CD5200C35867 /* Analytics.swift */,
 				2F5B143B1C32395000461390 /* RateReminder.swift */,
@@ -203,16 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A8F5EE11C27285E00F394CA /* SearchViewController.swift in Sources */,
+				2F63A24422CADE51007CAEF7 /* EmojiStore.swift in Sources */,
 				2FB48AD322C7C28E001F2F71 /* Key.swift in Sources */,
-				3AB099351C431EA200B9A7A2 /* TableViewCell.swift in Sources */,
 				3AB0992F1C42F8C300B9A7A2 /* OptionsViewController.swift in Sources */,
-				3A8F5EF11C272A8300F394CA /* SearchTextFieldView.swift in Sources */,
 				3AB099331C431ADC00B9A7A2 /* MessageUI.swift in Sources */,
+				2F7675A522CBBA6D007EE1B9 /* ControllerPage.swift in Sources */,
 				2F5B143C1C32395000461390 /* RateReminder.swift in Sources */,
+				2FC5AA4322CBB27200D2BB16 /* OptionsView.swift in Sources */,
 				3A457AC21C28CD5200C35867 /* Analytics.swift in Sources */,
 				3AE7CF6B1C2A161D00485FB2 /* Store.swift in Sources */,
+				2F9E268F22CBE9C3001D4D83 /* TableViewCell.swift in Sources */,
 				3A8F5EDF1C27285E00F394CA /* AppDelegate.swift in Sources */,
+				2FB48AD622C84368001F2F71 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
