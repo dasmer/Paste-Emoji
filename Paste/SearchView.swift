@@ -14,32 +14,29 @@ extension Emoji: Identifiable {}
 
 struct SearchView: View {
 
+    // MARK: - Properties
+
     @EnvironmentObject var emojiStore: EmojiStore
     @State var isOptionsPresented = false
+
+    // MARK: - View
 
     var body: some View {
 
         NavigationView {
             VStack {
+                // Search View
                 TextField($emojiStore.searchText,
                           placeholder: Text("Type an emoji name to search"))
                     .padding()
                 Rectangle()
                     .frame(height: 1)
+
+                // Emoji Results List
                 List (emojiStore.results) { emoji in
-                    Button(action: {
-                        UIPasteboard.general.string = emoji.character
-                        SVProgressHUD.showSuccess(withStatus: "Copied \(emoji.character)")
-                        self.emojiStore.didTap(emoji: emoji)
-                    }) {
-                        HStack {
-                            Text(emoji.character)
-                            Spacer()
-                            Text(emoji.name)
-                        }
-                    }
+                    EmojiButtonView(emoji: emoji).environmentObject(self.emojiStore)
                 }
-                }
+                } // Navigation Bar Settings
                 .navigationBarTitle(Text("Emoji Search"), displayMode: .inline)
                 .navigationBarItems(leading:
                     Button(action: { self.isOptionsPresented = true
@@ -48,17 +45,9 @@ struct SearchView: View {
                     })
             )
             } .presentation(isOptionsPresented ? Modal(
-                NavigationView {
-                    ControllerPage<OptionsViewController>()
-                        .navigationBarTitle(Text("Options"), displayMode: .inline)
-                        .navigationBarItems(leading:
-                            Button(action: { self.isOptionsPresented = false
-                            }, label: {
-                                Text("Cancel")
-                            })
-                    )
-                }
-                , onDismiss: {
+                OptionsView(dismissAction: {
+                    self.isOptionsPresented = false
+                }), onDismiss: {
                     self.isOptionsPresented.toggle()
             }) : nil)
     }
@@ -73,3 +62,50 @@ struct SearchView_Previews : PreviewProvider {
     }
 }
 #endif
+
+
+struct EmojiButtonView : View {
+
+    // MARK: - Properties
+
+    let emoji: Emoji
+    @EnvironmentObject var emojiStore: EmojiStore
+
+    // MARK: - View
+
+    var body: some View {
+        return Button(action: {
+            UIPasteboard.general.string = self.emoji.character
+            SVProgressHUD.showSuccess(withStatus: "Copied \(self.emoji.character)")
+            self.emojiStore.didTap(emoji: self.emoji)
+        }) {
+            HStack {
+                Text(self.emoji.character)
+                Spacer()
+                Text(self.emoji.name)
+            }
+        }
+    }
+}
+
+
+struct OptionsView : View {
+
+    // MARK: - Properties
+
+    let dismissAction: (() -> Void)
+
+    // MARK: - View
+
+    var body: some View {
+        return NavigationView {
+            ControllerPage<OptionsViewController>()
+                .navigationBarTitle(Text("Options"), displayMode: .inline)
+                .navigationBarItems(leading:
+                    Button(action: dismissAction, label: {
+                        Text("Cancel")
+                    })
+            )
+        }
+    }
+}

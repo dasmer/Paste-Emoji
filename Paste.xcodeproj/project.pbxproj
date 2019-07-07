@@ -63,14 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FB48AD422C84286001F2F71 /* SearchUI */ = {
+		2FB48AD422C84286001F2F71 /* ShiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				2FB48AD522C84368001F2F71 /* SearchView.swift */,
 				2F7675A422CBBA6D007EE1B9 /* ControllerPage.swift */,
 				2F63A24322CADE51007CAEF7 /* EmojiStore.swift */,
 			);
-			name = SearchUI;
+			name = ShiftUI;
 			sourceTree = "<group>";
 		};
 		3A8F5ED21C27285E00F394CA = {
@@ -92,7 +92,7 @@
 		3A8F5EDD1C27285E00F394CA /* Paste */ = {
 			isa = PBXGroup;
 			children = (
-				2FB48AD422C84286001F2F71 /* SearchUI */,
+				2FB48AD422C84286001F2F71 /* ShiftUI */,
 				3A8F5EDE1C27285E00F394CA /* AppDelegate.swift */,
 				3AB0992E1C42F8C300B9A7A2 /* OptionsViewController.swift */,
 				2F9E268E22CBE9C2001D4D83 /* TableViewCell.swift */,
