@@ -22,19 +22,19 @@ enum MessageUIFinishedResultKind: String {
 
     init(messageComposeResult: MessageComposeResult) {
         switch messageComposeResult {
-        case MessageComposeResultSent: self = .Sent
-        case MessageComposeResultCancelled: self = .Cancelled
-        case MessageComposeResultFailed: self = .Failed
+        case .sent: self = .Sent
+        case .cancelled: self = .Cancelled
+        case .failed: self = .Failed
         default: self = .Unknown
         }
     }
 
     init(mailComposeResult: MFMailComposeResult) {
         switch mailComposeResult {
-        case MFMailComposeResultSent: self = .Sent
-        case MFMailComposeResultSaved: self = .Saved
-        case MFMailComposeResultCancelled: self = .Cancelled
-        case MFMailComposeResultFailed: self = .Failed
+        case .sent: self = .Sent
+        case .saved: self = .Saved
+        case .cancelled: self = .Cancelled
+        case .failed: self = .Failed
         default: self = .Unknown
         }
     }

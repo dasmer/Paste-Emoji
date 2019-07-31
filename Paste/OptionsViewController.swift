@@ -47,7 +47,7 @@ class OptionsViewController: UITableViewController {
         }
 
         var indexPath: NSIndexPath {
-            return NSIndexPath(forRow: self.rawValue, inSection: 0)
+            return NSIndexPath(row: self.rawValue, section: 0)
         }
     }
 
@@ -55,7 +55,7 @@ class OptionsViewController: UITableViewController {
     // MARK: Initializers
 
     init() {
-        super.init(style: .Grouped)
+        super.init(style: .grouped)
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -67,19 +67,19 @@ class OptionsViewController: UITableViewController {
 
     override func viewDidLoad() {
         title = "Options"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Cancel, target: self, action: "dismissButtonAction:")
-        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(dismissButtonAction(sender:)))
+        tableView.register(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
     }
 
 
     // MARK: UITableViewDataSource
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Options.all.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCell.reuseIdentifier, forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.reuseIdentifier, for: indexPath)
         let option = Options(rawValue: indexPath.row)
         cell.textLabel?.text = option?.title
         cell.detailTextLabel?.text = option?.subtitle
@@ -89,7 +89,7 @@ class OptionsViewController: UITableViewController {
 
     // MARK: UITableViewDelegate
 
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let option = Options(rawValue: indexPath.row) else {
             return
         }
@@ -100,14 +100,14 @@ class OptionsViewController: UITableViewController {
         case .Feedback: feedbackAction()
         }
 
-        Analytics.sharedInstance.track("Options View Cell Selected", properties: ["Type": option.analyticsTitle])
+        Analytics.sharedInstance.track(eventName: "Options View Cell Selected", properties: ["Type": option.analyticsTitle])
     }
 
 
     // MARK: Private Functions
 
     @objc private func dismissButtonAction(sender: AnyObject?) {
-        dismissViewControllerAnimated(true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
 
     private func shareAction() {
@@ -116,19 +116,19 @@ class OptionsViewController: UITableViewController {
             let viewController = MFMessageComposeViewController()
             viewController.messageComposeDelegate = self
             viewController.body = messageBody
-            presentViewController(viewController, animated: true, completion: nil)
+            present(viewController, animated: true, completion: nil)
         } else {
-            tableView.deselectRowAtIndexPath(Options.Share.indexPath, animated: true)
+            tableView.deselectRow(at: Options.Share.indexPath as IndexPath, animated: true)
             let activityController = UIActivityViewController(activityItems: [messageBody], applicationActivities: nil)
-            presentViewController(activityController, animated: true, completion: nil)
+            present(activityController, animated: true, completion: nil)
         }
     }
 
     private func rateAction() {
-        guard let url = NSURL(string: "https://itunes.apple.com/app/paste-emoji-search/id1070640289") else { return }
-        UIApplication.sharedApplication().openURL(url)
+        guard let url = URL(string: "https://itunes.apple.com/app/paste-emoji-search/id1070640289") else { return }
+        UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
 
-        tableView.deselectRowAtIndexPath(Options.Rate.indexPath, animated: false)
+        tableView.deselectRow(at: Options.Rate.indexPath as IndexPath, animated: false)
     }
 
     private func feedbackAction() {
@@ -137,37 +137,42 @@ class OptionsViewController: UITableViewController {
             viewController.mailComposeDelegate = self
             viewController.setToRecipients(["usepaste@gmail.com"])
             viewController.setSubject("[Paste Feedback]")
-            presentViewController(viewController, animated: true, completion: nil)
+            present(viewController, animated: true, completion: nil)
         } else {
-            tableView.deselectRowAtIndexPath(Options.Feedback.indexPath, animated: true)
-            let alertController = UIAlertController(title: "Send Feedback", message: "Email us at usepaste@gmail.com", preferredStyle: .Alert)
-            alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-            presentViewController(alertController, animated: true, completion: nil)
+            tableView.deselectRow(at: Options.Feedback.indexPath as IndexPath, animated: true)
+            let alertController = UIAlertController(title: "Send Feedback", message: "Email us at usepaste@gmail.com", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(alertController, animated: true, completion: nil)
         }
     }
 
-    private func logMessageUIComposeFinished(composeKind composeKind: MessageUIKind, resultKind: MessageUIFinishedResultKind) {
+    private func logMessageUIComposeFinished(composeKind: MessageUIKind, resultKind: MessageUIFinishedResultKind) {
         let properties: [String: String] = [
             "Type": composeKind.rawValue,
             "Result": resultKind.rawValue,
             "Source": "Options View"
         ]
-        Analytics.sharedInstance.track("MessageUI Compose Finished", properties: properties)
+        Analytics.sharedInstance.track(eventName: "MessageUI Compose Finished", properties: properties)
     }
 }
 
 
 extension OptionsViewController: MFMessageComposeViewControllerDelegate, MFMailComposeViewControllerDelegate {
 
-    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
-        dismissViewControllerAnimated(true, completion: nil)
+    func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+        dismiss(animated: true, completion: nil)
 
         logMessageUIComposeFinished(composeKind: MessageUIKind.Mail, resultKind: MessageUIFinishedResultKind(messageComposeResult: result))
     }
 
-    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
-        dismissViewControllerAnimated(true, completion: nil)
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        dismiss(animated: true, completion: nil)
 
         logMessageUIComposeFinished(composeKind: MessageUIKind.Mail, resultKind: MessageUIFinishedResultKind(mailComposeResult: result))
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }

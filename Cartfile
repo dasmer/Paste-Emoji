@@ -1,4 +1,4 @@
-github "dasmer/EmojiKit" "master"
-github "TransitApp/SVProgressHUD" "2.0-beta"
+github "dasmer/EmojiKit" "daz/swift5"
+github "TransitApp/SVProgressHUD"
 github "mixpanel/mixpanel-iphone" ~> 2.9
 github "nicklockwood/iRate" "fbd607ae6410da3056f7a35146b32073935943c2"
